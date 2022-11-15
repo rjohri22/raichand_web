@@ -1,0 +1,4 @@
+<?php
+    $cname = ["Australia","Bahrain","Bangladesh","Belgium","Bulgaria","Canada","China - Taiwan, HongKong, Macao","Croatia","Cyprus","Czech Republic (Czechia)","Denmark","Finland","France ","Germany","Greece","Hungary","India","Indonesia","Ireland","Italy","Japan","Kuwait","Malaysia","Maldives","Nepal","Netherlands","New Zealand","Norway","Pakistan","Philippines","Poland","Portugal","Qatar","Romania","Russia","Saudi Arabia","Serbia","Singapore","South Korea","Spain","Srilanka","Sweden","Switzerland","Thailand","Turkey","United Arab Emirates","United Kingdom ","United States","Vietnam"
+                ]
+?>

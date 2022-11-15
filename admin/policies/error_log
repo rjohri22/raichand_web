@@ -1,0 +1,13 @@
+[13-Sep-2022 12:15:47 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home2/thevitalscience/raichandgroup.thevitalscience.com/admin/policies/policies.php on line 79
+[13-Sep-2022 13:18:01 UTC] PHP Warning:  mysqli_query(): MySQL server has gone away in /home2/thevitalscience/raichandgroup.thevitalscience.com/admin/policies/index.php on line 79
+[13-Sep-2022 13:18:01 UTC] PHP Warning:  mysqli_query(): Error reading result set's header in /home2/thevitalscience/raichandgroup.thevitalscience.com/admin/policies/index.php on line 79
+[13-Sep-2022 13:18:01 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home2/thevitalscience/raichandgroup.thevitalscience.com/admin/policies/index.php on line 80
+[13-Sep-2022 13:18:01 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home2/thevitalscience/raichandgroup.thevitalscience.com/admin/policies/index.php on line 93
+[13-Sep-2022 13:18:01 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home2/thevitalscience/raichandgroup.thevitalscience.com/admin/policies/index.php on line 80
+[13-Sep-2022 13:18:01 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home2/thevitalscience/raichandgroup.thevitalscience.com/admin/policies/index.php on line 93
+[13-Sep-2022 13:18:01 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home2/thevitalscience/raichandgroup.thevitalscience.com/admin/policies/index.php on line 80
+[13-Sep-2022 13:18:01 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home2/thevitalscience/raichandgroup.thevitalscience.com/admin/policies/index.php on line 93
+[13-Sep-2022 13:18:01 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home2/thevitalscience/raichandgroup.thevitalscience.com/admin/policies/index.php on line 80
+[13-Sep-2022 13:18:01 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home2/thevitalscience/raichandgroup.thevitalscience.com/admin/policies/index.php on line 93
+[13-Sep-2022 13:18:01 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home2/thevitalscience/raichandgroup.thevitalscience.com/admin/policies/index.php on line 80
+[13-Sep-2022 13:18:01 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, bool given in /home2/thevitalscience/raichandgroup.thevitalscience.com/admin/policies/index.php on line 93

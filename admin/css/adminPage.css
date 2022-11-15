@@ -1,0 +1,31 @@
+@keyframes cardMove {
+    0%{transform: translate(0px);}
+    50%{transform:translate(0px,-10px)}
+}
+
+.card 
+{
+    height:200px;
+  
+    text-justify:inter-word;
+}
+.card-body 
+{
+    border-radius:20px;
+    box-shadow:10px 10px 10px 10px rgb(243, 238, 238);
+}
+.card:hover 
+{
+    animation-name: cardMove;
+    animation-duration: 5s;
+    transition: all;
+}
+img 
+{
+    height: 80px;
+    width: 100px;
+}
+.cont 
+{
+    height:200px;
+}

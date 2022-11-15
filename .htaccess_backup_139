@@ -1,0 +1,40 @@
+RewriteEngine On
+# Redirect to PHP if it exists.
+# e.g. example.com/foo will display the content of example.com/foo.php
+# RewriteCond %{REQUEST_URI} (ftp|https?):|/etc/ [NC,OR]
+# RewriteCond %{QUERY_STRING} (ftp|https?):|/etc/ [NC]
+# RewriteRule .* - [F,L]
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteCond %{REQUEST_FILENAME} !-d
+# RewriteCond %{REQUEST_FILENAME}.php -f
+# RewriteRule ^(.+)$1.php [L,QSA]
+
+
+# Rewrite Rule ^([A-Za-z0-9-]+)/?$ categoies.php?name=$1 [L]
+# Rewrites domain.com/category-name-1/ to domain.com/categories.php?name=category-name-1
+Options +FollowSymLinks -MultiViews
+RewriteBase /
+
+RewriteRule ^portal/services/([A-Za-z0-9\-]*)/?$ services_detail/services_detail_page.php?slug=$1 [L,QSA,NC]  
+RewriteRule ^portal/policies/([A-Za-z0-9\-]*)/?$ portal/detailpage.php?slug=$1 [L,QSA,NC]
+# <FilesMatch "\.(?i:jpg|gif|png)$">
+#   Header set Content-Disposition attachment
+# </FilesMatch>
+
+RewriteRule ^/portal/press-release/period/([A-Za-z0-9\-]*)/?$ /admin/press-release/uploads/$=1 [L]
+RewriteRule ^/portal/investors-relation/([A-Za-z0-9\-]*)/?$ /admin/invester/upload/$=1 [L]
+
+# <Directory "/admin/press-release/uploads/">
+# Allow from all
+# </Directory>
+
+# <IfModule mod_rewrite.c>
+#    RewriteEngine on
+#    RewriteRule ^.*/admin/press-release/uploads(.*)$ http://%{HTTP_HOST}/images/$1 [L,R=301]
+# </IfModule>
+# RewriteRule \.*.(mp3|wmv|flv|exe|rar|zip|jpg)$ http://MyDownloadServer.com/download.php?url=%{REQUEST_URI} [L]
+
+
+
+
+
