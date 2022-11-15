@@ -1,6 +1,5 @@
 <?php include '../sidebar.php';
-include("../../dbcon.php"); ?>
-<?php
+
 // error_reporting(0);
 $file_name = $file_size = $file_type = $year = $month = $category = $tags = $msg = "";
 
@@ -170,9 +169,9 @@ if($query->num_rows > 0){
 
                             <div class="form-group mb-4">
                                 <div class="col-sm-12">
-                                    <input type="submit" class="btn btn-success" name="submit" value="Submit"></input>
+                                    <input type="submit" class="btn btn-warning textt-white" name="submit" value="Submit"></input>
                                     <!-- Modify 24/8/2022 start -->
-                                    <a href="/admin/press-release/"><button type="button" class="btn btn-outline-success">Cancel</button></a>
+                                    <a href="./"><button type="button" class="btn btn-warning textt-white">Cancel</button></a>
                                     <!-- Modify 24/8/2022 end -->
                                 </div>
                             </div>

@@ -1,5 +1,5 @@
 <?php include '../sidebar.php';
-include("../../dbcon.php");  ?>
+ ?>
 
 <!-- CDN for CKeditor -->
 <!-- <script src="https://cdn.ckeditor.com/ckeditor5/10.0.1/classic/ckeditor.js"></script> -->
@@ -68,9 +68,9 @@ include("../../dbcon.php");  ?>
  
                             <div class="form-group mb-4">
                                 <div class="col-sm-12">
-                                <input type="submit" class="btn btn-success" name="submit" id="submit" value="Submit">
+                                <input type="submit" class="btn btn-warning text-white" name="submit" id="submit" value="Submit">
                                  <!-- Modify 24/8/2022 start -->
-                                    <a href="/admin/emailtemplate/index.php"><button type="button" class="btn btn-outline-success">Cancel</button></a>
+                                    <a href="index.php"><button type="button" class="btn btn-warning text-white">Cancel</button></a>
                                 <!-- Modify 24/8/2022 end -->
                                 </div>
                             </div>

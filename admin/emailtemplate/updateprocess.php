@@ -1,7 +1,5 @@
 <?php include '../sidebar.php';
-include("../../dbcon.php"); ?>
 
-<?php
 // echo "<pre>"; print_r($_POST);exit;
 //  include("config.php");
 $newid = $_POST['id'];

@@ -1,6 +1,6 @@
 <?php
 include '../sidebar.php';
-include "../../dbcon.php";
+
 
 ?>
 <?php
@@ -101,9 +101,9 @@ if ($result->num_rows > 0) {
                                     </div>
                                     <div class="form-group mb-4">
                                         <div class="col-sm-12">
-                                            <input type="submit" class="btn btn-success" name="submit" value="Update"></input>
+                                            <input type="submit" class="btn btn-warning text-white" name="submit" value="Update"></input>
                                             <!------- Modify 25/8/2022 start ------>
-                                            <a href="/admin/service_creation/"><button type="button" class="btn btn-outline-success">Cancel</button></a>
+                                            <a href="./"><button type="button" class="btn btn-warning text-white">Cancel</button></a>
                                             <!------ Modify 25/8/2022 end ----------->
                                             <!-- <a href="update_query.php?edit_id=<?= $row['id']; ?>" name="anajan"><button type="button" class="btn btn-success btn-sm">update</button></a> -->
 

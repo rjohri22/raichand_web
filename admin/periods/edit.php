@@ -1,13 +1,13 @@
 <?php include '../sidebar.php';
-include("../../dbcon.php");
+
  ?>
 
 <?php
 if(isset($_GET['id']))
 {
     $q  = "select * FROM periods where id = ".$_GET['id'];
-    $item = $con->query($q);
-    $rm = mysqli_fetch_assoc($item);
+    $result = mysqli_query($con,$q);
+    $rm = mysqli_fetch_assoc($result);
 }
 else {
     
@@ -82,9 +82,9 @@ if ($row) {
                                         <label for="periods">Periods</label>
                                         <input type="hidden" id="id" name="id" value="<?php echo $rm['id']; ?>">
                                         <input type="text" class="form-control" value="<?php  echo $rm['periods']; ?>" name="periods" placeholder="2020-2022"><br>
-                                        <input type="submit" class="btn btn-success" name="submit" value="Update">
+                                        <input type="submit" class="btn btn-warning text-white" name="submit" value="Update">
                                          <!-- Modify 24/8/2022 start -->
-                                            <a href="/admin/periods/index.php"><button type="button" class="btn btn-outline-success">Cancel</button></a>
+                                            <a href="index.php"><button type="button" class="btn btn-warning text-white">Cancel</button></a>
                                         <!-- Modify 24/8/2022 end -->
                                     </div>
                                 </div>

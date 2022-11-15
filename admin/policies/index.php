@@ -1,6 +1,5 @@
 <?php include '../sidebar.php';
-include("../../dbcon.php");?>
-<?php
+
 
 $sql = "SELECT * FROM policies ORDER BY id desc";
 $result = mysqli_query($con, $sql);

@@ -1,5 +1,5 @@
 <?php include '../sidebar.php';
-include("../../dbcon.php");
+
  ?>
 
 <?php
@@ -7,9 +7,9 @@ include("../../dbcon.php");
 $new_id = $_GET['id'];
 
 $sql = "SELECT * FROM `press_category` WHERE id=$new_id";
-$query = $con->query($sql);
-if (mysqli_num_rows($query) > 0) {
-    while ($row = mysqli_fetch_assoc($query)) {
+$result = mysqli_query($con,$sql);
+if (mysqli_num_rows($result) > 0) {
+    while ($row = mysqli_fetch_assoc($result)) {
         // echo "<pre>";print_r($row);exit;
 ?>
         <div class="page-wrapper" style="min-height: 250px;">
@@ -41,9 +41,9 @@ if (mysqli_num_rows($query) > 0) {
                                         <label for="category">Category:</label>
                                         <input type="hidden" id="id" name="id" value="<?php echo $row['id']; ?>">
                                         <input type="text" class="form-control" value="<?php  echo $row['category']; ?>" name="newcategory"><br>
-                                        <input type="submit" class="btn btn-success" name="submit" value="Update">
+                                        <input type="submit" class="btn btn-warning text-white" name="submit" value="Update">
                                          <!-- Modify 24/8/2022 start -->
-                                            <a href="/admin/press-release/cindex.php"><button type="button" class="btn btn-outline-success">Cancel</button></a>
+                                            <a href="cindex.php"><button type="button" class="btn btn-warning text-white">Cancel</button></a>
                                         <!-- Modify 24/8/2022 end -->
                                     </div>
                                 </div>

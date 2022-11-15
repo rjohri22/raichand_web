@@ -1,6 +1,5 @@
 <?php include '../sidebar.php';
-include("../../dbcon.php");?>
-<?php 
+
 // require_once "config.php";
 // echo $_GET['id']; exit;
 // $question= $answer= $tag= "";
@@ -70,9 +69,9 @@ if (isset($_POST['submit']))
 					<label for="invester_category">Invester Category</label>
 					<input type="hidden" class="form-control" name="id" value="<?php echo $rm['id']; ?>" required><br>
 					<input type="text" class="form-control" name="invester_category" value="<?php echo $rm['invester_category']; ?>" required><br>
-					<input type="submit" class="btn btn-success" name="submit" value="Submit">                  
+					<input type="submit" class="btn btn-warning text-white" name="submit" value="Submit">                  
                     <!--------- Modify 25/8/2022 start -------->
-                                <a href="/admin/invester/cindex.php"><button type="button" class="btn btn-outline-success">Cancel</button></a>
+                                <a href="cindex.php"><button type="button" class="btn btn-warning text-white">Cancel</button></a>
                     <!-------- Modify 25/8/2022 end -------->
                 </div>
             </div>

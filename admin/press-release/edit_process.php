@@ -1,7 +1,4 @@
-<?php include '../sidebar.php'; ?>
-
-<?php
-include("../../dbcon.php");
+<?php include '../sidebar.php';
 
 // echo "<pre>";print_r($_POST);exit;
 $id = $_POST["id"];

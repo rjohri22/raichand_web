@@ -1,7 +1,7 @@
 <?php 
 include '../sidebar.php'; ?>
 <?php
-include "../../dbcon.php";
+
 
 $sql = "SELECT * FROM `service` WHERE `is_del` = 0 ORDER BY id desc";
 // $queryServices =  $con->query("SELECT * FROM `cat`");
@@ -65,8 +65,8 @@ if(isset($_GET['delete'])){
                                 <a href="cindex.php"><button type="button" class="btn btn-primary btn-sm">CREATE</button></a>
                             </div> -->
                             <div class="col-md-6" align="right">
-                                <a href="service_add.php"><button type="button" class="btn btn-primary btn-sm">ADD SERVICE</button></a>
-                                <a href="/admin"><button type="button" class="btn btn-primary btn-sm">BACK</button></a>
+                                <a href="service_add.php"><button type="button" class="btn btn-warning text-white">ADD SERVICE</button></a>
+                                <a href="../"><button type="button" class="btn btn-warning text-white">BACK</button></a>
                             </div>
                         <!-- </div> -->
                     </div>
@@ -148,8 +148,8 @@ if(isset($_GET['delete'])){
                                             <td>
                                             <!-- <input type="submit" class="btn btn-success" name="submit" value="submit"></input> -->
                                             <!-- <?php //echo $row['id']; exit;?> -->
-                                                <a href="update.php?edit_id=<?= $row['id']; ?>"><button type="button" class="btn btn-info"><i class='fas fa-edit' style="color: #fff;"></i></button></a>
-                                                <a onclick="setdltAlert('delete.php?delete_id=<?= $row['id']; ?>')"><button type="button" class="btn btn-danger"><i class='fas fa-trash' style="color: #fff;"></i></button></a>
+                                                <a href="update.php?edit_id=<?= $row['id']; ?>"><button type="button" class="btn"><img src="https://cdn.pixabay.com/photo/2017/06/06/00/33/edit-icon-2375785_1280.png" style="height:40px;width:40px"/></button></a>
+                                                <a onclick="setdltAlert('delete.php?delete_id=<?= $row['id']; ?>')"><button type="button" class="btn"><img src="https://cdn.icon-icons.com/icons2/1808/PNG/512/trash-can_115312.png" style="height:40px;width:40px"/></button></a>
                                                 <!-- <a onclick="return confirm('are you sure?')" href="delete.php?delete_id=<?= $row['id']; ?>"><button type="button" class="btn btn-danger"><i class='fas fa-trash-alt' style="color: #fff;"></i></button></a> -->
 
                                             </td>

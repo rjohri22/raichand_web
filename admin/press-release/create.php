@@ -1,6 +1,4 @@
 <?php include '../sidebar.php';
-include("../../dbcon.php");?>
-<?php
 
 $category= "";
 
@@ -62,9 +60,9 @@ if (isset($_POST["submit"]))
 				<div class="col-md-8">
 					<label for="category">Category:</label>
 					<input type="text" class="form-control" name="category"><br>
-					<input type="submit" class="btn btn-success" name="submit" value="Submit"> 
+					<input type="submit" class="btn btn-warning text-white" name="submit" value="Submit"> 
                     <!-- Modify 24/8/2022 start -->
-                    <a href="/admin/press-release/cindex.php"><button type="button" class="btn btn-outline-success">Cancel</button></a>
+                    <a href="cindex.php"><button type="button" class="btn btn-warning text-white">Cancel</button></a>
                     <!-- Modify 24/8/2022 end -->
 				</div>
 			</div>

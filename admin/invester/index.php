@@ -1,6 +1,5 @@
 <?php include '../sidebar.php';
-include("../../dbcon.php");?>
-<?php
+
 // include("config.php");
 
 $sql = "SELECT * FROM `invester_relation` ORDER BY id desc";
@@ -42,9 +41,9 @@ if(isset($_GET['delete'])){
                         <div class="d-flex">
                           <!-------- Modify 26/8/2022 START -------->  
                         <div class="col-md-12" align="right">
-                            <a href="cindex.php"><button type="button" class="btn btn-primary btn-sm">ALL CATEGORIES</button></a>
-                            <a href="invester.php"><button type="button" class="btn btn-primary btn-sm">ADD INVESTOR</button></a>
-                            <a href="/admin"><button type="button" class="btn btn-primary btn-sm">BACK</button></a>
+                            <a href="cindex.php"><button type="button" class="btn btn-warning text-white">ALL CATEGORIES</button></a>
+                            <a href="invester.php"><button type="button" class="btn btn-warning text-white">ADD INVESTOR</button></a>
+                            <a href="../"><button type="button" class="btn btn-warning text-white">BACK</button></a>
                         </div>
                         <!-------- Modify 26/8/2022 END-------->
                         </div>
@@ -87,8 +86,8 @@ if(isset($_GET['delete'])){
                             <td><?php echo $row['bname'];?></td>
                             <td><?php echo $row['invester_category'];?></td>
                             <td>
-                                <a class="btn btn-info" href="invester_edit.php?id=<?php echo $row['id'];?>"><i class="fa fa-edit" style="color: #fff;"></a>   
-                                <a class="btn btn-danger" onclick="setdltAlert('delete.php?id=<?php echo $row['id']; ?>')"><i class="fa fa-trash" style="color: #fff;"></a>
+                                <a class="btn" href="invester_edit.php?id=<?php echo $row['id'];?>"><img src="https://cdn.pixabay.com/photo/2017/06/06/00/33/edit-icon-2375785_1280.png" style="height:40px;width:40px"/></a>   
+                                <a class="btn" onclick="setdltAlert('delete.php?id=<?php echo $row['id']; ?>')"><img src="https://cdn.icon-icons.com/icons2/1808/PNG/512/trash-can_115312.png" style="height:40px;width:40px"/></a>
                                 <!-- <a class="btn btn-danger" onclick="return confirm('are you sure?')" href="delete.php?id=<?php echo $row['id']; ?>"><i class="fa fa-trash" style="color: #fff;"></a> -->
 
                 </td>

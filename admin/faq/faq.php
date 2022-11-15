@@ -1,5 +1,4 @@
-<?php include '../sidebar.php';
-include("../../dbcon.php");?>
+<?php include '../sidebar.php';?>
 <?php 
 // require_once "config.php";
 
@@ -97,9 +96,9 @@ if (isset($_POST['submit']))
                               
                             <div class="form-group mb-4">
                                 <div class="col-sm-12">
-                                    <input type="submit" class="btn btn-success" name="submit" value="Submit"></input>
+                                    <input type="submit" class="btn btn-warning text-white" name="submit" value="Submit"></input>
                                     <!--------- Modify 25/8/2022 start -------->
-                                    <a href="/admin/faq/"><button type="button" class="btn btn-outline-success">Cancel</button></a>
+                                    <a href="./"><button type="button" class="btn btn-warning text-white">Cancel</button></a>
                                     <!-------- Modify 25/8/2022 end -------->
                                     <!-- <button class="btn btn-success">Update Profile</button> -->
                                 </div>

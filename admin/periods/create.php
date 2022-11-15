@@ -1,6 +1,6 @@
 <?php include '../sidebar.php';
-include("../../dbcon.php");?>
-<?php
+
+
 
 $category= "";
 
@@ -12,8 +12,8 @@ if (isset($_POST["submit"]))
 
 	$sql = "INSERT INTO periods(`periods`) VALUES('".$periods."')";
 
-	$row = $con->query($sql);
-    if ($row) {
+	$result = mysqli_query($con,$sql);
+    if ($result) {
 
         echo "<script>$(document).ready(function(){
             setSuccessAlert('" . SITE_URL . "admin/periods/index.php','Good job!','Data submitted successfully'); 
@@ -60,9 +60,9 @@ if (isset($_POST["submit"]))
 				<div class="col-md-8">
 					<label for="periods">Periods</label>
 					<input type="text" class="form-control" name="periods" placeholder="2020-2022"><br>
-					<input type="submit" class="btn btn-success" name="submit" value="Submit"> 
+					<input type="submit" class="btn btn-warning text-white" name="submit" value="Submit"> 
                     <!-- Modify 24/8/2022 start -->
-                    <a href="/admin/periods/index.php"><button type="button" class="btn btn-outline-success">Cancel</button></a>
+                    <a href="./"><button type="button" class="btn btn-warning text-white">Cancel</button></a>
                     <!-- Modify 24/8/2022 end -->
 				</div>
 			</div>

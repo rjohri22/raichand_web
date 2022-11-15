@@ -1,6 +1,5 @@
 <?php include '../sidebar.php';
-include("../../dbcon.php");?>
-<?php
+
 // include("config.php");
 
 $sql = "SELECT * FROM `invest_category` ORDER BY id desc";
@@ -43,8 +42,8 @@ if(isset($_GET['delete'])){
                         <div class="d-flex">
                             
                         <div class="col-md-12" align="right">
-                            <a href="category.php"><button type="button" class="btn btn-primary btn-sm">ADD CATEGORY</button></a>
-                            <a href="/admin/invester/"><button type="button" class="btn btn-primary btn-sm">BACK</button></a>
+                            <a href="category.php"><button type="button" class="btn btn-warning text-white">ADD CATEGORY</button></a>
+                            <a href="./"><button type="button" class="btn btn-warning text-white">BACK</button></a>
                         </div>
                         </div>
                     </div>
@@ -66,8 +65,8 @@ if(isset($_GET['delete'])){
                                 <tr>
                                     <td><?php echo $row['invester_category'];?></td>
                                     <td>
-                                        <a class="btn btn-info" href="edit.php?id=<?php echo $row['id'];?>"><i class="fa fa-edit" style="color: #fff;"></a> 
-                                        <a class="btn btn-danger" onclick="setdltAlert('delete_category.php?id=<?php echo $row['id']; ?>')"><i class="fa fa-trash" style="color: #fff;"></a></td>
+                                        <a class="btn" href="edit.php?id=<?php echo $row['id'];?>"><img src="https://cdn.pixabay.com/photo/2017/06/06/00/33/edit-icon-2375785_1280.png" style="height:40px;width:40px"/></a> 
+                                        <a class="btn" onclick="setdltAlert('delete_category.php?id=<?php echo $row['id']; ?>')"><img src="https://cdn.icon-icons.com/icons2/1808/PNG/512/trash-can_115312.png" style="height:40px;width:40px"/></a></td>
                                         <!-- <a class="btn btn-danger" onclick="return confirm('are you sure?')" href="delete_category.php?id=<?php echo $row['id']; ?>"><i class="fa fa-trash" style="color: #fff;"></a></td> -->
 
                                 </tr>

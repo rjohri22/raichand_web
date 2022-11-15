@@ -1,10 +1,10 @@
 <?php
 include '../sidebar.php';
-include("../../dbcon.php");
+
 $file_name = $file_size = $file_type = $year = $month = $category = $tags = $msg = "";
 if (isset($_GET['id'])) {
-    $q  = "SELECT * FROM press_release where id = " . $_GET['id'];
-    $item = $con->query($q);
+    $sql  = "SELECT * FROM press_release where id = " . $_GET['id'];
+    $item = mysqli_query($con,$sql);
     $rm = mysqli_fetch_assoc($item);
 } else {
 }
@@ -191,9 +191,9 @@ if (isset($_POST['submit']))
 
                             <div class="form-group mb-4">
                                 <div class="col-sm-12">
-                                    <input type="submit" class="btn btn-success" name="submit" value="Update"></input>
+                                    <input type="submit" class="btn btn-warning text-white" name="submit" value="Update"></input>
                                     <!-- Modify 24/8/2022 start -->
-                                    <a href="/admin/press-release/"><button type="button" class="btn btn-outline-success">Cancel</button></a>
+                                    <a href="./"><button type="button" class="btn btn-warning text-white">Cancel</button></a>
                                     <!-- Modify 24/8/2022 end -->`
                                     <!-- <button class="btn btn-success">Update Profile</button> -->
                                 </div>

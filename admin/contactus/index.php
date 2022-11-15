@@ -1,6 +1,6 @@
 <?php
 include '../sidebar.php';
-include("../../dbcon.php");
+
 $sql = "SELECT * FROM contact_us ORDER BY id DESC ";
 $result = mysqli_query($con, $sql);
 ?>
@@ -37,8 +37,8 @@ if(isset($_GET['delete'])){
 
                             <div class="float-left" align="right">
                                 <!-- <a href="export.php" class="btn btn-success" id="export_btn"> Export</a> -->
-                                <a href="export.php"><button type="button" class="btn btn-primary btn-sm" id="export_btn">EXPORT</button></a>
-                                <a href="/admin"><button type="button" class="btn btn-primary btn-sm">BACK</button></a>
+                                <a href="export.php"><button type="button" class="btn btn-warning text-white" id="export_btn">EXPORT</button></a>
+                                <a href="../"><button type="button" class="btn btn-warning text-white">BACK</button></a>
                             </div>
                         </div>
                         <!-- <div class="col-md-6">
@@ -121,7 +121,7 @@ if(isset($_GET['delete'])){
                                             <td><?php echo $row['type']; ?> - <?php echo $row['message']; ?></td>
                                             <!-- <td><?php //echo ($row['status'] == 1)?'Active':'Inactive'; ?></td> -->
                                             <td> 
-                                                <a class="btn btn-danger" onclick="setdltAlert('delete.php?id=<?php echo $row['id']; ?>')"><i class="fa fa-trash" style="color: #fff;"></a>
+                                                <a class="btn" onclick="setdltAlert('delete.php?id=<?php echo $row['id']; ?>')"><img src="https://cdn.icon-icons.com/icons2/1808/PNG/512/trash-can_115312.png" style="height:40px;width:40px"/></a>
                                                 <!-- <a class="btn btn-danger" onclick="return confirm('are you sure?')" href="delete.php?id=<?php echo $row['id']; ?>"><i class="fa fa-trash" style="color: #fff;"></a> -->
 
                                             </td> 

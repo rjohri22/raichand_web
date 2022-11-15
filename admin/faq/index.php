@@ -1,6 +1,4 @@
 <?php include '../sidebar.php';
-include("../../dbcon.php");?>
-<?php
 // include("config.php");
 
 $sql = "SELECT * FROM faq order by id desc";
@@ -43,8 +41,8 @@ if(isset($_GET['delete'])){
                             <h3 class="box-title">FAQ</h3>
                         </div>
                         <div class="col-md-6" align="right">
-                            <a href="faq.php"><button type="button" class="btn btn-primary btn-sm">ADD</button></a>
-                            <a href="/admin"><button type="button" class="btn btn-primary btn-sm">BACK</button></a> <!-------- Modify 26/8/2022 -------->
+                            <a href="faq.php"><button type="button" class="btn btn-warning text-white">ADD</button></a>
+                            <a href="../"><button type="button" class="btn btn-warning text-white">BACK</button></a> <!-------- Modify 26/8/2022 -------->
                         </div>
                     </div>
                     <div class="table-responsive">
@@ -71,8 +69,8 @@ if(isset($_GET['delete'])){
 						 			<td><?php echo $row['answer']; ?></td>
 						 			<td><?php echo $row['tag']; ?></td>
 						 			<td><?php echo $row['order_num']; ?></td>
-						 			<td><a class="btn btn-info" href="edit.php?id=<?php echo $row['id']; ?>"><i class="fa fa-edit" style="color: #fff;"></i></a>
-						 			    <a class="btn btn-danger" onclick="setdltAlert('delete.php?id=<?php echo $row['id']; ?>     ')"><i class="fa fa-trash" style="color: #fff;"></i></a>
+						 			<td><a class="btn" href="edit.php?id=<?php echo $row['id']; ?>"><img src="https://cdn.pixabay.com/photo/2017/06/06/00/33/edit-icon-2375785_1280.png" style="height:40px;width:40px"/></a>
+						 			    <a class="btn" onclick="setdltAlert('delete.php?id=<?php echo $row['id']; ?>     ')"><img src="https://cdn.icon-icons.com/icons2/1808/PNG/512/trash-can_115312.png" style="height:40px;width:40px"/></i></a>
 						 			    <!-- <a class="btn btn-danger" onclick="return confirm('are you sure?')" href="delete.php?id=<?php echo $row['id']; ?>"><i class="fa fa-trash" style="color: #fff;"></i></a> -->
 
                                     </td>

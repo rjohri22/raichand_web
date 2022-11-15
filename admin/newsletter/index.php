@@ -1,7 +1,7 @@
 <?php include '../sidebar.php'; ?>
 
 <?php
-    include '../../dbcon.php';
+  
     $sql = "SELECT * FROM newsletter";
     $sql .= " ORDER BY id ASC"; 
     $result = $con->query($sql); 
@@ -39,8 +39,8 @@ if(isset($_GET['delete'])){
                         </div>
                 <div class="d-md-flex">
                     <div class="col-md-12" align="right" style="width: 100%;">
-                        <a href="export.php"><button type="button" class="btn btn-primary btn-sm" id="export_btn">EXPORT</button></a>
-                        <a href="/admin"><button type="button" class="btn btn-primary btn-sm">BACK</button></a>
+                        <a href="export.php"><button type="button" class="btn btn-warning text-white" id="export_btn">EXPORT</button></a>
+                        <a href="../"><button type="button" class="btn btn-warning text-white">BACK</button></a>
                 </div>
             </div>
                     </div>

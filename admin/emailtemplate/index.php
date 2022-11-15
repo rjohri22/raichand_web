@@ -1,7 +1,7 @@
 <?php include '../sidebar.php'; ?>
 
 <?php
-include("../../dbcon.php");
+
 
 if (isset($_GET['update'])) {
     echo "<script>$(document).ready(function(){
@@ -105,8 +105,8 @@ if (isset($_POST['submit'])) {
                             <a href="cindex.php"><button type="button" class="btn btn-primary btn-sm">CREATE</button></a>
                         </div> -->
                             <div class="col-md-6" align="right" style="width: 100%;">
-                                <a href="add.php"><button type="button" class="btn btn-primary btn-sm">CREATE CAMPAIGN</button></a>
-                                <a href="/admin"><button type="button" class="btn btn-primary btn-sm">BACK</button></a>
+                                <a href="add.php"><button type="button" class="btn btn-warning text-white">CREATE CAMPAIGN</button></a>
+                                <a href="../"><button type="button" class="btn btn-warning text-white">BACK</button></a>
                             </div>
                         </div>
                     </div>
@@ -142,8 +142,8 @@ if (isset($_POST['submit'])) {
                                                 }
                                                 ?>
                                             <td>
-                                                <a class="btn btn-info" href="update.php?id=<?php echo $row['id']; ?>"><i class="fa fa-edit" style="color: #fff;"></a>
-                                                <a class="btn btn-danger" onclick="setdltAlert('delete.php?id=<?php echo $row['id']; ?>')"><i class="fa fa-trash" style="color: #fff;"></a>
+                                                <a class="btn" href="update.php?id=<?php echo $row['id']; ?>"><img src="https://cdn.pixabay.com/photo/2017/06/06/00/33/edit-icon-2375785_1280.png" style="height:40px;width:40px"/></a>
+                                                <a class="btn" onclick="setdltAlert('delete.php?id=<?php echo $row['id']; ?>')"><img src="https://cdn.icon-icons.com/icons2/1808/PNG/512/trash-can_115312.png" style="height:40px;width:40px"/></a>
                                                 <!-- <a class="btn btn-danger" onclick="return confirm('are you sure?')" href="delete.php?id=<?php echo $row['id']; ?>"><i class="fa fa-trash" style="color: #fff;"></a>                                            -->
                                             </td>
                                         </tr>
