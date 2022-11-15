@@ -68,7 +68,7 @@ if (!isset($_SESSION['verify'])) { ?>
                 <a class="navbar-brand" href="<?php echo SITE_URL; ?>admin/">
                     <span class="logo-text">
                         <!-- dark Logo text -->
-                        <center><img src="plugins/images/logo-text.png" alt="homepage" style="height:50px" /></center>
+                        <!-- <center><img src="plugins/images/logo-text.png" alt="homepage" style="height:50px" /></center> -->
                     </span>
                 </a>
                 
@@ -107,9 +107,9 @@ if (!isset($_SESSION['verify'])) { ?>
                 <!-- </div>  -->
                 <div class="navbar-collapse collapse" id="navbarSupportedContent" data-navbarbg="skin5">
                     <ul class="navbar-nav d-none d-md-block d-lg-none">
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                             <a class="nav-toggler nav-link waves-effect waves-light text-white" href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
-                        </li>
+                        </li> -->
                     </ul>
                    
 
