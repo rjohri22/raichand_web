@@ -9,7 +9,7 @@ window.location.href = 'admin/';
 
 if (isset($_POST['submit'])) {
     
-    exit();
+ 
     $username = $_POST['username'];
     $plaintext_password = $_POST['password'];
     // echo $pass; exit;
@@ -41,12 +41,7 @@ if(isset($row['password'])){
     // Verify the hash against the password entered
     $verify = password_verify($plaintext_password, $hash);
  
-    if( $verify==true){
-        echo "ok";
-    }
-    else{
-        echo "not ok";
-    }
+    
 
 
 
