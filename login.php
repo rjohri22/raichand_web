@@ -8,6 +8,8 @@ window.location.href = 'admin/';
 }
 
 if (isset($_POST['submit'])) {
+    
+    exit();
     $username = $_POST['username'];
     $plaintext_password = $_POST['password'];
     // echo $pass; exit;
@@ -38,6 +40,15 @@ if(isset($row['password'])){
     // echo $hash;exit;
     // Verify the hash against the password entered
     $verify = password_verify($plaintext_password, $hash);
+ 
+    if( $verify==true){
+        echo "ok";
+    }
+    else{
+        echo "not ok";
+    }
+
+
 
     
 // }
@@ -141,7 +152,7 @@ else{
                             <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
                                 <input type="text" class="text" name="username" placeholder="User Name" required="" autofocus>
                                 <input type="password" class="password" name="password" placeholder="User Password" required="" autofocus>
-                                <button style="border:0px;background-color:transparent" class="theme-btn btn-style-one mb-30" type="submit" name="submit-form" ><span class="btn-title">Log In</span></button>
+                                <button style="border:0px;background-color:transparent" class="theme-btn btn-style-one mb-30" type="submit" name="submit" ><span class="btn-title">Log In</span></button>
                                     
 
                                  
