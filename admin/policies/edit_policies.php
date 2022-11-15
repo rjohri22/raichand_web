@@ -87,9 +87,9 @@ if (isset($_POST['submit'])) {
                             <img src="<?= $folder; ?>" style="height:50px; margin-bottom:5px;">
                             <div class="text-secondary"><i>Image size should be (77 × 80 px).</i></div>
                         </div>
-                        <button type="submit" name="submit" value="submit" class="btn btn-success">Update</button>
+                        <button type="submit" name="submit" value="submit" class="btn btn-warning text-white">Update</button>
                          <!-- Modify 24/8/2022 start -->
-                            <a href="/admin/policies/cindex.php"><button type="button" class="btn btn-outline-success">Cancel</button></a>
+                            <a href="/admin/policies/cindex.php"><button type="button" class="btn btn-warning text-white">Cancel</button></a>
                         <!-- Modify 24/8/2022 end -->
 
                         <!-- <input type="submit" class="btn btn-success" name="submit" value="submit"> -->

@@ -90,9 +90,9 @@ if (isset($_POST["submit"])) {
                             <input class="form-control form-control-sm" name="uploadfile" id="formFileSm" type="file" required><br>
                             <div class="text-secondary"><i>Image size should be (77 × 80 px).</i></div>
                         </div>
-                        <input type="submit" class="btn btn-success" name="submit" value="Submit">
+                        <input type="submit" class="btn btn-warning text-white" name="submit" value="Submit">
                         <!-- Modify 24/8/2022 start -->
-                        <a href="/admin/policies/cindex.php"><button type="button" class="btn btn-outline-success">Cancel</button></a>
+                        <a href="/admin/policies/cindex.php"><button type="button" class="btn btn-warning text-white">Cancel</button></a>
                         <!-- Modify 24/8/2022 end -->
                     </div>
                 </div>
