@@ -139,7 +139,7 @@ include '../dbcon.php';
                     if ($query->num_rows > 0) {
                         // print_r($query); exit;
                         while ($row = $query->fetch_assoc()) {
-                        php echo "sqwlslwqkslkq".$row['id'];
+                        // php echo "sqwlslwqkslkq".$row['id'];
                     ?>
                     
                     

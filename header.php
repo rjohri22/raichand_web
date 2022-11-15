@@ -95,18 +95,18 @@ define('SITE_URL', siteURL());
                     <div class="sidebar-body">
                         <ul class="list-unstyled components">
                             <li>
-                                <a href="<?php echo SITE_URL; ?>index.php" class="">
+                                <a href="index.php" class="">
                                     <!-- <a href="index.php" class=""> -->
                                     Home
                                 </a>
                             </li>
                             <li>
-                                <a href="<?php echo SITE_URL; ?>about.php" class="">
+                                <a href="about.php" class="">
                                     About Us
                                 </a>
                             </li>
                             <li>
-                                <a href="<?php echo SITE_URL; ?>services.php" class="">
+                                <a href="services.php" class="">
                                     Our Services
                                 </a>
                             </li>
@@ -117,7 +117,7 @@ define('SITE_URL', siteURL());
                                 </a>
                             </li>
                             <li>
-                                <a href="<?php echo SITE_URL; ?>contact.php" class="">
+                                <a href="contact.php" class="">
                                     Contact Us
                                 </a>
                             </li>
@@ -128,34 +128,34 @@ define('SITE_URL', siteURL());
                             </li>
                             <li>
                             <li>
-                                <a href="<?php echo SITE_URL; ?>business/management.php">Management</a>
+                                <a href="business/management.php">Management</a>
                             </li>
                             <li>
-                                <a href="<?php echo SITE_URL; ?>business/trading.php">Trading</a>
+                                <a href="business/trading.php">Trading</a>
                             </li>
                             <li>
-                                <a href="<?php echo SITE_URL; ?>business/investments.php">Investments</a>
+                                <a href="business/investments.php">Investments</a>
                             </li>
                             <li>
-                                <a href="<?php echo SITE_URL; ?>business/merchandise.php">Merchandise</a>
+                                <a href="business/merchandise.php">Merchandise</a>
                             </li>
                             <li>
-                                <a href="<?php echo SITE_URL; ?>business/hospitality.php">Hospitality</a>
+                                <a href="business/hospitality.php">Hospitality</a>
                             </li>
                             <li>
-                                <a href="<?php echo SITE_URL; ?>business/entertainment.php">Entertainment</a>
+                                <a href="business/entertainment.php">Entertainment</a>
                             </li>
                             <li>
-                                <a href="<?php echo SITE_URL; ?>business/foundation.php">Foundation</a>
+                                <a href="business/foundation.php">Foundation</a>
                             </li>
                             <li>
-                                <a href="<?php echo SITE_URL; ?>business/healthcare.php">Healthcare</a>
+                                <a href="business/healthcare.php">Healthcare</a>
                             </li>
                             <li>
-                                <a href="<?php echo SITE_URL; ?>business/school-of-arts.php">School of Arts</a>
+                                <a href="business/school-of-arts.php">School of Arts</a>
                             </li>
                             <li>
-                                <a href="<?php echo SITE_URL; ?>business/publishers.php">Publishers</a>
+                                <a href="business/publishers.php">Publishers</a>
                             </li>
                         </ul>
                     </div>
