@@ -9,11 +9,11 @@
                 <div class="col-lg-7 col-md-7">
                     <ul class="menu">
                         <!-- Modify 24/8/2022 start -->
-                        <li><a href="<?php echo SITE_URL;?>portal/press-release.php">Press Release</a></li> &nbsp;&nbsp;|
-                        <li><a href="<?php echo SITE_URL;?>portal/faq.php">FAQ </a></li> &nbsp;&nbsp;|
-                        <li><a href="<?php echo SITE_URL;?>portal/policies.php">Policies </a></li> &nbsp;&nbsp;|
-                        <li><a href="<?php echo SITE_URL;?>portal/investor-relations.php">Investor Relations</a></li>&nbsp;&nbsp;|
-                        <li><a href="<?php echo SITE_URL;?>careers.php" class="w-100">Careers</a></li>
+                        <li><a href="portal/press-release.php">Press Release</a></li> &nbsp;&nbsp;|
+                        <li><a href="portal/faq.php">FAQ </a></li> &nbsp;&nbsp;|
+                        <li><a href="portal/policies.php">Policies </a></li> &nbsp;&nbsp;|
+                        <li><a href="portal/investor-relations.php">Investor Relations</a></li>&nbsp;&nbsp;|
+                        <li><a href="careers.php" class="w-100">Careers</a></li>
                         <!-- Modify 24/8/2022 end-->
                     </ul>
                     <!--Scroll to top Two-->
