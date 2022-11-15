@@ -187,7 +187,7 @@ define('SITE_URL', siteURL());
                                 <a href="https://webmail.raichandgroup.com/"><button type="button" class="btn btn-dark" data-toggle="tooltip" data-placement="top" title="Personnel Login"> <i class="fa fa-envelope" aria-hidden="true"></i></button></a>
                             </li>&nbsp;
                             <li class="nav-item">
-                                <a href="<?php echo SITE_URL; ?>login.php"><button type="button" class="btn btn-dark"> <i class="fa fa-sign-in" aria-hidden="true"></i></button></a>
+                                <a href="login.php"><button type="button" class="btn btn-dark"> <i class="fa fa-sign-in" aria-hidden="true"></i></button></a>
                             </li>
                         </ul>
                     </div>

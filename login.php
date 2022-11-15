@@ -141,11 +141,13 @@ else{
                             <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
                                 <input type="text" class="text" name="username" placeholder="User Name" required="" autofocus>
                                 <input type="password" class="password" name="password" placeholder="User Password" required="" autofocus>
-                                <button class="theme-btn btn-style-four" name="submit" type="submit">
-                                    <span class="btn-title">Log In</span></button>
+                                <button style="border:0px;background-color:transparent" class="theme-btn btn-style-one mb-30" type="submit" name="submit-form" ><span class="btn-title">Log In</span></button>
+                                    
+
+                                 
                             </form>
 
-                            <a href="forgot.php"><button>Forgot Password</button></a>
+                            <button style="border:0px;background-color:transparent;margin-top:-80px" class="theme-btn btn-style-one mb-30" ><a href="forgot.php" style="text-decoration:none;color:white"><span class="btn-title">Forgot Password</span></a></button>
 
                         </div>
 
