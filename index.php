@@ -1,7 +1,6 @@
 <?php
 include("dbcon.php");
-
-exit();
+ 
  include 'header.php'; 
 
  
