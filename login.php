@@ -140,7 +140,12 @@ else{
                         </div>
                         <div class="content-wthree">
                             <!-------- Modify 25/8/2022 START ------->
-                            <center><img src="assets/images/black-logos.png" style="height:50px;"></center>
+                            <center>
+                                
+                            <a href="index.php">
+                            <img src="assets/images/black-logos.png" style="height:50px;">
+                            </a>
+                        </center>
 
                             <h2 class="mt-3">Admin Login</h2>
                             <!-- Modify 25/8/2022 END -->
