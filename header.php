@@ -1,21 +1,7 @@
 <?php session_start();
-function siteURL()
-{
-    $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
-   
-    if($_SERVER['HTTP_HOST']=="raichandgroup.com"){
-        
-        $domainName = $_SERVER['HTTP_HOST'] . '/';
-        }
-        else{
-    
-            $domainName = $_SERVER['HTTP_HOST'] . '/raichand_final/';
-        }
+ include_once("dbcon.php");
 
-    return $protocol . $domainName;
-}
-
-define('SITE_URL', siteURL());
+define('SITE_URL', getSiteURL());
  
 ?>
 <!DOCTYPE html>
