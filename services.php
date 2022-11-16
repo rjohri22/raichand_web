@@ -339,7 +339,7 @@ $selected = "";
                             <div class="image-box" >
                                 <img class="lazy-image owl-lazy loaded" src="uploadimg/<?php echo $row['images']; ?>" data-src="assets/images/services/Enter.jpg" alt="" data-was-processed="true">
                                 <div class="overlay">
-                                    <a href="/portal/services/<?php echo $row['slug']; ?>">
+                                    <a href="services/<?php echo $row['slug'].".php"; ?>">
                                     <!-- <a href="services_detail/services_detail_page.php?id=<?php //echo $row['id']; ?>">                                     -->
                                         <span class="flaticon-right"></span>
                                     </a>
