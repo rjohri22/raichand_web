@@ -51,7 +51,7 @@ include('../dbcon.php');?>
                                     while($row = mysqli_fetch_assoc($result))
                                     {
                                         // print_r();
-                                        echo '<div class="options">
+                                        echo '<div class="options" >
                                                 <input type="checkbox" id="togglesup'.$row['id'].'" class="toggle" />
                                                 <label class="titles" for="togglesup'.$row['id'].'">
                                                     '.$row['question'].'
@@ -69,6 +69,7 @@ include('../dbcon.php');?>
                     <div class="tab-pane" id="customer" role="tabpanel" aria-labelledby="customer-tab">
                         <div class="col-lg-12 col-md-12">
                             <div class="accordion">
+                               
                                 <?php
                                
                                     $q = "SELECT * FROM faq where `tag` = 'customers' order by order_num desc";
@@ -76,12 +77,12 @@ include('../dbcon.php');?>
                                     while($row = mysqli_fetch_assoc($result))
                                     {
                                         // print_r();
-                                        echo '<div class="options">
+                                        echo '<div class="options" >
                                                 <input type="checkbox" id="togglecust'.$row['id'].'" class="toggle" />
-                                                <label class="titles" for="togglecust'.$row['id'].'">
+                                                <label class="titles" style="color:red" for="togglecust'.$row['id'].'">
                                                     '.$row['question'].'
                                                 </label>
-                                                <div class="contents">
+                                                <div class="contents" >
                                                     <p>'.$row['answer'].'</p>
                                                 </div>
                                             </div>';
@@ -103,7 +104,7 @@ include('../dbcon.php');?>
                                         // print_r();
                                         echo '<div class="options">
                                                 <input type="checkbox" id="toggleper'.$row['id'].'" class="toggle" />
-                                                <label class="titles" for="toggleper'.$row['id'].'">
+                                                <label class="titles" for="toggleper'.$row['id'].'"style="color:red">
                                                     '.$row['question'].'
                                                 </label>
                                                 <div class="contents">
