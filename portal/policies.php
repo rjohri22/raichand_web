@@ -80,7 +80,7 @@ $h = "";
                                                         // if (mysqli_num_rows($result_bname_category) > 0) {
                                                         //     while ($row_bname_category = mysqli_fetch_assoc($result_bname_category)) {
                                                         //         if ($row_bname_category['id'] == $row_policies['bname']) {
-                                                        $folder = "/admin/policies/image/" . $row_policies['filename']; ?>
+                                                        $folder = "../admin/policies/image/" . $row_policies['filename']; ?>
                                                         <img src="<?= $folder; ?>" style="height:80px; margin-bottom:5px;">     
                                                         <?php
                                                         // }
