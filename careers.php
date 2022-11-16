@@ -171,7 +171,7 @@ include("dbcon.php");
 
             foreach ($result as $row) { ?>
                 <div class="career-block col-lg-4 col-md-6">
-                    <div class="inner-box">
+                    <div class="inner-box" style="height:500px">
                         <div class="time"><?php echo $row['job_flag'] ?></div>
                         <div class="icon"> <img src="assets/images/business-logo/Raichand_TRADING.jpg" alt="" class="imagess" style="height:120px;"></div>
                         <h4><?php echo $row['role'] ?></h4>

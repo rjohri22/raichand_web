@@ -206,12 +206,12 @@ include("../dbcon.php");
                             }
                         }
                     </style>
-                        <div class="card-header" id="heading<?php echo $catValue['id']; ?>">
+                        <div class="card-body" id="heading<?php echo $catValue['id']; ?>">
                             <h5 class="mb-0">
                                 <button class="category_list_button btn btn-link <?php echo $collapsed; ?>" data-toggle="collapse" data-target="#collapse<?php echo $catValue['id']; ?>" aria-expanded="<?php echo $area_expanded; ?>" aria-controls="collapse<?php echo $catValue['id']; ?>" style="color:red">
 
                                     <!-- Category Title ---->
-                                    <span id="m"><?php echo ucfirst($catValue['invester_category']); ?></span>
+                                    <span id="m" style="color:red"><?php echo ucfirst($catValue['invester_category']); ?></span>
                                     <!-- Category Title ---->
 
                                 </button>
@@ -240,7 +240,7 @@ include("../dbcon.php");
                     $result = $con->query($stm);
                     foreach ($result as $key => $value) { ?>
 
-                        <div style="background-color:#F5F5F5" id="collapse<?php echo $catValue['id']; ?>" class="collapse <?php echo $container_show_class; ?>" aria-labelledby="heading<?php echo $catValue['id']; ?>" data-parent="#accordion">
+                        <div style="" id="collapse<?php echo $catValue['id']; ?>" class="collapse <?php echo $container_show_class; ?>" aria-labelledby="heading<?php echo $catValue['id']; ?>" data-parent="#accordion">
 
                             <div class="container">
 
@@ -278,7 +278,7 @@ include("../dbcon.php");
                                                     <i class=""></i>
                                                 <?php
                                                 } ?>
-                                                <strong style="font-size:18px;color:black;margin-left:19px"> <?php echo $value['title']; ?></strong>
+                                                <strong style="font-size:18px;color:black;margin-left:19px;opacity:0.6"> <?php echo $value['title']; ?></strong>
 
                                                 <h5 style="margin-left:35px" id="my">
                                                     <?php echo date('M, Y', strtotime($value['created_at'])); ?>

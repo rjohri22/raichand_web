@@ -1,5 +1,5 @@
 <?php include 'header.php';?>
-<?php include '../sidebar.php';?>
+
 <div id="raichand-tranding">
     <section class="page-title" style="background-image: url(../assets/images/breadcrum/publisher.png);">
         <div class="auto-container">
@@ -21,7 +21,7 @@
       <section class="cooming-section">
         <div class="auto-container">
             <div class="top-content text-center">
-                <div class="icon"><img src="../assets/images/resource/careers-journey.jpg" alt="" class="comming-soon-img"></div>
+                <div class="icon"><img src="assets/images/resource/careers-journey.jpg" alt="" class="comming-soon-img"></div>
             </div>
         </div>
     </section>
