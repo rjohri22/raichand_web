@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+<?php
+include_once("../dbcon.php");
+define('SITE_URL', getSiteURL());
+
+?>
 <html lang="en">
 
 <head>
