@@ -1,5 +1,5 @@
-<?php include '../header.php';
-include '../dbcon.php';
+<?php include 'header.php';
+include 'dbcon.php';
 ?>
 <style>
 .services-section-three {
@@ -130,20 +130,44 @@ include '../dbcon.php';
         <div class="row">
             <div class="col-12 col-md-12 col-lg-12">
                 <ul class="nav nav-tabs nav-justified sub_cat" role="tablist">
-                  
-                
+                    <?php     
+                    //   $query =  $con->query("SELECT * FROM  cat WHERE parent_id = 1 ORDER BY id ASC");
+                    // if ($query->num_rows > 0) { 
+
+                    //     while ($row = $query->fetch_assoc()) {
+                    ?>
+                    <!-- <li class="nav-item" id="li_<?php echo $row['id'];?>">
+                        
+                        <a class="nav-link" data-toggle="tab" id="<?php echo $row['id'];?>" role="tab" aria-controls="one" aria-selected="true"><?php echo $row['categories'];?></a>
+                    </li>    -->
+                    <?php
+                    //  }  
+                    //       }  
+                    ?>
+                   <li class="nav-item" >
+                        <a class="nav-link active" style="" data-toggle="tab" href="#one" role="tab" aria-controls="one" aria-selected="true">Transformation & Excellence</a>
+                    </li>
+                    <li class="nav-item" >
+                        <a class="nav-link" style="" data-toggle="tab" href="#two" role="tab" aria-controls="two" aria-selected="false"> Strategy & Growth</a>
+                    </li>
+                    <li class="nav-item" >
+                        <a class="nav-link" style="" data-toggle="tab" href="#three" role="tab" aria-controls="three" aria-selected="false"> Customer Experience</a>
+                    </li>
+                    <li class="nav-item" >
+                        <a class="nav-link" style="" data-toggle="tab" href="#four" role="tab" aria-controls="four" aria-selected="false"> Business Restructuring </a>
+                    </li>
                 </ul>
-                <div class="tab-content mt-3">
+                <div class="tab-content mt-3" style="" style="margin-top:-100px">
                     <div class="tab-pane active" id="one" role="tabpanel" aria-labelledby="one-tab">
                         <div class="col-lg-12 col-md-12">
                             <section class="services-section-three" id="services">
                                 <div class="auto-container">
                                     <div class="row" id="custom_html_row">
-                                        
-                                        <!-- <div class="theme_carousel owl-theme owl-carousel" id="services_response"
-                                            data-options='{"loop": true, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "600" :{ "items" : "2" }, "768" :{ "items" : "2" } , "1075":{ "items" : "3" }, "1200":{ "items" : "3" }}}'> -->
-                                            <!-- <?php //echo SITE_URL; ?> -->
-                                            <!-- <div class="service-block-three">
+                                    
+                                        <div class="theme_carousel owl-theme owl-carousel" id="services_response"
+                                            data-options='{"loop": true, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "600" :{ "items" : "2" }, "768" :{ "items" : "2" } , "1075":{ "items" : "3" }, "1200":{ "items" : "3" }}}'> 
+                                            <?php //echo SITE_URL; ?> 
+                                             <div class="service-block-three">
                                                 <div class="inner-box">
                                                     <div class="image">
                                                         <div class="image"><img
@@ -179,7 +203,7 @@ include '../dbcon.php';
                                                     <div class="image"><img src="../assets/images/services/sustainble.jpg"
                                                             alt=""></div>
                                                     <div class="content">
-                                                        <h5>Sustainable Business Model</h5>
+                                                        <h5>Sustainable<b style="color:transparent">.</b>Business Model</h5>
                                                         <div class="icon"><span class="flaticon-question"></span></div>
                                                         <a href="/services/sustainable-business-model.php" class="read-more-link">Read More <i
                                                                 class="fa fa-caret-right"></i></a>
@@ -192,7 +216,7 @@ include '../dbcon.php';
                                                                 <h4>Sustainable <br>Business Model</h4>
                                                             </div>
                                                             <div class="outer-box">
-                                                                <div class="text">We help organizations in building sustainable business model. This is the best way to express the strategy of a company...
+                                                                <div class="text">We help organizations in building sustainable business model. This is the best way to express the strategy...
                                                                 </div>
                                                                 <a href="/services/sustainable-business-model.php" class="read-more-link">Read
                                                                     More <i class="fa fa-caret-right"></i></a>
@@ -207,7 +231,7 @@ include '../dbcon.php';
                                                     <div class="image"><img src="../assets/images/services/enging.jpg"
                                                             alt=""></div>
                                                     <div class="content">
-                                                        <h5>Engaging Content & Campaigns to drive Continuous Growth</h5>
+                                                        <h5>Engaging Content <br>& Campaigns</h5>
                                                         <div class="icon"><span class="flaticon-question"></span></div>
                                                         <a href="/services/engaging-Content-Campaigns-to-drive-Continuous-Growth.php" class="read-more-link">Read More <i
                                                                 class="fa fa-caret-right"></i></a>
@@ -217,7 +241,7 @@ include '../dbcon.php';
                                                             <div class="icon-box">
                                                                 <div class="icon"><span
                                                                         class="flaticon-question"></span></div>
-                                                                <h4>Engaging Content &<br> Campaigns to drive<br> Continuous Growth</h4>
+                                                                <h4>Engaging Content <br>& Campaigns</h4>
                                                             </div>
                                                             <div class="outer-box">
                                                                 <div class="text">Creative, technology, and data science are all combined in this our cloud-based marketing solution...
@@ -248,7 +272,7 @@ include '../dbcon.php';
                                                                 <h4>Operations<br> Consultancy</h4>
                                                             </div>
                                                             <div class="outer-box">
-                                                                <div class="text">he operations department serves as a vital connection between your company's longterm plan and its long-term success. In today's environment, organizations who can utilize...
+                                                                <div class="text">he operations department serves as a vital connection between your company's longterm plan...
                                                                 </div>
                                                                 <a href="/services/operations-consultancy.php" class="read-more-link">Read
                                                                     More <i class="fa fa-caret-right"></i></a>
@@ -263,7 +287,7 @@ include '../dbcon.php';
                                                     <div class="image"><img src="../assets/images/services/Financial_Resource_on.png"
                                                             alt=""></div>
                                                     <div class="content">
-                                                        <h5>Financial Resources Consultancy</h5>
+                                                        <h5>Financial<b style="color:transparent">.</b>Resources Consultancy</h5>
                                                         <div class="icon"><span class="flaticon-question"></span></div>
                                                         <a href="/services/financial-resources-consultancy.php" class="read-more-link">Read More <i
                                                                 class="fa fa-caret-right"></i></a>
@@ -273,7 +297,7 @@ include '../dbcon.php';
                                                             <div class="icon-box">
                                                                 <div class="icon"><span
                                                                         class="flaticon-question"></span></div>
-                                                                <h4>Financial Resources<br> Consultancy</h4>
+                                                                <h4>Financial Resource<br> Consultancy</h4>
                                                             </div>
                                                             <div class="outer-box">
                                                                 <div class="text">In order to better manage and grow your money and assets, single clients and small  businesses can get help from the counsel...
@@ -304,7 +328,7 @@ include '../dbcon.php';
                                                                 <h4>Support<br> Services</h4>
                                                             </div>
                                                             <div class="outer-box">
-                                                                <div class="text">Our business support services will enable you to achieve significant cost, quality, and customer service savings while also improving...
+                                                                <div class="text">Our business support services will enable you to achieve significant cost, quality, and customer service savings...
                                                                 </div>
                                                                 <a href="/services/support-services.php" class="read-more-link">Read
                                                                     More <i class="fa fa-caret-right"></i></a>
@@ -332,7 +356,7 @@ include '../dbcon.php';
                                                                 <h4>Website<br> Development</h4>
                                                             </div>
                                                             <div class="outer-box">
-                                                                <div class="text">With the assistance of Web development services, any kind of web-based software may be developed, produced, maintained, and upgraded...
+                                                                <div class="text">With the assistance of Web development services, any kind of web-based software may be developed, produced...
                                                                 </div>
                                                                 <a href="/services/website-development.php" class="read-more-link">Read
                                                                     More <i class="fa fa-caret-right"></i></a>
@@ -360,7 +384,7 @@ include '../dbcon.php';
                                                                 <h4>Application<br> Development </h4>
                                                             </div>
                                                             <div class="outer-box">
-                                                                <div class="text">Our application software developers have developed into industry-specific technology specialists as a result of their many...
+                                                                <div class="text">Our application software developers have developed into industry-specific technology...
                                                                 </div>
                                                                 <a href="/services/application-devlopment.php" class="read-more-link">Read
                                                                     More <i class="fa fa-caret-right"></i></a>
@@ -375,7 +399,7 @@ include '../dbcon.php';
                                                     <div class="image"><img src="../assets/images/services/Future-potential1.jpg"
                                                             alt=""></div>
                                                     <div class="content">
-                                                        <h5>Future Potential Discovery </h5>
+                                                        <h5>Future<b style="color:transparent">.</b>Potential Discovery </h5>
                                                         <div class="icon"><span class="flaticon-question"></span></div>
                                                         <a href="/services/future-potential-discovery.php" class="read-more-link">Read More <i
                                                                 class="fa fa-caret-right"></i></a>
@@ -385,10 +409,10 @@ include '../dbcon.php';
                                                             <div class="icon-box">
                                                                 <div class="icon"><span
                                                                         class="flaticon-question"></span></div>
-                                                                <h4>Future Potential<br> Discovery</h4>
+                                                                <h4>Future<b style="color:transparent">.</b>Potential Discovery</h4>
                                                             </div>
                                                             <div class="outer-box">
-                                                                <div class="text">Our multi-year strategy to assisting our clients reached its conclusion in the second phase, when we completed the integration of numerous...
+                                                                <div class="text">Our multi-year strategy to assisting our clients reached its conclusion in the second phase...
                                                                 </div>
                                                                 <a href="/services/future-potential-discovery.php" class="read-more-link">Read
                                                                     More <i class="fa fa-caret-right"></i></a>
@@ -416,7 +440,7 @@ include '../dbcon.php';
                                                                 <h4>Board<br> Advisory </h4>
                                                             </div>
                                                             <div class="outer-box">
-                                                                <div class="text">To help executives acquire insight and assess business operations, and to increase the knowledge base of your loyal team members...
+                                                                <div class="text">To help executives acquire insight and assess business operations, and to increase the knowledge...
                                                                 </div>
                                                                 <a href="/services/board-advisory.php" class="read-more-link">Read
                                                                     More <i class="fa fa-caret-right"></i></a>
@@ -434,7 +458,7 @@ include '../dbcon.php';
                     <div class="tab-pane" id="two" role="tabpanel" aria-labelledby="two-tab">
                         <div class="col-lg-12 col-md-12">
                             <section class="services-section-three" id="services">
-                                <div class="auto-container">
+                            <div class="auto-container">
                                     <div class="row">
                                         <div class="theme_carousel owl-theme owl-carousel"
                                             data-options='{"loop": true, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "600" :{ "items" : "2" }, "768" :{ "items" : "2" } , "1075":{ "items" : "3" }, "1200":{ "items" : "3" }}}'>
@@ -443,7 +467,7 @@ include '../dbcon.php';
                                                     <div class="image"><img src="../assets/images/services/Strategydesign11.jpg" alt=""></div>
                                                     <div class="content">
                                                         <div class="icon"><span class="flaticon-career"></span></div>
-                                                        <h5>Strategy Design & Implementation </h5>
+                                                        <h5>Strategy<b style="color:transparent">.</b>Design<b style="color:transparent">.</b><br>&<b style="color:transparent">.</b>Implementation </h5>
                                                         <a href="/services/strategy-design-implementation.php" class="read-more-link">Read More <i
                                                                 class="fa fa-caret-right"></i></a>
                                                     </div>
@@ -452,11 +476,11 @@ include '../dbcon.php';
                                                             <div class="icon-box">
                                                                 <div class="icon"><span class="flaticon-career"></span>
                                                                 </div>
-                                                                <h4>Strategy Design<br> & Implementation </h4>
+                                                                <h4>Strategy<b style="color:transparent">.</b>Design<br><b style="color:transparent">.</b>&<b style="color:transparent">.</b>Implementation </h4>
                                                             </div>
                                                             <div class="outer-box">
                                                                 <div class="text">When you collaborate with us, an experienced team of ecommerce specialists will work 
-                                                                    directly with you to achieve your company goals by integrating strategy...
+                                                                    directly...
                                                                 </div>
                                                                 <a href="/services/strategy-design-implementation.php" class="read-more-link">Read
                                                                     More <i class="fa fa-caret-right"></i></a>
@@ -474,7 +498,7 @@ include '../dbcon.php';
                                                     <div class="content">
                                                         <div class="icon"><span
                                                                 class="flaticon-customer-service"></span></div>
-                                                        <h5>Gather & Analyze Reliable Market Data</h5>
+                                                        <h5>Gather<b style="color:transparent">.</b>&<b style="color:transparent">.</b>Analyze Reliable<b style="color:transparent">.</b>Market</h5>
                                                         <a href="/services/gather-analyze-reliable-market-data.php" class="read-more-link">Read More <i
                                                                 class="fa fa-caret-right"></i></a>
                                                     </div>
@@ -483,10 +507,10 @@ include '../dbcon.php';
                                                             <div class="icon-box">
                                                                 <div class="icon"><span
                                                                         class="flaticon-customer-service"></span></div>
-                                                                <h4>Gather & Analyze<br> Reliable Market<br> Data</h4>
+                                                                <h4>Gather & Analyze<br> Reliable Market</h4>
                                                             </div>
                                                             <div class="outer-box">
-                                                                <div class="text">When providing decision-makers with support for making choices and planning the future, a combination of proprietary technology and human intelligence is employed. 
+                                                                <div class="text">When providing decision-makers with support for making choices and planning the future...
                                                                 </div>
                                                                 <a href="/services/gather-analyze-reliable-market-data.php" class="read-more-link">Read
                                                                     More <i class="fa fa-caret-right"></i></a>
@@ -501,7 +525,7 @@ include '../dbcon.php';
                                                 <div class="inner-box">
                                                     <div class="image"><img src="../assets/images/services/Market to Specific segment1.jpg" alt=""></div>
                                                     <div class="content">
-                                                        <h5>Market to Specific Segments</h5>
+                                                        <h5>Market<b style="color:transparent">.</b>to<b style="color:transparent">.</b>Specific<b style="color:transparent">.</b><br>Segments</h5>
                                                         <div class="icon"><span class="flaticon-question"></span></div>
                                                         <a href="/services/market-to-specific-segments.php" class="read-more-link">Read More <i
                                                                 class="fa fa-caret-right"></i></a>
@@ -511,10 +535,10 @@ include '../dbcon.php';
                                                             <div class="icon-box">
                                                                 <div class="icon"><span
                                                                         class="flaticon-question"></span></div>
-                                                                <h4>Market to<br> Specific <br>Segments</h4>
+                                                                <h4>Market<b style="color:transparent">.</b>to<br><b style="color:transparent">.</b>Specific<b style="color:transparent">.</b>Segment</h4>
                                                             </div>
                                                             <div class="outer-box">
-                                                                <div class="text">How can you tell whether your product or service is a big hit with your customers? While some of your customers may like a new product feature, others may find it completely 
+                                                                <div class="text">How can you tell whether your product or service is a big hit with your customers? While some of your customers...
 
                                                                 </div>
                                                                 <a href="/services/market-to-specific-segments.php" class="read-more-link">Read
@@ -529,7 +553,7 @@ include '../dbcon.php';
                                                 <div class="inner-box">
                                                     <div class="image"><img src="../assets/images/services/Leverage Data .jpg" alt=""></div>
                                                     <div class="content">
-                                                        <h5>Leverage Data-Targeted</h5>
+                                                        <h5>Leverage<b style="color:transparent">.</b>Data-Targeted</h5>
                                                         <div class="icon"><span class="flaticon-question"></span></div>
                                                         <a href="/services/leverage-data-targeted.php" class="read-more-link">Read More <i
                                                                 class="fa fa-caret-right"></i></a>
@@ -543,8 +567,8 @@ include '../dbcon.php';
                                                             </div>
                                                             <div class="outer-box">
                                                                 <div class="text">During the next 10 years, the success of your firm will be significantly influenced by the 
-                                                                        use of "big data." Business organizations now generate vast volumes of data at dizzying 
-                                                                        speeds.
+                                                                        use of "big data."...
+                                                                      
 
                                                                 </div>
                                                                 <a href="/services/leverage-data-targeted.php" class="read-more-link">Read
@@ -573,7 +597,7 @@ include '../dbcon.php';
                                                             </div>
                                                             <div class="outer-box">
                                                                 <div class="text">In order to achieve long-term success, you must thoroughly research your competitors 
-                                                                    and the market in order to get vital information. 
+                                                                    and the market...
                                                                 </div>
                                                                 <a href="/services/trend-analysis.php" class="read-more-link">Read
                                                                     More <i class="fa fa-caret-right"></i></a>
@@ -600,7 +624,7 @@ include '../dbcon.php';
                                                                 <h4>Financial <br>Forecasting</h4>
                                                             </div>
                                                             <div class="outer-box">
-                                                                <div class="text">Our financial forecasting services may aid you in converting your financial data into actionable business outcomes by identifying trends and making predictions. 
+                                                                <div class="text">Our financial forecasting services may aid you in converting your financial data into actionable...
                                                                 </div>
                                                                 <a href="/services/financial-forecasting.php" class="read-more-link">Read
                                                                     More <i class="fa fa-caret-right"></i></a>
@@ -628,7 +652,7 @@ include '../dbcon.php';
                                                             </div>
                                                             <div class="outer-box">
                                                                 <div class="text">We provide a powerful data visualization tool that enables your senior team to participate 
-                                                                    in a fact-based conversation about strategy, 
+                                                                    in a fact-based...
                                                                 </div>
                                                                 <a href="/services/annual-strategy-scan.php" class="read-more-link">Read
                                                                     More <i class="fa fa-caret-right"></i></a>
@@ -656,7 +680,7 @@ include '../dbcon.php';
                                                             </div>
                                                             <div class="outer-box">
                                                                 <div class="text">When you're expanding or establishing a new facility, you may find that you need to 
-                                                                upgrade or add additional electrical services to your existing infrastructure. 
+                                                                upgrade...
                                                                 </div>
                                                                 <a href="/services/facility-expansion.php" class="read-more-link">Read
                                                                     More <i class="fa fa-caret-right"></i></a>
@@ -670,7 +694,7 @@ include '../dbcon.php';
                                                 <div class="inner-box">
                                                     <div class="image"><img src="../assets/images/services/Economic-impact1.jpg" alt=""></div>
                                                     <div class="content">
-                                                        <h5>Economic Impact Analysis</h5>
+                                                        <h5>Economic<b style="color:transparent">.</b>Impact Analysis</h5>
                                                         <div class="icon"><span class="flaticon-question"></span></div>
                                                         <a href="/services/economic-impact-analysis.php" class="read-more-link">Read More <i
                                                                 class="fa fa-caret-right"></i></a>
@@ -684,7 +708,7 @@ include '../dbcon.php';
                                                             </div>
                                                             <div class="outer-box">
                                                                 <div class="text">When you're expanding or establishing a new facility, you may find that you need to 
-                                                                upgrade or add additional electrical services to your existing infrastructure. 
+                                                                upgrade... 
                                                                 </div>
                                                                 <a href="/services/economic-impact-analysis.php" class="read-more-link">Read
                                                                     More <i class="fa fa-caret-right"></i></a>
@@ -712,7 +736,7 @@ include '../dbcon.php';
                                                             </div>
                                                             <div class="outer-box">
                                                                 <div class="text">When you're expanding or establishing a new facility, you may find that you need to 
-                                                                upgrade or add additional electrical services to your existing infrastructure. 
+                                                                upgrade...
                                                                 </div>
                                                                 <a href="/services/agile-transformation.php" class="read-more-link">Read
                                                                     More <i class="fa fa-caret-right"></i></a>
@@ -740,7 +764,7 @@ include '../dbcon.php';
                                                             </div>
                                                             <div class="outer-box">
                                                                 <div class="text">When you're expanding or establishing a new facility, you may find that you need to 
-                                                                upgrade or add additional electrical services to your existing infrastructure. 
+                                                                upgrade... 
                                                                 </div>
                                                                 <a href="/services/case-studies.php" class="read-more-link">Read
                                                                     More <i class="fa fa-caret-right"></i></a>
@@ -754,7 +778,7 @@ include '../dbcon.php';
                                                 <div class="inner-box">
                                                     <div class="image"><img src="../assets/images/services/Time Traking1.png" alt=""></div>
                                                     <div class="content">
-                                                        <h5>Time Tracking & Estimation</h5>
+                                                        <h5>Time<b style="color:transparent">.</b>Tracking<b style="color:transparent">.</b>&<b style="color:transparent">.</b> Estimation</h5>
                                                         <div class="icon"><span class="flaticon-question"></span></div>
                                                         <a href="/services/time-tracking-estimation.phpp" class="read-more-link">Read More <i
                                                                 class="fa fa-caret-right"></i></a>
@@ -768,7 +792,7 @@ include '../dbcon.php';
                                                             </div>
                                                             <div class="outer-box">
                                                                 <div class="text">When you're expanding or establishing a new facility, you may find that you need to 
-                                                                upgrade or add additional electrical services to your existing infrastructure. 
+                                                                upgrade... 
                                                                 </div>
                                                                 <a href="/services/time-tracking-estimation.php" class="read-more-link">Read
                                                                     More <i class="fa fa-caret-right"></i></a>
@@ -795,7 +819,7 @@ include '../dbcon.php';
                                                 <div class="inner-box">
                                                     <div class="image"><img src="../assets/images/services/Benchmark standards1.png" alt=""></div>
                                                     <div class="content">
-                                                        <h5>Benchmark standards</h5>
+                                                        <h5>Benchmark<br> standards</h5>
                                                         <div class="icon"><span class="flaticon-question"></span></div>
                                                         <a href="/services/Benchmark-standards.php" class="read-more-link">Read More <i
                                                                 class="fa fa-caret-right"></i></a>
@@ -805,11 +829,11 @@ include '../dbcon.php';
                                                             <div class="icon-box">
                                                                 <div class="icon"><span
                                                                         class="flaticon-question"></span></div>
-                                                                <h4>Benchmark standards</h4>
+                                                                <h4>Benchmark<br> standards</h4>
                                                             </div>
                                                             <div class="outer-box">
                                                                 <div class="text">Using the assessments and surveys we give, you may obtain an idea of where you are 
-                                                                    right now and set goals for your future growth efforts based on that information.
+                                                                    right now ...
                                                                 </div>
                                                                 <a href="/services/Benchmark-standards.php" class="read-more-link">Read
                                                                     More <i class="fa fa-caret-right"></i></a>
@@ -823,7 +847,7 @@ include '../dbcon.php';
                                                 <div class="inner-box">
                                                     <div class="image"><img src="../assets/images/services/Seamless services1.png" alt=""></div>
                                                     <div class="content">
-                                                        <h5>Seamless services</h5>
+                                                        <h5>Seamless <br>services</h5>
                                                         <div class="icon"><span class="flaticon-question"></span></div>
                                                         <a href="/services/Benchmark-standards.php" class="read-more-link">Read More <i
                                                                 class="fa fa-caret-right"></i></a>
@@ -833,10 +857,10 @@ include '../dbcon.php';
                                                             <div class="icon-box">
                                                                 <div class="icon"><span
                                                                         class="flaticon-question"></span></div>
-                                                                <h4>Seamless services</h4>
+                                                                <h4>Seamless<br> services</h4>
                                                             </div>
                                                             <div class="outer-box">
-                                                                <div class="text">We give organizations with the know-how, expertise, services, and equipment they need to simplify their company processes. Our Seamless solution combines two widely-used  services into a single, seamless bundle that can be utilized anywhere.
+                                                                <div class="text">We give organizations with the know-how, expertise, services, and equipment they need to simplify...
                                                                 </div>
                                                                 <a href="/services/Benchmark-standards.php" class="read-more-link">Read
                                                                     More <i class="fa fa-caret-right"></i></a>
@@ -863,7 +887,7 @@ include '../dbcon.php';
                                                                 <h4>Information Architecture</h4>
                                                             </div>
                                                             <div class="outer-box">
-                                                                <div class="text">The information architecture of a website is crucial to the experience of a typical user. Cohesive IA is a tool for integrating design and architectural concepts into one cohesive whole. 
+                                                                <div class="text">The information architecture of a website is crucial to the experience of a typical user. Cohesive IA... 
                                                                 </div>
                                                                 <a href="/services/Information-Architecture.php" class="read-more-link">Read
                                                                     More <i class="fa fa-caret-right"></i></a>
@@ -877,7 +901,7 @@ include '../dbcon.php';
                                                 <div class="inner-box">
                                                     <div class="image"><img src="../assets/images/services/Real-time insights1.jpg" alt=""></div>
                                                     <div class="content">
-                                                        <h5>Real-time Insights and Algorithms</h5>
+                                                        <h5>Real-time<br> Algorithms</h5>
                                                         <div class="icon"><span class="flaticon-question"></span></div>
                                                         <a href="/services/Information-Architecture.php" class="read-more-link">Read More <i
                                                                 class="fa fa-caret-right"></i></a>
@@ -887,7 +911,7 @@ include '../dbcon.php';
                                                             <div class="icon-box">
                                                                 <div class="icon"><span
                                                                         class="flaticon-question"></span></div>
-                                                                <h4>Real-time Insights and Algorithms</h4>
+                                                                <h4>Real-time <br> Algorithms</h4>
                                                             </div>
                                                             <div class="outer-box">
                                                                 <div class="text">A thorough understanding of the difficulties impacting your products and customers is essential for growth.
@@ -904,7 +928,7 @@ include '../dbcon.php';
                                                 <div class="inner-box">
                                                     <div class="image"><img src="../assets/images/services/CRM1.jpg" alt=""></div>
                                                     <div class="content">
-                                                        <h5>Customer Service Management (CSM)</h5>
+                                                        <h5>(CSM)<br>Customer</h5>
                                                         <div class="icon"><span class="flaticon-question"></span></div>
                                                         <a href="/services/Customer Service Management.php" class="read-more-link">Read More <i
                                                                 class="fa fa-caret-right"></i></a>
@@ -914,11 +938,11 @@ include '../dbcon.php';
                                                             <div class="icon-box">
                                                                 <div class="icon"><span
                                                                         class="flaticon-question"></span></div>
-                                                                <h4>Customer Service Management (CSM)</h4>
+                                                                <h4>(CSM)<br>Customer</h4>
                                                             </div>
                                                             <div class="outer-box">
                                                                 <div class="text">Your consumers may get service and support from you via many channels such as the 
-                                                                web, email, chat, telephone, and social media platforms. 
+                                                                web, email, chat... 
                                                                 </div>
                                                                 <a href="/services/Customer Service Management.php" class="read-more-link">Read
                                                                     More <i class="fa fa-caret-right"></i></a>
@@ -932,7 +956,7 @@ include '../dbcon.php';
                                                 <div class="inner-box">
                                                     <div class="image"><img src="../assets/images/services/Field-Service1-jpg.jpg" alt=""></div>
                                                     <div class="content">
-                                                        <h5>Field Service Management</h5>
+                                                        <h5>Field Management</h5>
                                                         <div class="icon"><span class="flaticon-question"></span></div>
                                                         <a href="/services/Field-Service-Management.php" class="read-more-link">Read More <i
                                                                 class="fa fa-caret-right"></i></a>
@@ -942,11 +966,11 @@ include '../dbcon.php';
                                                             <div class="icon-box">
                                                                 <div class="icon"><span
                                                                         class="flaticon-question"></span></div>
-                                                                <h4>Field Service Management</h4>
+                                                                <h4>Field Management</h4>
                                                             </div>
                                                             <div class="outer-box">
                                                                 <div class="text">Using these solutions, you may keep track of an organization's field resources and 
-                                                                     specialized, or unique services. 
+                                                                     specialized, or unique ...
                                                                 </div>
                                                                 <a href="/services/Field-Service-Management.php" class="read-more-link">Read
                                                                     More <i class="fa fa-caret-right"></i></a>
@@ -960,7 +984,7 @@ include '../dbcon.php';
                                                 <div class="inner-box">
                                                     <div class="image"><img src="../assets/images/services/Operational Tec.jpg" alt=""></div>
                                                     <div class="content">
-                                                        <h5>Operational Technology Management</h5>
+                                                        <h5>Operational Management</h5>
                                                         <div class="icon"><span class="flaticon-question"></span></div>
                                                         <a href="/services/Operational-Technology-Management.php" class="read-more-link">Read More <i
                                                                 class="fa fa-caret-right"></i></a>
@@ -970,10 +994,10 @@ include '../dbcon.php';
                                                             <div class="icon-box">
                                                                 <div class="icon"><span
                                                                         class="flaticon-question"></span></div>
-                                                                <h4>Operational Technology Management</h4>
+                                                                <h4>Operational Management</h4>
                                                             </div>
                                                             <div class="outer-box">
-                                                                <div class="text">Having a consistent system of action will help your operational technology environment, enhancing uptime and delivering outcomes throughout your production plants.
+                                                                <div class="text">Having a consistent system of action will help your operational technology environment...
 
                                                                 </div>
                                                                 <a href="/services/Operational-Technology-Management.php" class="read-more-link">Read
@@ -988,7 +1012,7 @@ include '../dbcon.php';
                                                 <div class="inner-box">
                                                     <div class="image"><img src="../assets/images/services/UXdesign1.jpg" alt=""></div>
                                                     <div class="content">
-                                                        <h5>User experience (UX) Design</h5>
+                                                        <h5>User<br> experience  Design</h5>
                                                         <div class="icon"><span class="flaticon-question"></span></div>
                                                         <a href="/services/User-experience-Design.php" class="read-more-link">Read More <i
                                                                 class="fa fa-caret-right"></i></a>
@@ -998,10 +1022,10 @@ include '../dbcon.php';
                                                             <div class="icon-box">
                                                                 <div class="icon"><span
                                                                         class="flaticon-question"></span></div>
-                                                                <h4>User experience (UX) Design</h4>
+                                                                <h4>User<br> experience  Design</h4>
                                                             </div>
                                                             <div class="outer-box">
-                                                                <div class="text">Designing the user's experience while using a product, on the other hand, is the subject  of interaction design. A variety of factors, including the way something is conveyed, visualized and organized as well as the time it takes to reply, are taken into consideration when determining customer satisfaction.
+                                                                <div class="text">Designing the user's experience while using a product, on the other hand, is the subject ...
 
                                                                 </div>
                                                                 <a href="/services/User-experience-Design.php" class="read-more-link">Read
@@ -1016,7 +1040,7 @@ include '../dbcon.php';
                                                 <div class="inner-box">
                                                     <div class="image"><img src="../assets/images/services/Customer journey-analysis1.jpg" alt=""></div>
                                                     <div class="content">
-                                                        <h5>Customer Journey Analytics</h5>
+                                                        <h5>Customer <br> Analytics</h5>
                                                         <div class="icon"><span class="flaticon-question"></span></div>
                                                         <a href="/services/Customer-Journey-Analytics.php" class="read-more-link">Read More <i
                                                                 class="fa fa-caret-right"></i></a>
@@ -1026,10 +1050,10 @@ include '../dbcon.php';
                                                             <div class="icon-box">
                                                                 <div class="icon"><span
                                                                         class="flaticon-question"></span></div>
-                                                                <h4>Customer Journey Analytics</h4>
+                                                                <h4>Customer <br> Analytics</h4>
                                                             </div>
                                                             <div class="outer-box">
-                                                                <div class="text">Customers, patients, and employees now want seamless, secure, Omni-channel, ondemand, and tailored services from the organizations with whom they do business,  among other things.
+                                                                <div class="text">Customers, patients, and employees now want seamless, secure, Omni-channel...
 
                                                                 </div>
                                                                 <a href="/services/Customer-Journey-Analytics.php" class="read-more-link">Read
@@ -1044,7 +1068,7 @@ include '../dbcon.php';
                                                 <div class="inner-box">
                                                     <div class="image"><img src="../assets/images/services/Digital-Customer-Experience1.jpg" alt=""></div>
                                                     <div class="content">
-                                                        <h5>Digital Customer Experience</h5>
+                                                        <h5>Digital <br> Experience</h5>
                                                         <div class="icon"><span class="flaticon-question"></span></div>
                                                         <a href="/services/Digital-Customer-Experience.php" class="read-more-link">Read More <i
                                                                 class="fa fa-caret-right"></i></a>
@@ -1054,10 +1078,10 @@ include '../dbcon.php';
                                                             <div class="icon-box">
                                                                 <div class="icon"><span
                                                                         class="flaticon-question"></span></div>
-                                                                <h4>Digital Customer Experience</h4>
+                                                                <h4>Digital <br> Experience</h4>
                                                             </div>
                                                             <div class="outer-box">
-                                                                <div class="text">We will help you in digital customer experience with the below services
+                                                                <div class="text">We will help you in digital customer experience with the below services experience with the....
 
                                                                 </div>
                                                                 <a href="/services/Digital-Customer-Experience.php" class="read-more-link">Read
@@ -1072,7 +1096,7 @@ include '../dbcon.php';
                                                 <div class="inner-box">
                                                     <div class="image"><img src="../assets/images/services/Customer Experience Analysis1.jpg" alt=""></div>
                                                     <div class="content">
-                                                        <h5>Customer Experience Analysis</h5>
+                                                        <h5>Customer <br> Analysis</h5>
                                                         <div class="icon"><span class="flaticon-question"></span></div>
                                                         <a href="/services/Customer-Experience-Analysis.php" class="read-more-link">Read More <i
                                                                 class="fa fa-caret-right"></i></a>
@@ -1082,10 +1106,10 @@ include '../dbcon.php';
                                                             <div class="icon-box">
                                                                 <div class="icon"><span
                                                                         class="flaticon-question"></span></div>
-                                                                <h4>Customer Experience Analysis</h4>
+                                                                <h4>Customer <br> Analysis</h4>
                                                             </div>
                                                             <div class="outer-box">
-                                                                <div class="text">To accommodate people with an interest in text analysis, we provide a variety of different solutions. Watson Explorer, a tool designed for skilled users and data scientists, is required for enterprise-level operations to be successful. 
+                                                                <div class="text">To accommodate people with an interest in text analysis, we provide a variety of different solutions...
 
                                                                 </div>
                                                                 <a href="/services/Customer-Experience-Analysis.php" class="read-more-link">Read
@@ -1102,18 +1126,26 @@ include '../dbcon.php';
                             </section>
                         </div>
                     </div>
-                    <div class="tab-pane" id="four" role="tabpanel" aria-labelledby="four-tab">
+                     <div class="tab-pane" id="four" role="tabpanel" aria-labelledby="four-tab">
                         <div class="col-lg-12 col-md-12">
                             <section class="services-section-three" id="services">
                                 <div class="auto-container">
                                     <div class="row">
                                         <div class="theme_carousel owl-theme owl-carousel"
                                             data-options='{"loop": true, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "600" :{ "items" : "2" }, "768" :{ "items" : "2" } , "1075":{ "items" : "3" }, "1200":{ "items" : "3" }}}'>
+                    
+                   <!--<div class="tab-pane" id="four" role="tabpanel" aria-labelledby="four-tab">-->
+                   <!--     <div class="col-lg-12 col-md-12">-->
+                   <!--         <section class="services-section-four" id="services">-->
+                   <!--             <div class="auto-container">-->
+                   <!--                 <div class="row">-->
+                   <!--                     <div class="theme_carousel owl-theme owl-carousel"-->
+                   <!--                         data-options='{"loop": true, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 6000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "600" :{ "items" : "2" }, "768" :{ "items" : "2" } , "1075":{ "items" : "3" }, "1200":{ "items" : "3" }}}'>-->
                                             <div class="service-block-three">
                                                 <div class="inner-box">
                                                     <div class="image"><img src="../assets/images/services/Mapping Re- Engineering1.jpg" alt=""></div>
                                                     <div class="content">
-                                                        <h5>Mapping & Re-Engineering</h5>
+                                                        <h5>Mapping <br> Re-Engineering</h5>
                                                         <div class="icon"><span class="flaticon-question"></span></div>
                                                         <a href="/services/Business-Process-Mapping-Re-Engineering.php" class="read-more-link">Read More <i
                                                                 class="fa fa-caret-right"></i></a>
@@ -1123,13 +1155,11 @@ include '../dbcon.php';
                                                             <div class="icon-box">
                                                                 <div class="icon"><span
                                                                         class="flaticon-question"></span></div>
-                                                                <h4>Mapping & Re-Engineering</h4>
+                                                                <h4>Mapping <br> Re-Engineering</h4>
                                                             </div>
                                                             <div class="outer-box">
                                                                 <div class="text">With the assistance of our Organization Process Reengineering team, we can utilize 
-                                                                    quality and efficiency methodologies such as Lean and Six Sigma to document your 
-                                                                    processes, analyses where you are currently at, and provide recommendations to your 
-                                                                    company to help you improve your processes 
+                                                                    quality and efficiency...
 
                                                                 </div>
                                                                 <a href="/services/Business-Process-Mapping-Re-Engineering.php" class="read-more-link">Read
@@ -1144,7 +1174,7 @@ include '../dbcon.php';
                                                 <div class="inner-box">
                                                     <div class="image"><img src="../assets/images/services/Productive Organization 1.jpg" alt=""></div>
                                                     <div class="content">
-                                                        <h5>Productive Organization Design</h5>
+                                                        <h5>Productive Organization</h5>
                                                         <div class="icon"><span class="flaticon-question"></span></div>
                                                         <a href="/services/Productive-Organization-Design.php" class="read-more-link">Read More <i
                                                                 class="fa fa-caret-right"></i></a>
@@ -1154,12 +1184,11 @@ include '../dbcon.php';
                                                             <div class="icon-box">
                                                                 <div class="icon"><span
                                                                         class="flaticon-question"></span></div>
-                                                                <h4>Productive Organization Design</h4>
+                                                                <h4>Productive Organization</h4>
                                                             </div>
                                                             <div class="outer-box">
                                                                 <div class="text">We work with our clients to design and implement new organizational structures and 
-                                                                    operational processes that increase the efficiency of their available resources while also 
-                                                                    increasing the productivity of their personnel. 
+                                                                    operational processes...
 
                                                                 </div>
                                                                 <a href="/services/Productive-Organization-Design.php" class="read-more-link">Read
@@ -1174,7 +1203,7 @@ include '../dbcon.php';
                                                 <div class="inner-box">
                                                     <div class="image"><img src="../assets/images/services/outsourcing-services1jpg.jpg" alt=""></div>
                                                     <div class="content">
-                                                        <h5>Outsourcing Services</h5>
+                                                        <h5>Outsourcing<br> Services</h5>
                                                         <div class="icon"><span class="flaticon-question"></span></div>
                                                         <a href="/services/Outsourcing-Services.php" class="read-more-link">Read More <i
                                                                 class="fa fa-caret-right"></i></a>
@@ -1184,12 +1213,11 @@ include '../dbcon.php';
                                                             <div class="icon-box">
                                                                 <div class="icon"><span
                                                                         class="flaticon-question"></span></div>
-                                                                <h4>Outsourcing Services</h4>
+                                                                <h4>Outsourcing<br> Services</h4>
                                                             </div>
                                                             <div class="outer-box">
                                                                 <div class="text">We work with our clients to design and implement new organizational structures and 
-                                                                    operational processes that increase the efficiency of their available resources while also 
-                                                                    increasing the productivity of their personnel. 
+                                                                    operational processes...
 
                                                                 </div>
                                                                 <a href="/services/Outsourcing-Services.php" class="read-more-link">Read
@@ -1198,65 +1226,13 @@ include '../dbcon.php';
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div> -->
+                                            </div>
 
-                                        <!-- </div> -->
+                                        </div>
                                     </div>
                                 </div>
                             </section>
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-
-<section class="team-section-two" id="coreteam" style="background:#eceff1;">
-    <div class="auto-container">
-        <div class="sec-title text-center" style="margin-bottom:40px">
-            <h2>Core Team</h2>
-            <div class="text-decoration">
-                <span class="left"></span>
-                <span class="right"></span>
-            </div>
-        </div>
-        <div class="row">
-             <div class="team-block-one col-lg-3 col-md-6">
-                <div class="inner-box">
-                    <div class="image"><img src="../assets/images/resource/vacant.png" alt=""></div>
-                    <div class="lower-content">
-                        <div class="designation">CEO</div>
-                        <h4>We are hiring.</h4>
-                    </div>
-                </div>
-            </div><br><br>
-            <div class="team-block-one col-lg-3 col-md-6">
-                <div class="inner-box">
-                    <div class="image"><img src="../assets/images/resource/vacant.png" alt=""></div>
-                    <div class="lower-content">
-                        <div class="designation">COO</div>
-                        <h4>We are hiring.</h4>
-                    </div>
-                </div>
-            </div><br><br>
-            <div class="team-block-one col-lg-3 col-md-6">
-                <div class="inner-box">
-                    <div class="image"><img src="../assets/images/resource/vacant.png" alt=""></div>
-                    <div class="lower-content">
-                        <div class="designation">CFO</div>
-                        <h4>We are hiring.</h4>
-                    </div>
-                </div>
-            </div>
-           
-            <div class="team-block-one col-lg-3 col-md-6">
-                <div class="inner-box">
-                    <div class="image"><img src="../assets/images/resource/vacant.png" alt=""></div>
-                    <div class="lower-content">
-                        <div class="designation">CHRO</div>
-                        <h4>We are hiring.</h4>
                     </div>
                 </div>
             </div>
@@ -1364,7 +1340,7 @@ include '../dbcon.php';
     </section>
 </div>
 <?php //print_r($_POST);?>
-<?php include '../footer.php';?>
+<?php include 'footer.php';?>
 
 <script>
 $(document).ready(function(){
@@ -1413,7 +1389,7 @@ $.ajax({
     dataType: 'html',
     data: {id:$cat_id},
     success: function(data){
-        $('#custom_html_row').html(data);
+        // $('#custom_html_row').html(data);
         //$('#custom_html_row .owl-nav').removeClass('disabled');
     }
  });
