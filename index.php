@@ -1169,11 +1169,11 @@
                                         <div class="theme_carousel owl-theme owl-carousel"
                                             data-options='{"loop": true, "margin": 0, "autoheight":true, "lazyload":true, "nav": true, "dots": true, "autoplay": true, "autoplayTimeout": 10000, "smartSpeed": 300, "responsive":{ "0" :{ "items": "1" }, "600" :{ "items" : "2" }, "768" :{ "items" : "2" } , "1075":{ "items" : "3" }, "1200":{ "items" : "3" }}}'>
                                         
-                                            <!-- <div class="service-block-three">
+                                            <div class="service-block-three">
                                                 <div class="inner-box">
                                                     <div class="image">
                                                         <div class="image"><img
-                                                                src="../assets/images/services/Digital-Transformation1.jpg" alt=""></div>
+                                                                src="assets/images/services/Digital-Transformation1.jpg" alt=""></div>
                                                     </div>
                                                     <div class="content">
                                                         <div class="icon"><span
@@ -1202,10 +1202,10 @@
 
                                             <div class="service-block-three">
                                                 <div class="inner-box">
-                                                    <div class="image"><img src="../assets/images/services/sustainble.jpg"
+                                                    <div class="image"><img src="assets/images/services/sustainble.jpg"
                                                             alt=""></div>
                                                     <div class="content">
-                                                        <h5>Sustainable Business Model</h5>
+                                                        <h5>Sustainable<b style="color:transparent">.</b>Business Model</h5>
                                                         <div class="icon"><span class="flaticon-question"></span></div>
                                                         <a href="/services/sustainable-business-model.php" class="read-more-link">Read More <i
                                                                 class="fa fa-caret-right"></i></a>
@@ -1230,10 +1230,10 @@
 
                                             <div class="service-block-three">
                                                 <div class="inner-box">
-                                                    <div class="image"><img src="../assets/images/services/enging.jpg"
+                                                    <div class="image"><img src="assets/images/services/enging.jpg"
                                                             alt=""></div>
                                                     <div class="content">
-                                                        <h5>Engaging Content</h5>
+                                                        <h5>Engaging Content<br>Campaigns</h5>
                                                         <div class="icon"><span class="flaticon-question"></span></div>
                                                         <a href="/services/engaging-Content-Campaigns-to-drive-Continuous-Growth.php" class="read-more-link">Read More <i
                                                                 class="fa fa-caret-right"></i></a>
@@ -1258,7 +1258,7 @@
 
                                             <div class="service-block-three">
                                                 <div class="inner-box">
-                                                    <div class="image"><img src="../assets/images/services/operations_consulting_masthead1.jpg"
+                                                    <div class="image"><img src="assets/images/services/operations_consulting_masthead1.jpg"
                                                             alt=""></div>
                                                     <div class="content">
                                                         <h5>Operations Consultancy</h5>
@@ -1286,10 +1286,10 @@
 
                                             <div class="service-block-three">
                                                 <div class="inner-box">
-                                                    <div class="image"><img src="../assets/images/services/Financial_Resource_on.png"
+                                                    <div class="image"><img src="assets/images/services/Financial_Resource_on.png"
                                                             alt=""></div>
                                                     <div class="content">
-                                                        <h5>Financial Resource Consultancy</h5>
+                                                        <h5>Financial<b style="color:transparent">.</b>Resource Consultancy</h5>
                                                         <div class="icon"><span class="flaticon-question"></span></div>
                                                         <a href="/services/financial-resources-consultancy.php" class="read-more-link">Read More <i
                                                                 class="fa fa-caret-right"></i></a>
@@ -1314,7 +1314,7 @@
 
                                             <div class="service-block-three">
                                                 <div class="inner-box">
-                                                    <div class="image"><img src="../assets/images/services/Support-Services1.jpg"
+                                                    <div class="image"><img src="assets/images/services/Support-Services1.jpg"
                                                             alt=""></div>
                                                     <div class="content">
                                                         <h5>Support Services</h5>
@@ -1342,7 +1342,7 @@
 
                                             <div class="service-block-three">
                                                 <div class="inner-box">
-                                                    <div class="image"><img src="../assets/images/services/web-Development1.jpg"
+                                                    <div class="image"><img src="assets/images/services/web-Development1.jpg"
                                                             alt=""></div>
                                                     <div class="content">
                                                         <h5>Website Development </h5>
@@ -1370,7 +1370,7 @@
 
                                             <div class="service-block-three">
                                                 <div class="inner-box">
-                                                    <div class="image"><img src="../assets/images/services/Application-Developmnet.jpg"
+                                                    <div class="image"><img src="assets/images/services/Application-Developmnet.jpg"
                                                             alt=""></div>
                                                     <div class="content">
                                                         <h5>Application Development </h5>
@@ -1398,10 +1398,10 @@
 
                                             <div class="service-block-three">
                                                 <div class="inner-box">
-                                                    <div class="image"><img src="../assets/images/services/Future-potential1.jpg"
+                                                    <div class="image"><img src="assets/images/services/Future-potential1.jpg"
                                                             alt=""></div>
                                                     <div class="content">
-                                                        <h5>Future<br> Discovery </h5>
+                                                        <h5>Future<b style="color:transparent">.</b>Discovery </h5>
                                                         <div class="icon"><span class="flaticon-question"></span></div>
                                                         <a href="/services/future-potential-discovery.php" class="read-more-link">Read More <i
                                                                 class="fa fa-caret-right"></i></a>
@@ -1426,7 +1426,7 @@
 
                                             <div class="service-block-three">
                                                 <div class="inner-box">
-                                                    <div class="image"><img src="../assets/images/services/Board add.jpg"
+                                                    <div class="image"><img src="assets/images/services/Board add.jpg"
                                                             alt=""></div>
                                                     <div class="content">
                                                         <h5>Board Advisory </h5>
@@ -1450,15 +1450,15 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div> -->
+                                            </div> 
                                             
-                                            <!--previous service end-->
-                                                  <!-- <div class="service-block-three">
+                                          
+                                               <div class="service-block-three">
                                                 <div class="inner-box">
-                                                    <div class="image"><img src="../assets/images/services/Strategydesign11.jpg" alt=""></div>
+                                                    <div class="image"><img src="assets/images/services/Strategydesign11.jpg" alt=""></div>
                                                     <div class="content">
                                                         <div class="icon"><span class="flaticon-career"></span></div>
-                                                        <h5>Strategy Design & Implementation </h5>
+                                                        <h5>Strategy<b style="color:transparent">.</b>Design<b style="color:transparent">.</b>&<b style="color:transparent">.</b><br>Implementation </h5>
                                                         <a href="/services/strategy-design-implementation.php" class="read-more-link">Read More <i
                                                                 class="fa fa-caret-right"></i></a>
                                                     </div>
@@ -1484,12 +1484,12 @@
                                                <div class="service-block-three">
                                                 <div class="inner-box">
                                                     <div class="image">
-                                                        <div class="image"><img src="../assets/images/services/Strategydesign.jpg" alt=""></div>
+                                                        <div class="image"><img src="assets/images/services/Strategydesign.jpg" alt=""></div>
                                                     </div>
                                                     <div class="content">
                                                         <div class="icon"><span
                                                                 class="flaticon-customer-service"></span></div>
-                                                        <h5>Gather & Analyze Reliable</h5>
+                                                        <h5>Gather<b style="color:transparent">.</b>&<b style="color:transparent">.</b>Analyze<b style="color:transparent">.</b>Reliable</h5>
                                                         <a href="/services/gather-analyze-reliable-market-data.php" class="read-more-link">Read More <i
                                                                 class="fa fa-caret-right"></i></a>
                                                     </div>
@@ -1515,7 +1515,7 @@
                                                    
                                             <div class="service-block-three">
                                                 <div class="inner-box">
-                                                    <div class="image"><img src="../assets/images/services/Market to Specific segment1.jpg" alt=""></div>
+                                                    <div class="image"><img src="assets/images/services/Market to Specific segment1.jpg" alt=""></div>
                                                     <div class="content">
                                                         <h5>Market to Specific </h5>
                                                         <div class="icon"><span class="flaticon-question"></span></div>
@@ -1543,7 +1543,7 @@
                                            
                                                 <div class="service-block-three">
                                                 <div class="inner-box">
-                                                    <div class="image"><img src="../assets/images/services/Leverage Data .jpg" alt=""></div>
+                                                    <div class="image"><img src="assets/images/services/Leverage Data .jpg" alt=""></div>
                                                     <div class="content">
                                                         <h5>Leverage<br> Data-Targeted</h5>
                                                         <div class="icon"><span class="flaticon-question"></span></div>
@@ -1573,7 +1573,7 @@
                                            
                                                  <div class="service-block-three">
                                                 <div class="inner-box">
-                                                    <div class="image"><img src="../assets/images/services/Trend .jpg" alt=""></div>
+                                                    <div class="image"><img src="assets/images/services/Trend .jpg" alt=""></div>
                                                     <div class="content">
                                                         <h5>Trend Analysis</h5>
                                                         <div class="icon"><span class="flaticon-question"></span></div>
@@ -1601,7 +1601,7 @@
                                             
                                                  <div class="service-block-three">
                                                 <div class="inner-box">
-                                                    <div class="image"><img src="../assets/images/services/Financial Forecasting1.jpg" alt=""></div>
+                                                    <div class="image"><img src="assets/images/services/Financial Forecasting1.jpg" alt=""></div>
                                                     <div class="content">
                                                         <h5>Financial Forecasting</h5>
                                                         <div class="icon"><span class="flaticon-question"></span></div>
@@ -1627,7 +1627,7 @@
                                             </div>
                                                  <div class="service-block-three">
                                                 <div class="inner-box">
-                                                    <div class="image"><img src="../assets/images/services/Annual Strategy Scan1.jpg" alt=""></div>
+                                                    <div class="image"><img src="assets/images/services/Annual Strategy Scan1.jpg" alt=""></div>
                                                     <div class="content">
                                                         <h5>Annual Strategy Scan</h5>
                                                         <div class="icon"><span class="flaticon-question"></span></div>
@@ -1654,7 +1654,7 @@
                                             </div>
                                                 <div class="service-block-three">
                                                 <div class="inner-box">
-                                                    <div class="image"><img src="../assets/images/services/Facility1.jpg" alt=""></div>
+                                                    <div class="image"><img src="assets/images/services/Facility1.jpg" alt=""></div>
                                                     <div class="content">
                                                         <h5>Facility Expansion</h5>
                                                         <div class="icon"><span class="flaticon-question"></span></div>
@@ -1681,9 +1681,9 @@
                                             </div>
                                                   <div class="service-block-three">
                                                 <div class="inner-box">
-                                                    <div class="image"><img src="../assets/images/services/Economic-impact1.jpg" alt=""></div>
+                                                    <div class="image"><img src="assets/images/services/Economic-impact1.jpg" alt=""></div>
                                                     <div class="content">
-                                                        <h5>Economic Impact Analysis</h5>
+                                                        <h5>Economic<b style="color:transparent">.</b>Impact<b style="color:transparent">.</b>Analysis</h5>
                                                         <div class="icon"><span class="flaticon-question"></span></div>
                                                         <a href="/services/economic-impact-analysis.php" class="read-more-link">Read More <i
                                                                 class="fa fa-caret-right"></i></a>
@@ -1708,7 +1708,7 @@
                                             </div>
                                               <div class="service-block-three">
                                                 <div class="inner-box">
-                                                    <div class="image"><img src="../assets/images/services/Aglie transmision1.jpg" alt=""></div>
+                                                    <div class="image"><img src="assets/images/services/Aglie transmision1.jpg" alt=""></div>
                                                     <div class="content">
                                                         <h5>Agile Transformation</h5>
                                                         <div class="icon"><span class="flaticon-question"></span></div>
@@ -1735,7 +1735,7 @@
                                             </div>
                                               <div class="service-block-three">
                                                 <div class="inner-box">
-                                                    <div class="image"><img src="../assets/images/services/case study.jpg" alt=""></div>
+                                                    <div class="image"><img src="assets/images/services/case study.jpg" alt=""></div>
                                                     <div class="content">
                                                         <h5>Case Studies</h5>
                                                         <div class="icon"><span class="flaticon-question"></span></div>
@@ -1759,12 +1759,12 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div> -->
-                                                 <!-- <div class="service-block-three">
+                                            </div> 
+                                                 <div class="service-block-three">
                                                 <div class="inner-box">
-                                                    <div class="image"><img src="../assets/images/services/Time Traking1.png" alt=""></div>
+                                                    <div class="image"><img src="assets/images/services/Time Traking1.png" alt=""></div>
                                                     <div class="content">
-                                                        <h5>Time Tracking & Estimation</h5>
+                                                        <h5>Time<b style="color:transparent">.</b>Tracking<b style="color:transparent">.</b>&<b style="color:transparent">.</b><br>Estimation</h5>
                                                         <div class="icon"><span class="flaticon-question"></span></div>
                                                         <a href="/services/time-tracking-estimation.phpp" class="read-more-link">Read More <i
                                                                 class="fa fa-caret-right"></i></a>
@@ -1786,10 +1786,10 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div> -->
-                                     <!-- <div class="service-block-three">
+                                            </div>
+                                     <div class="service-block-three">
                                                 <div class="inner-box">
-                                                    <div class="image"><img src="../assets/images/services/Benchmark standards1.png" alt=""></div>
+                                                    <div class="image"><img src="assets/images/services/Benchmark standards1.png" alt=""></div>
                                                     <div class="content">
                                                         <h5>Benchmark standards</h5>
                                                         <div class="icon"><span class="flaticon-question"></span></div>
@@ -1813,7 +1813,7 @@
                                                         </div>
                                                     </div>
                                                 </div>
-                                            </div> -->
+                                            </div>
                                                 <!--previous service end-->
                                                 
                                                 
