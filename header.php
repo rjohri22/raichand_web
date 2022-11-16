@@ -49,16 +49,16 @@ define('SITE_URL', siteURL());
     }
     ?>
     <title><?php echo ucfirst($name); ?> - TRG : RAICHAND<?php if(isset($name1)) { echo '-'.$name1; }?></title>
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/css/style.css" rel="stylesheet">
-    <link href="assets/css/custom/custom.css" rel="stylesheet"> <!-- Custom css added -->
-    <link href="assets/css/responsive.css" rel="stylesheet">
-    <link href="assets/css/color-3.css" rel="stylesheet">
+    <link href="<?php echo SITE_URL; ?>assets/css/bootstrap.css" rel="stylesheet">
+    <link href="<?php echo SITE_URL; ?>assets/css/style.css" rel="stylesheet">
+    <link href="<?php echo SITE_URL; ?>assets/css/custom/custom.css" rel="stylesheet"> <!-- Custom css added -->
+    <link href="<?php echo SITE_URL; ?>assets/css/responsive.css" rel="stylesheet">
+    <link href="<?php echo SITE_URL; ?>assets/css/color-3.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,200&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="assets/images/favicon-v3.png" type="image/x-icon">
-    <link rel="icon" href="assets/images/favicon-v3.png" type="image/x-icon">
+    <link rel="shortcut icon" href="<?php echo SITE_URL; ?>assets/images/favicon-v3.png" type="image/x-icon">
+    <link rel="icon" href="<?php echo SITE_URL; ?>assets/images/favicon-v3.png" type="image/x-icon">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="<?php echo SITE_URL; ?>assets/css/main.css" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
@@ -81,7 +81,7 @@ define('SITE_URL', siteURL());
 
                             <div class="row m-0" style="display:block;">
 
-                                <img src="assets/images/logo/sidebar-logo.png" class="side-logo" style="height:78px;">
+                                <img src="<?php echo SITE_URL; ?>assets/images/logo/sidebar-logo.png" class="side-logo" style="height:78px;">
                                 <div class="col-4 p-4 close align-self-center" id="sidebarClose">
                                     <a class="close w-100 text-center">
                                         <i class="material-icons">close</i>
@@ -95,18 +95,18 @@ define('SITE_URL', siteURL());
                     <div class="sidebar-body">
                         <ul class="list-unstyled components">
                             <li>
-                                <a href="index.php" class="">
+                                <a href="<?php echo SITE_URL; ?>index.php" class="">
                                     <!-- <a href="index.php" class=""> -->
                                     Home
                                 </a>
                             </li>
                             <li>
-                                <a href="about.php" class="">
+                                <a href="<?php echo SITE_URL; ?>about.php" class="">
                                     About Us
                                 </a>
                             </li>
                             <li>
-                                <a href="services.php" class="">
+                                <a href="<?php echo SITE_URL; ?>services.php" class="">
                                     Our Services
                                 </a>
                             </li>
@@ -117,7 +117,7 @@ define('SITE_URL', siteURL());
                                 </a>
                             </li>
                             <li>
-                                <a href="contact.php" class="">
+                                <a href="<?php echo SITE_URL; ?>contact.php" class="">
                                     Contact Us
                                 </a>
                             </li>
@@ -128,34 +128,34 @@ define('SITE_URL', siteURL());
                             </li>
                             <li>
                             <li>
-                                <a href="business/management.php">Management</a>
+                                <a href="<?php echo SITE_URL; ?>business/management.php">Management</a>
                             </li>
                             <li>
-                                <a href="business/trading.php">Trading</a>
+                                <a href="<?php echo SITE_URL; ?>business/trading.php">Trading</a>
                             </li>
                             <li>
-                                <a href="business/investments.php">Investments</a>
+                                <a href="<?php echo SITE_URL; ?>business/investments.php">Investments</a>
                             </li>
                             <li>
-                                <a href="business/merchandise.php">Merchandise</a>
+                                <a href="<?php echo SITE_URL; ?>business/merchandise.php">Merchandise</a>
                             </li>
                             <li>
-                                <a href="business/hospitality.php">Hospitality</a>
+                                <a href="<?php echo SITE_URL; ?>business/hospitality.php">Hospitality</a>
                             </li>
                             <li>
-                                <a href="business/entertainment.php">Entertainment</a>
+                                <a href="<?php echo SITE_URL; ?>business/entertainment.php">Entertainment</a>
                             </li>
                             <li>
-                                <a href="business/foundation.php">Foundation</a>
+                                <a href="<?php echo SITE_URL; ?>business/foundation.php">Foundation</a>
                             </li>
                             <li>
-                                <a href="business/healthcare.php">Healthcare</a>
+                                <a href="<?php echo SITE_URL; ?>business/healthcare.php">Healthcare</a>
                             </li>
                             <li>
-                                <a href="business/school-of-arts.php">School of Arts</a>
+                                <a href="<?php echo SITE_URL; ?>business/school-of-arts.php">School of Arts</a>
                             </li>
                             <li>
-                                <a href="business/publishers.php">Publishers</a>
+                                <a href="<?php echo SITE_URL; ?>business/publishers.php">Publishers</a>
                             </li>
                         </ul>
                     </div>
@@ -175,11 +175,11 @@ define('SITE_URL', siteURL());
                 <nav id="navbarMain" class="navbar navbar-main fixed-top navbar-expand-lg bg-transparent p-0 navbar-light">
                     <div class="navbar-sidebar-menu" onclick="load()">
                         <a id="sidebarCollapse" class="justify-content-center align-items-center d-flex">
-                            <img src="assets/images/icons/menu.svg" alt=" ">
+                            <img src="<?php echo SITE_URL; ?>assets/images/icons/menu.svg" alt=" ">
                         </a>
                     </div>
                     <a class="navbar-brand ml-5" href="<?php echo SITE_URL; ?>">
-                        <img src="assets/images/logo/footerlogo.png" alt="raichand Logo">
+                        <img src="<?php echo SITE_URL; ?>assets/images/logo/footerlogo.png" alt="raichand Logo">
                     </a>
                     <div class="container-fluid">
                         <ul class="navbar-nav ml-auto">
@@ -187,7 +187,7 @@ define('SITE_URL', siteURL());
                                 <a href="https://webmail.raichandgroup.com/"><button type="button" class="btn btn-dark" data-toggle="tooltip" data-placement="top" title="Personnel Login"> <i class="fa fa-envelope" aria-hidden="true"></i></button></a>
                             </li>&nbsp;
                             <li class="nav-item">
-                                <a href="login.php"><button type="button" class="btn btn-dark"> <i class="fa fa-sign-in" aria-hidden="true"></i></button></a>
+                                <a href="<?php echo SITE_URL; ?>login.php"><button type="button" class="btn btn-dark"> <i class="fa fa-sign-in" aria-hidden="true"></i></button></a>
                             </li>
                         </ul>
                     </div>

@@ -346,7 +346,7 @@ include("../dbcon.php");
                                                             } else {
                                                                 $bytes_size = "0 bytes";
                                                             }
-                                                            echo $file_size; ?>
+                                                            echo  (isset($file_size)?$file_size:"") ; ?>
                                                         </h5>
                                                 </a>
                                             </div>

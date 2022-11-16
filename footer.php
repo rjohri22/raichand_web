@@ -4,16 +4,16 @@
         <div class="footer-bottom">
             <div class="row">
                 <div class="col-lg-2 col-md-2 text-center">
-                    <img src="assets/images/logo/footerlogo.png" class="footer-logo" style="height:60px;">
+                    <img src="<?php echo SITE_URL; ?>assets/images/logo/footerlogo.png" class="footer-logo" style="height:60px;">
                 </div>
                 <div class="col-lg-7 col-md-7">
                     <ul class="menu">
                         <!-- Modify 24/8/2022 start -->
-                        <li><a href="portal/press-release.php">Press Release</a></li> &nbsp;&nbsp;|
-                        <li><a href="portal/faq.php">FAQ </a></li> &nbsp;&nbsp;|
-                        <li><a href="portal/policies.php">Policies </a></li> &nbsp;&nbsp;|
-                        <li><a href="portal/investor-relations.php">Investor Relations</a></li>&nbsp;&nbsp;|
-                        <li><a href="careers.php" class="w-100">Careers</a></li>
+                        <li><a href="<?php echo SITE_URL; ?>portal/press-release.php">Press Release</a></li> &nbsp;&nbsp;|
+                        <li><a href="<?php echo SITE_URL; ?>portal/faq.php">FAQ </a></li> &nbsp;&nbsp;|
+                        <li><a href="<?php echo SITE_URL; ?>portal/policies.php">Policies </a></li> &nbsp;&nbsp;|
+                        <li><a href="<?php echo SITE_URL; ?>portal/investor-relations.php">Investor Relations</a></li>&nbsp;&nbsp;|
+                        <li><a href="<?php echo SITE_URL; ?>careers.php" class="w-100">Careers</a></li>
                         <!-- Modify 24/8/2022 end-->
                     </ul>
                     <!--Scroll to top Two-->
@@ -96,25 +96,25 @@
 
 <!--Scroll to top-->
 <div class="scroll-to-top scroll-to-target" data-target="html" style="display: block;"><span class="flaticon-right-arrow"></span></div>
-<script src="assets/js/jquery.js"></script>
+<script src="<?php echo SITE_URL; ?>assets/js/jquery.js"></script>
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-<script src="assets/js/popper.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
+<script src="<?php echo SITE_URL; ?>assets/js/popper.min.js"></script>
+<script src="<?php echo SITE_URL; ?>assets/js/bootstrap.min.js"></script>
 <!-- <script src="/assets/js/bootstrap2.0.min.js"></script> -->
-<script src="assets/js/bootstrap-select.min.js"></script>
-<script src="assets/js/jquery.fancybox.js"></script>
-<script src="assets/js/isotope.js"></script>
-<script src="assets/js/owl.js"></script>
-<script src="assets/js/appear.js"></script>
-<script src="assets/js/wow.js"></script>
-<script src="assets/js/lazyload.js"></script>
-<script src="assets/js/scrollbar.js"></script>
-<script src="assets/js/TweenMax.min.js"></script>
-<script src="assets/js/swiper.min.js"></script>
-<script src="assets/js/jquery.lettering.min.js"></script>
-<script src="assets/js/jquery.circleType.js"></script>
-<script src="assets/js/script.js"></script>
-<script src="assets/js/main.js"></script>
+<script src="<?php echo SITE_URL; ?>assets/js/bootstrap-select.min.js"></script>
+<script src="<?php echo SITE_URL; ?>assets/js/jquery.fancybox.js"></script>
+<script src="<?php echo SITE_URL; ?>assets/js/isotope.js"></script>
+<script src="<?php echo SITE_URL; ?>assets/js/owl.js"></script>
+<script src="<?php echo SITE_URL; ?>assets/js/appear.js"></script>
+<script src="<?php echo SITE_URL; ?>assets/js/wow.js"></script>
+<script src="<?php echo SITE_URL; ?>assets/js/lazyload.js"></script>
+<script src="<?php echo SITE_URL; ?>assets/js/scrollbar.js"></script>
+<script src="<?php echo SITE_URL; ?>assets/js/TweenMax.min.js"></script>
+<script src="<?php echo SITE_URL; ?>assets/js/swiper.min.js"></script>
+<script src="<?php echo SITE_URL; ?>assets/js/jquery.lettering.min.js"></script>
+<script src="<?php echo SITE_URL; ?>assets/js/jquery.circleType.js"></script>
+<script src="<?php echo SITE_URL; ?>assets/js/script.js"></script>
+<script src="<?php echo SITE_URL; ?>assets/js/main.js"></script>
 <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
 <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script> -->

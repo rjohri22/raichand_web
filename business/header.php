@@ -1,4 +1,9 @@
 <!DOCTYPE html>
+<?php
+include_once("../dbcon.php");
+define('SITE_URL', getSiteURL());
+
+?>
 <html lang="en">
 
 <head>
@@ -41,17 +46,17 @@
                 <div class="sidebar-body">
                     <ul class="list-unstyled components">
                          <li>
-                            <a href="/" class="">
+                            <a href="<?php echo SITE_URL; ?>" class="">
                                Home
                             </a>
                         </li>
                         <li>
-                            <a href="/about.php" class="">
+                            <a href="<?php echo SITE_URL; ?>about.php" class="">
                                 About Us
                             </a>
                         </li>
                         <li>
-                            <a href="/services.php" class="">
+                            <a href="<?php echo SITE_URL; ?>services.php" class="">
                                 Our Services
                             </a>
                         </li>
@@ -62,7 +67,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="/contact.php" class="">
+                            <a href="<?php echo SITE_URL; ?>contact.php" class="">
                                 Contact Us
                             </a>
                         </li>
