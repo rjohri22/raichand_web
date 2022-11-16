@@ -1,7 +1,14 @@
 <?php include 'header.php'; include("dbcon.php");
  
 ?>
-
+<style>
+    @media screen and (max-width:900px){
+        #forte
+        {
+            margin-top:100px;
+        }
+    }
+    </style>
 <div id="home">
     <nav id="navbar-float" class="floating-menu">
         <div class="main-menu">
@@ -2309,7 +2316,7 @@
 <section class="news-section" id="livestream">
     <div class="row">
         <div class="col-lg-3 mt-5">
-            <img src="assets/images/background/Live+Stream.gif" />
+            <img src="assets/images/background/Live+Stream.gif" style="margin-top:60px"/>
         </div>
         <div class="col-lg-9">
             <div class="outer-box">
