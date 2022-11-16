@@ -2,7 +2,16 @@
 function siteURL()
 {
     $protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off' || $_SERVER['SERVER_PORT'] == 443) ? "https://" : "http://";
-    $domainName = $_SERVER['HTTP_HOST'] . '/raichand_final/';
+   
+    if($_SERVER['HTTP_HOST']=="raichandgroup.com"){
+        
+        $domainName = $_SERVER['HTTP_HOST'] . '/';
+        }
+        else{
+    
+            $domainName = $_SERVER['HTTP_HOST'] . '/raichand_final/';
+        }
+
     return $protocol . $domainName;
 }
 
