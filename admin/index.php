@@ -239,7 +239,7 @@ if (!isset($_SESSION['verify'])) { ?>
                                     <div class="card">
                                         <div class="card-body bg-warning">
                                             <h3>Our Businesses</h3>
-                                            <img src="https://cdn2.iconfinder.com/data/icons/bubble-seo-internet-marketing-3/360/Press_Release-512.png" />
+                                            <img src="https://www.freeiconspng.com/thumbs/business-icon-png/our-featured-products-and-services--seattle-web-design-seattle-wa-16.png" />
                                         </div>
                                     </div>
                                 </a>
@@ -251,7 +251,7 @@ if (!isset($_SESSION['verify'])) { ?>
                                     <div class="card">
                                         <div class="card-body bg-warning">
                                             <h3>Periods</h3>
-                                            <img src="https://cdn2.iconfinder.com/data/icons/bubble-seo-internet-marketing-3/360/Press_Release-512.png" />
+                                            <img src="https://www.freeiconspng.com/thumbs/calendar-image-png/calendar-image-png-3.png" />
                                         </div>
                                     </div>
                                 </a>
@@ -263,7 +263,7 @@ if (!isset($_SESSION['verify'])) { ?>
                                     <div class="card">
                                         <div class="card-body bg-warning">
                                             <h3>Press Release</h3>
-                                            <img src="https://cdn2.iconfinder.com/data/icons/bubble-seo-internet-marketing-3/360/Press_Release-512.png" />
+                                            <img src="https://www.business2community.com/wp-content/uploads/2016/03/press-release.png.png" />
                                         </div>
                                     </div>
                                 </a>
@@ -276,7 +276,7 @@ if (!isset($_SESSION['verify'])) { ?>
                                     <div class="card">
                                         <div class="card-body bg-warning">
                                             <h3>FAQ</h3>
-                                            <img src="https://onetech.jp/frontend/img/faq/faq-icon.png" />
+                                            <img src="https://cdn-icons-png.flaticon.com/512/651/651009.png" />
                                         </div>
                                     </div>
                                 </a>
@@ -291,7 +291,7 @@ if (!isset($_SESSION['verify'])) { ?>
                                     <div class="card">
                                         <div class="card-body bg-warning">
                                             <h3>Policies</h3>
-                                            <img src="https://cdn8.bigcommerce.com/s-7m4ahgmq/product_images/uploaded_images/policy.png" />
+                                            <img src="https://freepikpsd.com/file/2019/10/reporting-png-6-Transparent-Images.png" />
                                         </div>
                                     </div>
                                 </a>
@@ -303,7 +303,7 @@ if (!isset($_SESSION['verify'])) { ?>
                                     <div class="card">
                                         <div class="card-body bg-warning">
                                             <h3>Invester</h3>
-                                            <img src="https://cdn3.iconfinder.com/data/icons/entrepreneur-and-business-startup/360/startup-founder-008-256.png" />
+                                            <img src="https://static.vecteezy.com/system/resources/thumbnails/010/872/530/small/3d-successful-investor-gaining-profit-png.png" />
                                         </div>
                                     </div>
                                 </a>
@@ -315,7 +315,7 @@ if (!isset($_SESSION['verify'])) { ?>
                                     <div class="card">
                                         <div class="card-body bg-warning">
                                             <h3>ContactUs </h3>
-                                            <img src="https://icon-library.com/images/contact-us-icon-png/contact-us-icon-png-1.jpg" />
+                                            <img src="https://baohothanhnam.com/images/ContactUs.png" />
                                         </div>
                                     </div>
                                 </a>
@@ -328,7 +328,7 @@ if (!isset($_SESSION['verify'])) { ?>
                                     <div class="card">
                                         <div class="card-body bg-warning">
                                             <h3>NewsLetters</h3>
-                                            <img src="https://cdn-icons-png.flaticon.com/512/2614/2614906.png" />
+                                            <img src="https://static.vecteezy.com/system/resources/thumbnails/008/486/047/small/incoming-e-mail-notify-online-mail-concept-unread-mail-notification-newsletter-new-message-alert-3d-rendering-illustration-png.png" />
                                         </div>
                                     </div>
                                 </a>
@@ -342,7 +342,7 @@ if (!isset($_SESSION['verify'])) { ?>
                                     <div class="card">
                                         <div class="card-body bg-warning">
                                             <h3>Service Creation</h3>
-                                            <img src="https://www.clipartmax.com/png/full/470-4708897_thx-consulting-icon-c-transparent-service-icon-png.png" />
+                                            <img src="https://static.helpjuice.com/helpjuice_production/uploads/upload/image/4752/direct/1645675984554-Customer%20Service%20Knowledge%20Base.png" />
                                         </div>
                                     </div>
                                 </a>
@@ -354,7 +354,7 @@ if (!isset($_SESSION['verify'])) { ?>
                                     <div class="card">
                                         <div class="card-body bg-warning">
                                             <h3>Email Template </h3>
-                                            <img src="https://www.clipartmax.com/png/full/470-4708897_thx-consulting-icon-c-transparent-service-icon-png.png" />
+                                            <img src="https://cdn-icons-png.flaticon.com/512/1540/1540055.png" />
                                         </div>
                                     </div>
                                 </a>
