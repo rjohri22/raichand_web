@@ -1,4 +1,7 @@
-<?php include 'header.php';?>
+<?php
+
+include 'header.php'; 
+ ?>
 <style>
 .accordion {
     background-color: #fff !important;
@@ -6,6 +9,17 @@
 
 .accordion:after {
     display: none;
+}
+@media screen and (max-width:900px) {
+    #view
+    {
+        width:160px;
+        height:300px;
+    }
+    #viewtext
+    {
+        font-size:16px;
+    }
 }
 
 </style>
@@ -113,6 +127,29 @@
 {
     animation-name:rotation;
     animation-duration:12s;
+    animation-iteration-count:infinite;
+    transition:all;
+    animation-delay:5s;
+}
+.dotCircle .itemDot {
+    display: block;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    background: #ffffff;
+    color: #000;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 30px;
+    z-index: 3;
+    cursor: pointer;
+    border: 2px solid #e6e6e6;
+}
+.itemDot
+{
+    animation-name:rotation;
+    animation-duration:20s;
     animation-iteration-count:infinite;
     transition:all;
     animation-delay:5s;
@@ -340,24 +377,24 @@
                               <div class="col-lg-12 col-md-12 text-center">
                                     <h3><strong>What are beliefs and values that are important to us as a company?</strong></h3>
                                 </div>
-                            <div class="feature-block-four col-lg-4 col-md-6">
+                            <div class="feature-block-four col-lg-4 col-md-6" id="view">
                                 <div class="inner-box">
                                     <div class="icon"><img src="assets/images/icons/icon-16.png" alt=""></div>
-                                    <h4>Leadership</h4>
+                                    <h4 id="viewtext">Leadership</h4>
                                     <div class="text"><p>The courage to shape a better future.</p></div>
                                 </div>
                             </div>
-                            <div class="feature-block-four col-lg-4 col-md-6">
+                            <div class="feature-block-four col-lg-4 col-md-6" id="view">
                                 <div class="inner-box">
                                     <div class="icon"><img src="assets/images/icons/icon-14.png" alt=""></div>
-                                    <h4>Collaboration </h4>
+                                    <h4 id="viewtext">Collaboration </h4>
                                     <div class="text"><p>Leverage collective genius.</p></div>
                                 </div>
                             </div>
-                            <div class="feature-block-four col-lg-4 col-md-6">
+                            <div class="feature-block-four col-lg-4 col-md-6" id="view">
                                 <div class="inner-box">
                                     <div class="icon"><img src="assets/images/icons/icon-15.png" alt=""></div>
-                                    <h4>Diversity</h4>
+                                    <h4 id="viewtext">Diversity</h4>
                                     <div class="text"><p>As inclusive as our brand.</p></div>
                                 </div>
                             </div>
@@ -383,7 +420,7 @@
                 <ul class="nav nav-tabs nav-justified" role="tablist">
                     <li class="nav-item">
                         <a class="nav-link active" data-toggle="tab" href="#supplier" role="tab"
-                            aria-controls="supplier" aria-selected="true">Suppliers</a>
+                            aria-controls="supplier" aria-selected="true">Vendors</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" data-toggle="tab" href="#customer" role="tab" aria-controls="customer"
@@ -530,7 +567,7 @@
             </div>
         </div>
     </section>
-<section class="team-section-two" id="core-team" style="background:white">
+    <section class="team-section-two" id="core-team" style="background:white">
     <div class="auto-container">
         <div class="sec-title text-center" style="margin-bottom:40px">
             <h2>Core Team</h2>
@@ -587,7 +624,6 @@
         </div>
     </div>
 </section>
-
  <!--   <section id="about" class="home-section text-center">-->
  <!--       <div class="container">-->
 	<!--	<div class="heading-about">-->
@@ -833,4 +869,19 @@
     </div>
 </section>
 
-<?php include 'footer.php';?>
+<?php include 'footer.php'; ?>
+<script>
+    $('.counter-count').each(function() {
+        $(this).prop('Counter', 0).animate({
+            Counter: $(this).text()
+        }, {
+
+            //chnage count up speed here
+            duration: 4000,
+            easing: 'swing',
+            step: function(now) {
+                $(this).text(Math.ceil(now));
+            }
+        });
+    });
+</script>

@@ -335,9 +335,9 @@ $selected = "";
                 while ($row = mysqli_fetch_assoc($result)) {
             ?>
                     <div class="col-lg-4 service-block-six">
-                        <div class="inner-box">
-                            <div class="image-box">
-                                <img class="lazy-image owl-lazy loaded" src="../../uploadimg/<?php echo $row['images']; ?>" data-src="../../assets/images/services/Enter.jpg" alt="" data-was-processed="true">
+                        <div class="inner-box" style="height:500px;width:380px">
+                            <div class="image-box" >
+                                <img class="lazy-image owl-lazy loaded" src="uploadimg/<?php echo $row['images']; ?>" data-src="assets/images/services/Enter.jpg" alt="" data-was-processed="true">
                                 <div class="overlay">
                                     <a href="/portal/services/<?php echo $row['slug']; ?>">
                                     <!-- <a href="services_detail/services_detail_page.php?id=<?php //echo $row['id']; ?>">                                     -->
