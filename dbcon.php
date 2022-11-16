@@ -2,11 +2,7 @@
 
 $host = $_SERVER['HTTP_HOST'];
 $con = "";
-
-echo $host;
-
-exit();
-
+ 
 
 if($host == 'raichandgroup.com'){
     $con = mysqli_connect('localhost', 'raichand_website_user', 'raichand@web22', 'raichand_website') or die('not connected');   
