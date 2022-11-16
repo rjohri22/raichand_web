@@ -39,7 +39,7 @@ include("../dbcon.php");
         font-family: "Font Awesome 5 Free";
         position: absolute;
         right: 0;
-        color: ##efe8e3;
+        color: red;
         font-size: 18px;
         font-weight: 600;
         margin-right: 2%;
@@ -50,7 +50,7 @@ include("../dbcon.php");
         content: "\f068";
         font-family: "Font Awesome 5 Free";
         font-weight: 600;
-        color: #efe8e3;
+        color: red;
         font-size: 18px;
     }
 
@@ -293,12 +293,12 @@ include("../dbcon.php");
                             }
                         }
                     </style>
-                        <div class="card-header" id="heading<?php echo $catValue['id']; ?>">
+                        <div class="card-body" id="heading<?php echo $catValue['id']; ?>">
                             <h5 class="mb-0">
                                 <button class="category_list_button btn btn-link <?php echo $collapsed; ?>" data-toggle="collapse" data-target="#collapse<?php echo $catValue['id']; ?>" aria-expanded="<?php echo $area_expanded; ?>" aria-controls="collapse<?php echo $catValue['id']; ?>" style="color:red">
 
                                     <!-- Category Title ---->
-                                    <span id="m"><?php echo ucfirst($catValue['category']); ?></span>
+                                    <span id="m" style="color:red;font-size:16px;"><?php echo ucfirst($catValue['category']); ?></span>
                                     <!-- Category Title ---->
 
                                 </button>
@@ -375,9 +375,9 @@ include("../dbcon.php");
                                                     <?php echo $value['file_name']; ?></strong></a> -->
 
                                                 <?php if ($value['file_type'] == 'pdf') { ?>
-                                                    <strong style="font-size:18px;color:black;margin-left:10px"> <?php echo $value['file_name']; ?></strong>
+                                                    <strong style="font-size:17px;;margin-left:10px;"> <?php echo $value['file_name']; ?></strong>
                                                 <?php } else { ?>
-                                                    <strong style="font-size:18px;color:black;margin-left:19px"> <?php echo $value['file_name']; ?></strong>
+                                                    <strong style="font-size:18px;margin-left:19px"> <?php echo $value['file_name']; ?></strong>
                                                 <?php } ?>
 
 
@@ -439,7 +439,7 @@ include("../dbcon.php");
 
 
 
-                                                    <h5 id="shdown" class="pdf-header me " style="color:black">Download
+                                                    <h5 id="shdown" class="pdf-header me " style="color:black;opacity:0.5">Download
                                                         <span style="margin-left:20px">
                                                             <img id="logo"  src="https://www.mahindra.com/assets/img/investor/icon-download-red.png" />
                                                         </span>
