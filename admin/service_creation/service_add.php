@@ -1,7 +1,6 @@
 <?php
 include '../sidebar.php';
-include "../../dbcon.php";
-
+ 
 ?>
 
 <div class="page-wrapper" style="min-height: 250px;">

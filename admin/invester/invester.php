@@ -1,7 +1,5 @@
-<?php include '../sidebar.php';
-include("../../dbcon.php");?>
-<?php
-
+<?php include '../sidebar.php'; 
+ 
 // include("config.php");
 
 $file_name= $file_size= $file_type= $year= $month= $invester_category= $tags= $msg="";
