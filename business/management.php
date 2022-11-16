@@ -130,35 +130,8 @@ include '../dbcon.php';
         <div class="row">
             <div class="col-12 col-md-12 col-lg-12">
                 <ul class="nav nav-tabs nav-justified sub_cat" role="tablist">
-                    <?php
-// if( isset($_POST['id']) ){
-//     echo $_POST['id'];
-//     exit;
-//   }
-                    $query =  $con->query("SELECT * FROM  cat WHERE parent_id = 1 ORDER BY id ASC");
-                    if ($query->num_rows > 0) {
-                        // print_r($query); exit;
-                        while ($row = $query->fetch_assoc()) {
-                        // php echo "sqwlslwqkslkq".$row['id'];
-                    ?>
-                    
-                    
-                    <li class="nav-item" id="li_<?php echo $row['id'];?>">
-                        
-                        <a class="nav-link" data-toggle="tab" id="<?php echo $row['id'];?>" role="tab" aria-controls="one" aria-selected="true"><?php echo $row['categories'];?></a>
-                    </li>   
-                    <?php } // if closing  
-                          } // while closing
-                    ?>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#two" role="tab" aria-controls="two" aria-selected="false"> Strategy & Growth</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#three" role="tab" aria-controls="three" aria-selected="false"> Customer Experience</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" data-toggle="tab" href="#four" role="tab" aria-controls="four" aria-selected="false"> Business Restructuring </a>
-                    </li> -->
+                  
+                
                 </ul>
                 <div class="tab-content mt-3">
                     <div class="tab-pane active" id="one" role="tabpanel" aria-labelledby="one-tab">

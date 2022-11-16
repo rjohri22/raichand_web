@@ -28,7 +28,7 @@ $html = "";
         $sql = "SELECT * FROM `service` WHERE `is_del` = 0 AND `cat_f`LIKE '%$bname%'";
         $result = mysqli_query($con, $sql);
     }
-        if (mysqli_num_rows($result)>0)
+        if (  isset($_POST["id"]) && mysqli_num_rows($result)>0)
         {
             // function limit_text($text, $limit) {
             //     if (str_word_count($text, 0) > $limit) {
