@@ -1,7 +1,5 @@
-<?php include '../sidebar.php';?>
-
-
-
+<?php include '../sidebar.php';
+ 
 $policies_categories = "";
 
 if(isset($_POST['submit']))

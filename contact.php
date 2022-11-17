@@ -1,6 +1,5 @@
 <?php include 'header.php';
-include "dbcon.php";
-
+ 
 ?>
 
 <link href="Mobilestyle.css" rel="stylesheet"/>
