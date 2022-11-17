@@ -1,5 +1,4 @@
-<?php include '../sidebar.php';?>
-<?php
+<?php include '../sidebar.php';
  
 $policies_categories = "";
 
@@ -15,7 +14,7 @@ if(isset($_POST['submit']))
         if ($row) {
 
             echo "<script>$(document).ready(function(){
-                setSuccessAlert('" . SITE_URL . "admin/policies/categories_list.php','Good job!','Data submitted successfully'); 
+                setSuccessAlert('categories_list.php','Good job!','Data submitted successfully'); 
             });</script>";
             
         } else {

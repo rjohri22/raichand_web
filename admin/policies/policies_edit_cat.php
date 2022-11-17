@@ -1,5 +1,4 @@
-<?php include '../sidebar.php';?>
-<?php
+<?php include '../sidebar.php'; 
  
 if (isset($_GET['id'])) {
     $q  = "SELECT * FROM policies_cat where id = " . $_GET['id'];

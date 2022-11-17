@@ -7,7 +7,7 @@ include("../../dbcon.php");
 
 $result = mysqli_query($con, $sql) or die(" Query unsuccessful.");
 
-header("location: /admin/policies/categories_list.php");
+header("location: categories_list.php");
 
 mysqli_close($con);
 ?>

@@ -7,7 +7,7 @@ $sql = "DELETE FROM emailtemplate WHERE id = {$new_id}";
 
 $result = mysqli_query($con, $sql) or die(" Query unsuccessful.");
 
-header("location: /admin/emailtemplate/");
+header("location: index.php");
 
 mysqli_close($con);
 ?>
