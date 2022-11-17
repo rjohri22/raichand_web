@@ -1,5 +1,4 @@
-<?php include '../header.php';
-include('../dbcon.php');?>
+<?php include '../header.php'; ?>
 <style>
     label {
         display: inline-block;

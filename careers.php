@@ -1,6 +1,5 @@
 <?php 
-include 'header.php'; 
-include("dbcon.php");
+include 'header.php';  
 ?>
 
 <section class="page-title" style="background-image: url(assets/images/breadcrum/about.png);">

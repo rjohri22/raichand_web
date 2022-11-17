@@ -1,5 +1,4 @@
-<?php include '../header.php';
-include("../dbcon.php");
+<?php include '../header.php'; 
  
 ?>
 <!-- link add for pdf xlsx... icon  -->
