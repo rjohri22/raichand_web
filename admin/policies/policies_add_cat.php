@@ -1,6 +1,5 @@
 <?php include '../sidebar.php';?>
-<?php
-include("../../dbcon.php");
+
 
 
 $policies_categories = "";
@@ -17,7 +16,7 @@ if(isset($_POST['submit']))
         if ($row) {
 
             echo "<script>$(document).ready(function(){
-                setSuccessAlert('" . SITE_URL . "admin/policies/categories_list.php','Good job!','Data submitted successfully'); 
+                setSuccessAlert('categories_list.php','Good job!','Data submitted successfully'); 
             });</script>";
             
         } else {

@@ -1,6 +1,4 @@
 <?php include '../sidebar.php';
-include("../../dbcon.php"); ?>
-<?php
 
 $bname = $title = $description = $polocies_categories = "";
 
@@ -123,9 +121,9 @@ if (isset($_POST['submit'])) {
                             </div>
                             <div class="form-group mb-4">
                                 <div class="col-sm-12">
-                                    <button type="submit" name="submit" value="submit" class="btn btn-success">Submit</button>
+                                    <button type="submit" name="submit" value="submit" class="btn btn-warning text-white">Submit</button>
                                      <!-- Modify 24/8/2022 start -->
-                                        <a href="/admin/policies/"><button type="button" class="btn btn-outline-success">Cancel</button></a>
+                                        <a href="./"><button type="button" class="btn btn-warning text-white">Cancel</button></a>
                                     <!-- Modify 24/8/2022 end -->
                                     <!-- <button class="btn btn-success">Update Profile</button> -->
                                 </div>

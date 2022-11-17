@@ -1,6 +1,5 @@
 <?php include '../sidebar.php';?>
-<?php
-include("../../dbcon.php");
+
 
 
 if (isset($_GET['id'])) {
