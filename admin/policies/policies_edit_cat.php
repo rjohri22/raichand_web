@@ -1,8 +1,6 @@
 <?php include '../sidebar.php';?>
 <?php
-include("../../dbcon.php");
-
-
+ 
 if (isset($_GET['id'])) {
     $q  = "SELECT * FROM policies_cat where id = " . $_GET['id'];
     $item = $con->query($q);

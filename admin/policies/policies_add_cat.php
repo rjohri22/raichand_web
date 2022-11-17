@@ -1,8 +1,6 @@
 <?php include '../sidebar.php';?>
 <?php
-include("../../dbcon.php");
-
-
+ 
 $policies_categories = "";
 
 if(isset($_POST['submit']))
