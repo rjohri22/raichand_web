@@ -63,7 +63,7 @@ if(isset($_GET['delete'])){
                                         <td><?= $counter; ?></td>
                                         <td><?= $row['email']; ?></td>
                                         <td>
-                                            <a class="btn btn-danger" onclick="setdltAlert('delete.php?id=<?php echo $row['id']; ?>')"><i class="fa fa-trash" style="color: #fff;"></a>
+                                            <a class="btn" onclick="setdltAlert('delete.php?id=<?php echo $row['id']; ?>')"><img src="https://cdn.icon-icons.com/icons2/1808/PNG/512/trash-can_115312.png" style="height:40px;width:40px"/></a>
                                             <!-- <a class="btn btn-danger" onclick="return confirm('are you sure?')" href="delete.php?id=<?php echo $row['id']; ?>"><i class="fa fa-trash" style="color: #fff;"></a> -->
 
                                         </td>
