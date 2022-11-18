@@ -158,55 +158,55 @@ include 'header.php';
                 <div class="holderCircle">
                     <div class="round"></div>
                     <div class="dotCircle" >
-                        <span class="itemDot itemDot1" data-tab="1" style="left: 412px; top: 212px; transform: rotate(36deg); transition: all 2s ease 0s;">
+                        <span class="itemDot itemDot1" data-toggle="tab" role="tab" href="#tab1" style="left: 412px; top: 212px; transform: rotate(36deg); transition: all 2s ease 0s;">
                             <img src="assets/images/pillar/reputation.png" style="height:45px;">
                             <span class="forActive"></span>
                         </span>
-                        <span class="itemDot itemDot2 active" data-tab="2" style="left: 337px; top: 368px; transform: rotate(36deg); transition: all 1s ease 0s;">
+                        <span class="itemDot itemDot2 active" data-toggle="tab" role="tab" href="#tab2" style="left: 337px; top: 368px; transform: rotate(36deg); transition: all 1s ease 0s;">
                             <img src="assets/images/pillar/relations.png" style="height:45px;">
                             <span class="forActive"></span>
                         </span>
-                        <span class="itemDot itemDot3" data-tab="3" style="left: 167px; top: 407px; transform: rotate(36deg); transition: all 1s ease 0s;">
+                        <span class="itemDot itemDot3" data-toggle="tab" role="tab" href="#tab3" style="left: 167px; top: 407px; transform: rotate(36deg); transition: all 1s ease 0s;">
                             <img src="assets/images/pillar/originality.png" style="height:45px;">
                             <span class="forActive"></span>
                         </span>
-                        <span class="itemDot itemDot4" data-tab="4" style="left: 32px; top: 299px; transform: rotate(36deg); transition: all 1s ease 0s;">
+                        <span class="itemDot itemDot4" data-tab="4" data-toggle="tab" role="tab" href="#tab4" style="left: 32px; top: 299px; transform: rotate(36deg); transition: all 1s ease 0s;">
                             <img src="assets/images/pillar/integrity.png" style="height:45px;">
                             <span class="forActive"></span>
                         </span>
-                        <span class="itemDot itemDot5" data-tab="5" style="left: 32px; top: 125px; transform: rotate(36deg); transition: all 1s ease 0s;">
+                        <span class="itemDot itemDot5" data-toggle="tab" role="tab" href="#tab5" style="left: 32px; top: 125px; transform: rotate(36deg); transition: all 1s ease 0s;">
                             <img src="assets/images/pillar/profit.png" style="height:45px;">
                             <span class="forActive"></span>
                         </span>
-                        <span class="itemDot itemDot6" data-tab="6" style="left: 167px; top: 17px; transform: rotate(36deg); transition: all 1s ease 0s;">
+                        <span class="itemDot itemDot6" data-toggle="tab" role="tab" href="#tab6" style="left: 167px; top: 17px; transform: rotate(36deg); transition: all 1s ease 0s;">
                             <img src="assets/images/pillar/mobility.png" style="height:45px;">
                             <span class="forActive"></span>
                         </span>
-                        <span class="itemDot itemDot7" data-tab="7" style="left: 337px; top: 56px; transform: rotate(36deg); transition: all 1s ease 0s;">
+                        <span class="itemDot itemDot7" data-toggle="tab" role="tab" href="#tab7" style="left: 337px; top: 56px; transform: rotate(36deg); transition: all 1s ease 0s;">
                             <img src="assets/images/pillar/visibility.png" style="height:45px;">
                             <span class="forActive"></span>
                         </span>
                     </div>
-                    <div class="contentCircle">
-                        <div class="CirItem title-box CirItem1">
+                    <div class="contentCircle tab-content">
+                        <div id="tab1" class="tab-pane CirItem title-box CirItem1">
                             <h2 class="title"><span>Reputation</span></h2>
                         </div>
-                        <div class="CirItem title-box CirItem2 active">
+                        <div id="tab2" class="tab-pane CirItem title-box CirItem2 active" >
                             <h2 class="title"><span>Relationship </span></h2>
                         </div>
-                        <div class="CirItem title-box CirItem3">
+                        <div id="tab3" class="tab-pane CirItem title-box CirItem3">
                             <h2 class="title"><span>Originality</span></h2>
                         </div>
-                        <div class="CirItem title-box CirItem4">
+                        <div id="tab4" class="tab-pane CirItem title-box CirItem4">
                             <h2 class="title"><span>Integrity</span></h2>
                         </div>
-                        <div class="CirItem title-box CirItem5">
+                        <div id="tab5" class="tab-pane CirItem title-box CirItem5">
                             <h2 class="title"><span>Profitability</span></h2>
                         </div>
-                        <div class="CirItem title-box CirItem6">
+                        <div id="tab6" class="tab-pane CirItem title-box CirItem6">
                             <h2 class="title"><span>Mobility</span></h2>
                         </div>
-                        <div class="CirItem title-box CirItem7">
+                        <div id="tab7" class="tab-pane CirItem title-box CirItem7">
                             <h2 class="title"><span>Visibility</span></h2>
                         </div>
                     </div>
