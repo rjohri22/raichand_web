@@ -48,8 +48,8 @@ if(isset($_POST['submit'])){
     $upload_image_detail=$_FILES["image_detail"]["name"];
     $temp_name_detail = $_FILES["image_detail"]["tmp_name"];
 
-    move_uploaded_file($temp_name,  $_SERVER['DOCUMENT_ROOT'].'/'.'uploadimg/'.$_FILES["image"]["name"]);
-    move_uploaded_file($temp_name_detail,  $_SERVER['DOCUMENT_ROOT'].'/'.'uploadimg/'.$_FILES["image_detail"]["name"]);
+    move_uploaded_file($temp_name,  DOCROOT.'uploadimg/'.$_FILES["image"]["name"]);
+    move_uploaded_file($temp_name_detail, DOCROOT.'uploadimg/'.$_FILES["image_detail"]["name"]);
 
     
     // $filename=$_FILES['image']['name'];

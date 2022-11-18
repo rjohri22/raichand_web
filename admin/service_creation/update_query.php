@@ -79,9 +79,9 @@ if(isset($_POST['submit'])){
     $query=mysqli_query($con,$q);      
 
 }
-// echo "<script type='text/javascript'>
-// window.location.href = 'index.php?update=done';
-// </script>";
+echo "<script type='text/javascript'>
+window.location.href = 'index.php?update=done';
+</script>";
 // header("Location: ".SITEURL."admin/service_creation");exit();
 
 

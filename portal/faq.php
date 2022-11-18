@@ -45,7 +45,7 @@
                             <div class="accordion">
                                 <?php
                                     
-                                    $q = "SELECT * FROM faq where `tag` = 'suppliers' order by order_num desc";
+                                    $q = "SELECT * FROM faq where `tag` = 'Vendors' order by order_num desc";
                                     $result = $con->query($q);
                                     while($row = mysqli_fetch_assoc($result))
                                     {
