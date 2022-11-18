@@ -25,7 +25,7 @@
                             <button type="submit" class="theme-btn" id="signup-button"><i class="flaticon-send"></i></button>
                             <label for="subscribe-email" class="subscribe-message error" style="">
                                 <i class="fa fa-warning"></i>
-                                <span class="message-content" id="sp_email_newsletter_subscription" style="color:#fff;">sfsafdasfsaf</span>
+                                <span class="message-content" id="sp_email_newsletter_subscription" style="color:#fff;"> </span>
                             </label>
                         </div>
 

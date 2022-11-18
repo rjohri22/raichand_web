@@ -1,6 +1,7 @@
 <?php
 
 include "../../dbcon.php" ;
+ 
 
 // print_r($_POST);exit;
 // if(isset($_POST['anajan'])){
@@ -10,7 +11,8 @@ include "../../dbcon.php" ;
     
 // echo "dgdfgdfgd";exit;
 //    echo "<pre>"; print_r($_POST);exit;
-// }
+// } 
+
 if(isset($_POST['submit'])){
     
     $id=$_POST['id'];
@@ -57,7 +59,7 @@ if(isset($_POST['submit'])){
         $image1 = $existing_image;
     }
     else{
-        move_uploaded_file($temp_name,  $_SERVER['DOCUMENT_ROOT'].'/'.'uploadimg/'.$_FILES["image"]["name"]);
+        move_uploaded_file($temp_name, DOCROOT.'uploadimg/'.$_FILES["image"]["name"]);
         $image1 = $upload_image;
     }
 
@@ -65,7 +67,7 @@ if(isset($_POST['submit'])){
         $image2 = $existing_image_detail;
     }
     else{
-        move_uploaded_file($temp_name_detail,  $_SERVER['DOCUMENT_ROOT'].'/'.'uploadimg/'.$_FILES["image_detail"]["name"]);
+        move_uploaded_file($temp_name_detail,   DOCROOT.'uploadimg/'.$_FILES["image_detail"]["name"]);
         $image2 = $upload_image_detail;
     }
 
@@ -77,9 +79,9 @@ if(isset($_POST['submit'])){
     $query=mysqli_query($con,$q);      
 
 }
-echo "<script type='text/javascript'>
-window.location.href = 'index.php?update=done';
-</script>";
+// echo "<script type='text/javascript'>
+// window.location.href = 'index.php?update=done';
+// </script>";
 // header("Location: ".SITEURL."admin/service_creation");exit();
 
 

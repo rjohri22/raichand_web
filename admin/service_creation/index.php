@@ -110,9 +110,9 @@ if(isset($_GET['delete'])){
                                             <td><?= $row['modify']; ?></td>
                                             <!-- <td><?= $row['short_description']; ?></td> -->
                                             <!-- <td><?= $row['long_description']; ?></td> -->
-                                            <td><img src="<?= '/uploadimg'.'/'.$row['images']; ?>" alt="" hight="50px" width="50px"></td>
+                                            <td><img src="<?= SITEURL.'uploadimg'.'/'.$row['images']; ?>" alt="" hight="50px" width="50px"></td>
 
-                                            <td><img src="<?= '/uploadimg'.'/'.$row['image_detail']; ?>" alt="" hight="50px" width="50px"></td>
+                                            <td><img src="<?= SITEURL.'uploadimg'.'/'.$row['image_detail']; ?>" alt="" hight="50px" width="50px"></td>
 
                                             <!-- <td><?//= $row['tag']; ?></td> -->
                                             
@@ -149,7 +149,7 @@ if(isset($_GET['delete'])){
                                             <!-- <input type="submit" class="btn btn-success" name="submit" value="submit"></input> -->
                                             <!-- <?php //echo $row['id']; exit;?> -->
                                                 <a href="update.php?edit_id=<?= $row['id']; ?>"><button type="button" class="btn"><img src="https://cdn.pixabay.com/photo/2017/06/06/00/33/edit-icon-2375785_1280.png" style="height:40px;width:40px"/></button></a>
-                                                <a onclick="setdltAlert('delete.php?delete_id=<?= $row['id']; ?>')"><button type="button" class="btn"><img src="https://cdn.icon-icons.com/icons2/1808/PNG/512/trash-can_115312.png" style="height:40px;width:40px"/></button></a>
+                                                <a onclick="setdltAlert('delete.php?delete_id=<?= $row['id']; ?>')"><button type="button" class="btn"><img src="http://cdn.icon-icons.com/icons2/1808/PNG/512/trash-can_115312.png" style="height:40px;width:40px"/></button></a>
                                                 <!-- <a onclick="return confirm('are you sure?')" href="delete.php?delete_id=<?= $row['id']; ?>"><button type="button" class="btn btn-danger"><i class='fas fa-trash-alt' style="color: #fff;"></i></button></a> -->
 
                                             </td>

@@ -25,8 +25,23 @@ function getSiteURL()
     }
     return $protocol . $domainName;
 }
-define('SITEURL', getSiteURL());
 
+function getDocRootPath(){
+
+    if($_SERVER['HTTP_HOST']=="raichandgroup.com"){
+
+        $docroot= $_SERVER['DOCUMENT_ROOT'];
+        
+    }
+    else{
+
+        $docroot= $_SERVER['DOCUMENT_ROOT'].'/raichand_final/';
+    }
+    
+    return       $docroot;
+}
+define('SITEURL', getSiteURL());
+define('DOCROOT',getDocRootPath());
 if (!$con) {
     die("Connection failed: " . mysqli_connect_error());
 } else {
