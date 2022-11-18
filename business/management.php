@@ -1198,6 +1198,34 @@ include 'dbcon.php';
                                                     </div>
                                                 </div>
                                             </div>
+                                            <div class="service-block-three">
+                                                <div class="inner-box">
+                                                    <div class="image"><img src="../assets/images/services/Productive Organization 1.jpg" alt=""></div>
+                                                    <div class="content">
+                                                        <h5>Productive Organization</h5>
+                                                        <div class="icon"><span class="flaticon-question"></span></div>
+                                                        <a href="/services/Productive-Organization-Design.php" class="read-more-link">Read More <i
+                                                                class="fa fa-caret-right"></i></a>
+                                                    </div>
+                                                    <div class="overlay-content">
+                                                        <div class="content-wrapper">
+                                                            <div class="icon-box">
+                                                                <div class="icon"><span
+                                                                        class="flaticon-question"></span></div>
+                                                                <h4>Productive Organization</h4>
+                                                            </div>
+                                                            <div class="outer-box">
+                                                                <div class="text">We work with our clients to design and implement new organizational structures and 
+                                                                    operational processes...
+
+                                                                </div>
+                                                                <a href="/services/Productive-Organization-Design.php" class="read-more-link">Read
+                                                                    More <i class="fa fa-caret-right"></i></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
 
                                             <div class="service-block-three">
                                                 <div class="inner-box">
