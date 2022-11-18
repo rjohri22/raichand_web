@@ -236,7 +236,7 @@
             </div>
             <div class="col-lg-8">
 
-                <form method="post" action="/api/contact_us.php" class="contact-form">
+                <form method="post" action="<?php echo SITEURL; ?>api/contact_us.php" class="contact-form">
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="anonymous" onclick="checkme()">
                         <label class="form-check-label" for="flexCheckDefault" style="font-size:18px;margin-left:15px;">

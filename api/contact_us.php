@@ -1,6 +1,5 @@
 <?php
-
-include("../dbcon.php");
+include_once("../sendmail.php"); 
 header('Content-Type: application/json; charset=utf-8');
 session_start();
 error_reporting(E_ALL);
@@ -67,7 +66,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             // echo "rklfhjdhfjd";exit;
             $email = $_POST['email'];          // ================ recever mail 
             // print_r($email);exit;
-            $subject = "Simple Email Test via PHP"; // ========================= subject 
+            $subject = "Raichand Group : Contact Us Submitted"; // ========================= subject 
             $body = "We received your application for the bussiness name we get back to you shortly";  //================ main content
             $headers = "";
 
@@ -85,6 +84,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                       Type: $type
                       Message: $message";  //================ main content
             $headers1 = "";
+
+            sendHtmlMail(    $email,$subject,$body);
             //================================= websolution@gamil.com
             // try {
 
@@ -105,22 +106,22 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             // }
 
 
-            if (mail($email, $subject, $body, $headers)) {
-                if(mail($email1, $subject1, $body1, $headers1)){
-                    // echo "Email successfully sent to...";
-                    header("location: /contact.php?status=success");
+            // if (mail($email, $subject, $body, $headers)) {
+            //     if(mail($email1, $subject1, $body1, $headers1)){
+            //         // echo "Email successfully sent to...";
+            //         header("location: /contact.php?status=success");
 
-                exit;
-                }
-            } else {
-                echo "Email sending failed...";
-                exit;
-            }
+            //     exit;
+            //     }
+            // } else {
+            //     echo "Email sending failed...";
+            //     exit;
+            // }
             // echo "done";exit; 
-            header("location: /contact.php?status=success");
+            header("location: ".SITEURL."contact.php?status=success");
         } else {
             // echo "not done";exit;
-            header("location: /contact.php?status=fail");
+            header("location: ".SITEURL."contact.php?status=fail");
         }
     // } 
     // else {
