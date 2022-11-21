@@ -227,7 +227,8 @@ if (!isset($_SESSION['verify'])) { ?>
             <!-- ============================================================== -->
             <!-- Bread crumb and right sidebar toggle -->
             <!-- ============================================================== -->
-            <div class="page-breadcrumb bg-white">
+          
+            <div class="page-breadcrumb bg-white" id="breadcrumb">
                 <div class="container-fluid">
                     <!-- ============================================================== -->
                     <!-- Three charts -->

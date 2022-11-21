@@ -15,7 +15,15 @@ if(isset($_GET['delete'])){
 }
 
 ?>
-<div class="page-wrapper" style="min-height: 250px;">
+<style>
+@media screen and (max-width:820px){
+    #ourbusiness
+    {
+        width:100%;
+    }
+}
+</style>
+<div class="page-wrapper" style="min-height: 250px;" id="ourbusiness">
     <div class="page-breadcrumb bg-white">
         <div class="row align-items-center">
             <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
@@ -32,7 +40,7 @@ if(isset($_GET['delete'])){
         </div>
         <!-- /.col-lg-12 -->
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid" >
         <div class="row">
             <div class="col-sm-12">
                 <div class="white-box">

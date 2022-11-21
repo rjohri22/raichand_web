@@ -79,7 +79,7 @@ if (!isset($_SESSION['verify'])) {
             <div class="lds-pos"></div>
         </div>
     </div> -->
-    <div id="main-wrapper" data-layout="vertical" data-navbarbg="skin5" data-sidebartype="full" data-sidebar-position="absolute" data-header-position="absolute" data-boxed-layout="full">
+    <div id="main-wrapper" data-layout="vertical" data-navbarbg="skin5" data-sidebartype="full" data-sidebar-position="absolute" data-header-position="absolute" data-boxed-layout="full" class="mainpart">
         <header class="topbar" data-navbarbg="skin5">
             <nav class="navbar top-navbar navbar-expand-md navbar-dark">
                 <div class="navbar-header" data-logobg="skin6">
@@ -104,6 +104,11 @@ if (!isset($_SESSION['verify'])) {
         {
             margin-right:100px;
         }
+        #block 
+        {
+            width:200px;
+        }
+        
     }
 </style>
                     <ul id="logoutbutton" class="navbar-nav ms-auto d-flex align-items-center">
@@ -123,7 +128,7 @@ if (!isset($_SESSION['verify'])) {
                 </div>
             </nav>
         </header>
-        <aside class="left-sidebar" data-sidebarbg="skin6">
+        <aside class="left-sidebar" data-sidebarbg="skin6" id="block">
             <!-- Sidebar scroll-->
             <div class="scroll-sidebar">
                 <!-- Sidebar navigation-->
