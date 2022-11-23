@@ -5,7 +5,7 @@ $con = "";
  
 
 if($host == 'raichandgroup.com'){
-    $con = mysqli_connect('localhost', 'raichand_website_user', 'raichand@web22', 'raichand_website') or die('not connected');   
+    $con = mysqli_connect('localhost', 'raichand_website_user', 'modern@2022', 'raichand_website') or die('not connected');   
 }
 else{
 
