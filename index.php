@@ -11,6 +11,10 @@ include("dbcon.php");
         {
             margin-top:100px;
         }
+        #moveService
+        {
+            margin-top:50px!important;
+        }
     }
     </style>
 <div id="home">
@@ -1163,7 +1167,7 @@ include("dbcon.php");
                     <!--                                        <div class="icon-box">-->
 
    
-<section class="services-details" id="benifit&value " style="margin-bottom:-100px!important" >
+<section id="moveService" class="services-details" id="benifit&value " style="margin-bottom:-100px!important" >
     <div class="auto-container">
         <div class="row">
             <div class="col-12 col-md-12 col-lg-12">

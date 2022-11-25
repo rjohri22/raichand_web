@@ -154,6 +154,25 @@ include 'header.php';
     transition:all;
     animation-delay:5s;
 }
+@media screen and (max-width:500px){
+    .dotCircle .itemDot {
+    /* display: block; */
+    width: 80px;
+    height: 80px;
+    margin-left:-100px;
+    margin-top:-100px;
+    position: absolute;
+    background: #ffffff;
+    color: #000;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 80px;
+    font-size: 30px;
+    z-index: 3;
+    cursor: pointer;
+    border: 2px solid #e6e6e6;
+}
+}
         </style>
                 <div class="holderCircle">
                     <div class="round"></div>

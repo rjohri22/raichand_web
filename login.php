@@ -108,7 +108,21 @@ else{
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link href="assets/css/main.css" rel="stylesheet">
 </head>
-
+<style>
+@media screen and (max-width:920px)
+{
+    #loginbutton
+    {
+    height:60px!important;
+    margin-bottom:50px;
+    font-size:14px;
+    }
+    #forgetbutton
+    {
+        font-size:14px;
+    }
+}
+</style>
 <body>
     <div class="box">
 
@@ -152,13 +166,13 @@ else{
                             <form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
                                 <input type="text" class="text" name="username" placeholder="User Name" required="" autofocus>
                                 <input type="password" class="password" name="password" placeholder="User Password" required="" autofocus>
-                                <button style="border:0px;background-color:transparent" class="theme-btn btn-style-one mb-30" type="submit" name="submit" ><span class="btn-title">Log In</span></button>
+                                <button id="loginbutton" style="border:0px;background-color:transparent" class="theme-btn btn-style-one mb-30" type="submit" name="submit" ><span class="btn-title">Log In</span></button>
                                     
 
                                  
                             </form>
 
-                            <button style="border:0px;background-color:transparent;margin-top:-80px" class="theme-btn btn-style-one mb-30" ><a href="forgot.php" style="text-decoration:none;color:white"><span class="btn-title">Forgot Password</span></a></button>
+                            <button id="forgetbutton" style="border:0px;background-color:transparent;margin-top:-80px" class="theme-btn btn-style-one mb-30" ><a href="forgot.php" style="text-decoration:none;color:white"><span class="btn-title">Forgot Password</span></a></button>
 
                         </div>
 
