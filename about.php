@@ -668,7 +668,6 @@ include 'header.php';
                     <div class="lower-content lower-content1">
                         <center>
                         <div class="designation">Chair Person</div>
-                        <h4 id="t22" style="background-color:black;color:white">Chair Person</h4>
                         <h4 id="t1">Sushma Raichand</h4>
                         </center>
                     </div>
@@ -680,7 +679,7 @@ include 'header.php';
                     <div class="lower-content lower-content1">
                         <center>
                         <div class="designation">Founder  &amp; Group CEO</div>
-                        <h4 id="t22" style="background-color:black;color:white">Founder  &amp; Group CEO</h4>
+                     
                         <h4 id="t1">Samrat Raichand</h4>
                         </center>
                     </div>
@@ -692,7 +691,7 @@ include 'header.php';
                     <div class="lower-content lower-content1">
                         <center>
                         <div class="designation">Group COO</div>
-                        <h4 id="t22" style="background-color:black;color:white">Group COO</h4>
+                    
                         <h4 id="t1">Aayush Raichand</h4>
                         </center>
                     </div>
