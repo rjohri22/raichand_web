@@ -68,7 +68,7 @@ include 'header.php';
     }
     #raichandr 
     {
-        margin-top:50px;
+        margin-top:50px!important;
     }
 }
 @media screen and (min-width:1000px){
