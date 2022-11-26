@@ -58,6 +58,10 @@ include 'header.php';
     {
         font-size:10px!important;
     }
+    #company 
+    {
+        margin-top:-200px!important;
+    }
 }
 @media screen and (min-width:1000px){
     #t22
@@ -147,8 +151,8 @@ include 'header.php';
                     <!--</div>-->
                     <!--<div class="logo"><img src="assets/images/business-logo/12-logo.png" alt=""></div>-->
                      <div class="sec-title text-center">
-            <div class="col-lg-12 col-md-12 text-center" style="text-align:center;">
-                <h2>Company Pillars
+            <div class="col-lg-12 col-md-12 text-center" id="company" style="text-align:center;">
+                <h2 >Company Pillars
                 </h2>
             </div>
             <div class="text-decoration">
