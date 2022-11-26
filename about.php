@@ -48,7 +48,7 @@ include 'header.php';
     {
         height:200px;
         width:200px;
-        margin-left:130px;
+        margin-left:100px;
     }
     .feature-block-four
     {
