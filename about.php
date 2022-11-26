@@ -46,7 +46,7 @@ include 'header.php';
     .lower-content1
     {
         width:125px!important;
-        height:60px!important;
+        /* height:60px!important; */
 
     }
     #fatherimage
