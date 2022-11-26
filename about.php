@@ -60,7 +60,11 @@ include 'header.php';
     }
     #company 
     {
-        margin-top:50px!important;
+        margin-top:10px!important;
+    }
+    .holderCircle 
+    {
+        margin-top:20px!important;
     }
 }
 @media screen and (min-width:1000px){
