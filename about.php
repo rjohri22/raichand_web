@@ -52,7 +52,7 @@ include 'header.php';
     }
     .feature-block-four
     {
-        width:100px!important;
+        width:120px!important;
     }
     .te4
     {
