@@ -22,7 +22,7 @@ include 'header.php';
     }
     .team-block-one 
     {
-        width:150px;
+        width:130px;
         height:150px;
     }
     .designation 
@@ -72,7 +72,7 @@ include 'header.php';
     }
     .vtext 
     {
-        font-size:12px!important;
+        font-size:15px!important;
     }
 }
 @media screen and (min-width:1000px){
@@ -458,21 +458,21 @@ include 'header.php';
                             <div class="feature-block-four col-lg-4 col-md-6" id="view">
                                 <div class="inner-box">
                                     <div class="icon"><img src="assets/images/icons/icon-16.png" alt=""></div>
-                                    <h4 id="viewtext vtext">Leadership</h4>
+                                    <h4 id="viewtext " class="vtext">Leadership</h4>
                                     <div class="text te4"><p class="te4">The courage to shape a better future.</p></div>
                                 </div>
                             </div>
                             <div class="feature-block-four col-lg-4 col-md-6" id="view">
                                 <div class="inner-box">
                                     <div class="icon"><img src="assets/images/icons/icon-14.png" alt=""></div>
-                                    <h4 id="viewtext vtext">Collaboration </h4>
+                                    <h4 id="viewtext " class="vtext">Collaboration </h4>
                                     <div class="text te4"><p class="te4">Leverage collective genius.</p></div>
                                 </div>
                             </div>
                             <div class="feature-block-four col-lg-4 col-md-6" id="view">
                                 <div class="inner-box">
                                     <div class="icon"><img src="assets/images/icons/icon-15.png" alt=""></div>
-                                    <h4 id="viewtext vtext">Diversity</h4>
+                                    <h4 id="viewtext " class="vtext">Diversity</h4>
                                     <div class="text te4"><p class="te4">As inclusive as our brand.</p></div>
                                 </div>
                             </div>
