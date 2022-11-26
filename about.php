@@ -10,7 +10,7 @@ include 'header.php';
 .accordion:after {
     display: none;
 }
-@media screen and (max-width:900px) {
+@media screen and (max-width:950px) {
     #view
     {
         width:160px;
