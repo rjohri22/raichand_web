@@ -12,6 +12,8 @@
 
 $categories = $filename = $msg = "";
 
+$error="";
+
 if (isset($_POST["submit"])) {
 
     $categories = $_POST['categories'];
@@ -25,11 +27,7 @@ if (isset($_POST["submit"])) {
 
     $row = $con->query($sql); 
 
-        echo "<script>$(document).ready(function(){
-            setSuccessAlert('" . SITE_URL . "admin/policies/cindex.php','Good job!','". $con->error."'); 
-        });</script>";
-
-        exit();
+    $error= $con->error;
  
     if ($row) {
 
@@ -51,9 +49,9 @@ if (isset($_POST["submit"])) {
 
         // header("location: /admin/policies/cindex.php");
     } else {
-        echo "<script>$(document).ready(function(){
-            setSuccessAlert('" . SITE_URL . "admin/policies/cindex.php','Good job!','Sorry Data Not submitted'); 
-        });</script>";
+        // echo "<script>$(document).ready(function(){
+        //     setSuccessAlert('" . SITE_URL . "admin/policies/cindex.php','Good job!','Sorry Data Not submitted'); 
+        // });</script>";
     }
 
     if (move_uploaded_file($tempname, $folder)) {
@@ -68,7 +66,7 @@ if (isset($_POST["submit"])) {
     <div class="page-breadcrumb bg-white">
         <div class="row align-items-center">
             <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
-                <h4 class="page-title">Our Business</h4>
+                <h4 class="page-title">Our Business <?php echo $error; ?></h4>
             </div>
             <div class="col-lg-9 col-sm-8 col-md-8 col-xs-12">
                 <div class="d-md-flex">
