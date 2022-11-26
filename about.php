@@ -64,7 +64,7 @@ include 'header.php';
     }
     .holderCircle 
     {
-        margin-top:20px!important;
+        margin-top:70px!important;
     }
 }
 @media screen and (min-width:1000px){
