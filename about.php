@@ -72,7 +72,7 @@ include 'header.php';
     }
     .vtext 
     {
-        font-size:15px!important;
+        font-size:12px!important;
     }
 }
 @media screen and (min-width:1000px){
