@@ -224,6 +224,13 @@ if (!isset($_SESSION['verify'])) {
                                 <i class="fa fa-envelope" aria-hidden="true"></i>
                                 <span class="hide-menu"> Email Template </span></a>
                         </li>
+
+                        
+                        <li class="sidebar-item">
+                            <a class="sidebar-link waves-effect waves-dark sidebar-link" href="<?php echo SITE_URL;  ?>admin/policies/changepassword.php" aria-expanded="false">
+                                <i class="fa fa-key" aria-hidden="true"></i>
+                                <span class="hide-menu">Change Password</span></a>
+                        </li>
                     </ul>
                 </nav>
                 <!-- End Sidebar navigation -->
