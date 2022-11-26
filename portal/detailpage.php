@@ -1,5 +1,4 @@
-<?php include '../header.php';
-include("../dbcon.php");
+<?php include '../header.php'; 
 ?>
 <style>
 .page-title:before {
@@ -29,11 +28,12 @@ $sql_policies = "SELECT polcy.*, cat.id AS catID, cat.policies_categories
                                     LEFT JOIN policies_cat AS cat
                                     ON cat.id = polcy.categories
                                     WHERE polcy.slug = '".$_GET['slug']."'";
+ 
+
                                     // echo $sql_policies;exit;
 
 $result_policies = mysqli_query($con, $sql_policies);
-$result = mysqli_fetch_assoc($result_policies);
-// echo "<pre>"; print_r($result); exit;
+$result = mysqli_fetch_assoc($result_policies); 
 ?>
 <section class="page-title" style="background-image: url(../assets/images/breadcrum/our-services.png);">
     <div class="auto-container">
