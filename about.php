@@ -56,7 +56,7 @@ include 'header.php';
     }
     .te4
     {
-        font-size:3px!important;
+        font-size:13px!important;
     }
     #company 
     {
