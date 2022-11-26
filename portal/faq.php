@@ -52,7 +52,7 @@
                                         // print_r();
                                         echo '<div class="options" >
                                                 <input type="checkbox" id="togglesup'.$row['id'].'" class="toggle" />
-                                                <label class="titles" style="color:red" for="togglesup'.$row['id'].'">
+                                                <label class="titles" for="togglesup'.$row['id'].'">
                                                     '.$row['question'].'
                                                 </label>
                                                 <div class="contents">
@@ -78,7 +78,7 @@
                                         // print_r();
                                         echo '<div class="options" >
                                                 <input type="checkbox" id="togglecust'.$row['id'].'" class="toggle" />
-                                                <label class="titles" style="color:red" for="togglecust'.$row['id'].'">
+                                                <label class="titles" for="togglecust'.$row['id'].'">
                                                     '.$row['question'].'
                                                 </label>
                                                 <div class="contents" >
@@ -103,7 +103,7 @@
                                         // print_r();
                                         echo '<div class="options">
                                                 <input type="checkbox" id="toggleper'.$row['id'].'" class="toggle" />
-                                                <label class="titles" for="toggleper'.$row['id'].'"style="color:red">
+                                                <label class="titles" for="toggleper'.$row['id'].'">
                                                     '.$row['question'].'
                                                 </label>
                                                 <div class="contents">

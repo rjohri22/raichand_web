@@ -210,7 +210,7 @@
                                 <button class="category_list_button btn btn-link <?php echo $collapsed; ?>" data-toggle="collapse" data-target="#collapse<?php echo $catValue['id']; ?>" aria-expanded="<?php echo $area_expanded; ?>" aria-controls="collapse<?php echo $catValue['id']; ?>" style="color:red">
 
                                     <!-- Category Title ---->
-                                    <span id="m" style="color:red"><?php echo ucfirst($catValue['invester_category']); ?></span>
+                                    <span id="m"><?php echo ucfirst($catValue['invester_category']); ?></span>
                                     <!-- Category Title ---->
 
                                 </button>
