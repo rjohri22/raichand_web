@@ -25,13 +25,18 @@ include 'header.php';
         width:130px;
         height:150px;
     }
-    .designation 
+
+    designation 
+    {
+        font-size:6px!important;
+    }
+    /* .designation 
     {
      display:none;
-    }
+    } */
     #t1 
     {
-        font-size:10px!important;
+        font-size:7px!important;
     }
     #t22
     {
@@ -40,7 +45,7 @@ include 'header.php';
     }
     .lower-content1
     {
-        width:145px!important;
+        width:125px!important;
         height:60px!important;
 
     }
