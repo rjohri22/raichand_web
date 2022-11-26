@@ -66,8 +66,8 @@ if(isset($_POST['submit'])){
 //            echo "er"; exit;
 //         }}
 
-    $q="INSERT INTO `service` (`service_title`, `service_url`, `category`,`modify`,`short_description`,`long_description`,`images`,`image_detail`,`tag`,`cat_f`,`slug`) 
-    VALUES ('$service_title','$service_url','$category','$date','$short_des','$tinymceeditor','$upload_image','$upload_image_detail','$tag','$category_list','$slug')";
+    $q="INSERT INTO `service` (`service_title`, `service_url`, `category`,`modify`,`short_description`,`long_description`,`images`,`image_detail`,`tag`,`cat_f`,`slug`,`is_del`) 
+    VALUES ('$service_title','$service_url','$category','$date','$short_des','$tinymceeditor','$upload_image','$upload_image_detail','$tag','$category_list','$slug',0)";
     
     $query=mysqli_query($con,$q);
 
@@ -76,9 +76,14 @@ if(isset($_POST['submit'])){
 
 }
 
-echo $error;
 
-exit();
+if(!empty( $error)){
+
+    echo $error;
+
+    exit();
+    
+}
 
 echo "<script type='text/javascript'>
 window.location.href = 'index.php?insert=done';
