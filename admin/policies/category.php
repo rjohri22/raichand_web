@@ -12,6 +12,8 @@
 
 $categories = $filename = $msg = "";
 
+$error="";
+
 if (isset($_POST["submit"])) {
 
     $categories = $_POST['categories'];
@@ -21,9 +23,12 @@ if (isset($_POST["submit"])) {
     $folder = "image/" . $categories . '.png';
     $filenamedb = $categories . '.png';
 
-    $sql = "INSERT INTO cat(categories, filename,bname_order) VALUES	('$categories','$filenamedb','$order')";
+    $sql = "INSERT INTO cat(categories, filename,bname_order,parent_id) VALUES	('$categories','$filenamedb','$order',0)";
 
-    $row = $con->query($sql);
+    $row = $con->query($sql); 
+
+    $error= $con->error;
+ 
     if ($row) {
 
         echo "<script>$(document).ready(function(){
@@ -45,7 +50,7 @@ if (isset($_POST["submit"])) {
         // header("location: /admin/policies/cindex.php");
     } else {
         echo "<script>$(document).ready(function(){
-            setSuccessAlert('" . SITE_URL . "admin/policies/cindex.php','Good job!','Sorry Data Not submitted'); 
+            setSuccessAlert('" . SITE_URL . "admin/policies/cindex.php','Error!','".  $error."'); 
         });</script>";
     }
 
@@ -61,7 +66,7 @@ if (isset($_POST["submit"])) {
     <div class="page-breadcrumb bg-white">
         <div class="row align-items-center">
             <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
-                <h4 class="page-title">Our Business</h4>
+                <h4 class="page-title">Our Business </h4>
             </div>
             <div class="col-lg-9 col-sm-8 col-md-8 col-xs-12">
                 <div class="d-md-flex">

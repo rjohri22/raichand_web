@@ -5,7 +5,7 @@ $con = "";
  
 
 if($host == 'raichandgroup.com'){
-    $con = mysqli_connect('localhost', 'raichand_website_user', 'modern@2022', 'raichand_website') or die('not connected');   
+    $con = mysqli_connect('localhost', 'raichand_website_user', '6zE65Ybr6iRLAYXX', 'raichand_website') or die('not connected');   
 }
 else{
 
@@ -30,7 +30,7 @@ function getDocRootPath(){
 
     if($_SERVER['HTTP_HOST']=="raichandgroup.com"){
 
-        $docroot= $_SERVER['DOCUMENT_ROOT'];
+        $docroot= $_SERVER['DOCUMENT_ROOT'].'/';
         
     }
     else{
