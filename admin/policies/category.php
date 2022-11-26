@@ -26,9 +26,9 @@ if (isset($_POST["submit"])) {
     $row = $con->query($sql);
     if ($row) {
 
-        echo "<script>$(document).ready(function(){
-            setSuccessAlert('" . SITE_URL . "admin/policies/cindex.php','Good job!','Data submitted successfully'); 
-        });</script>";
+        // echo "<script>$(document).ready(function(){
+        //     setSuccessAlert('" . SITE_URL . "admin/policies/cindex.php','Good job!','Data submitted successfully'); 
+        // });</script>";
         // Swal.fire('Success.', response, 'success');
         // echo '<script type="text/javascript">',
         // 'jsfunction();',
