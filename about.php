@@ -83,7 +83,7 @@ include 'header.php';
     }
     .inner-box1 
     {
-        /* height:300px; */
+        height:300px;
     }
 }
 @media screen and (min-width:1000px){
