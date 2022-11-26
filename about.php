@@ -60,7 +60,7 @@ include 'header.php';
     }
     #company 
     {
-        margin-top:-10px!important;
+        margin-top:50px!important;
     }
 }
 @media screen and (min-width:1000px){
