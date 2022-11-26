@@ -22,7 +22,7 @@ include 'header.php';
     }
     .team-block-one 
     {
-        width:120px;
+        width:130px;
         height:150px;
     }
     .designation 
@@ -52,7 +52,7 @@ include 'header.php';
     }
     .feature-block-four
     {
-        width:120px!important;
+        width:110px!important;
     }
     .te4
     {
