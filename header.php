@@ -169,7 +169,7 @@ define('SITE_URL', getSiteURL());
             <div id="content">
                 <nav id="navbarMain" class="navbar navbar-main fixed-top navbar-expand-lg bg-transparent p-0 navbar-light">
                     <div class="navbar-sidebar-menu" onclick="load()">
-                        <a id="sidebarCollapse" class="justify-content-center align-items-center d-flex">
+                        <a id="sidebarCollapse" class="justify-content-center align-items-center d-flex" >
                             <img src="<?php echo SITE_URL; ?>assets/images/icons/menu.svg" alt=" ">
                         </a>
                     </div>
@@ -179,7 +179,7 @@ define('SITE_URL', getSiteURL());
                     <div class="container-fluid">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item">
-                                <a href="https://webmail.raichandgroup.com/"><button type="button" class="btn btn-dark" data-toggle="tooltip" data-placement="top" title="Personnel Login"> <i class="fa fa-envelope" aria-hidden="true"></i></button></a>
+                                <a href="https://webmail.raichandgroup.com/" target="_blank"><button type="button" class="btn btn-dark" data-toggle="tooltip" data-placement="top" title="Personnel Login" > <i class="fa fa-envelope" aria-hidden="true"></i></button></a>
                             </li>&nbsp;
                             <li class="nav-item">
                                 <a href="<?php echo SITE_URL; ?>login.php" target="_blank"><button type="button" class="btn btn-dark"> <i class="fa fa-sign-in" aria-hidden="true"></i></button></a>
