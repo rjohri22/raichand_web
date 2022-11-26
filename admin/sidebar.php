@@ -69,7 +69,38 @@ if (!isset($_SESSION['verify'])) {
     <link rel="icon" type="image/png" sizes="16x16" href="../plugins/images/favicon.png">
     <!-- Custom CSS -->
     <link href="../css/style.min.css" rel="stylesheet">
-
+    <style>
+    @media screen and (max-width:840px)
+    {
+        #logoutbutton
+        {
+            margin-right:100px;
+        }
+        .left-sidebar
+        {
+            display: none;
+        }
+     
+        .page-wrapper 
+        {
+            margin-left:-10px!important;
+            overflow:scroll;
+        }
+       .scroll-sidebar
+       {
+        display:none;
+       }
+       .sidebar-nav
+       {
+        display:none;
+       }
+      .topbar
+      {
+        display:none;
+      }
+        
+    }
+</style>
 </head>
 
 <body>
@@ -97,20 +128,7 @@ if (!isset($_SESSION['verify'])) {
                             <a class="nav-toggler nav-link waves-effect waves-light text-white" href="javascript:void(0)"><i class="ti-menu ti-close"></i></a>
                         </li>
                     </ul>
-                                       <style>
-    @media screen and (max-width:840px)
-    {
-        #logoutbutton
-        {
-            margin-right:100px;
-        }
-        #block 
-        {
-            width:200px;
-        }
-        
-    }
-</style>
+                                     
                     <ul id="logoutbutton" class="navbar-nav ms-auto d-flex align-items-center">
 
 

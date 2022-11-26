@@ -20,8 +20,51 @@ include 'header.php';
     {
         font-size:16px;
     }
-}
+    .team-block-one 
+    {
+        width:150px;
+        height:150px;
+    }
+    .designation 
+    {
+     display:none;
+    }
+    #t1 
+    {
+        font-size:10px!important;
+    }
+    #t22
+    {
+        font-size:10px!important;
+        margin-top:-20px;
+    }
+    .lower-content1
+    {
+        width:145px!important;
+        height:60px!important;
 
+    }
+    #fatherimage
+    {
+        height:200px;
+        width:200px;
+        margin-left:130px;
+    }
+    .feature-block-four
+    {
+        width:140px!important;
+    }
+    .te4
+    {
+        font-size:10px!important;
+    }
+}
+@media screen and (min-width:1000px){
+    #t22
+    {
+        display:none;
+    }
+}
 </style>
 <div id="home">
     <nav id="navbar-float" class="floating-menu">
@@ -400,21 +443,21 @@ include 'header.php';
                                 <div class="inner-box">
                                     <div class="icon"><img src="assets/images/icons/icon-16.png" alt=""></div>
                                     <h4 id="viewtext">Leadership</h4>
-                                    <div class="text"><p>The courage to shape a better future.</p></div>
+                                    <div class="text te4"><p>The courage to shape a better future.</p></div>
                                 </div>
                             </div>
                             <div class="feature-block-four col-lg-4 col-md-6" id="view">
                                 <div class="inner-box">
                                     <div class="icon"><img src="assets/images/icons/icon-14.png" alt=""></div>
                                     <h4 id="viewtext">Collaboration </h4>
-                                    <div class="text"><p>Leverage collective genius.</p></div>
+                                    <div class="text te4"><p>Leverage collective genius.</p></div>
                                 </div>
                             </div>
                             <div class="feature-block-four col-lg-4 col-md-6" id="view">
                                 <div class="inner-box">
                                     <div class="icon"><img src="assets/images/icons/icon-15.png" alt=""></div>
                                     <h4 id="viewtext">Diversity</h4>
-                                    <div class="text"><p>As inclusive as our brand.</p></div>
+                                    <div class="text te4"><p>As inclusive as our brand.</p></div>
                                 </div>
                             </div>
                         </div>
@@ -574,7 +617,7 @@ include 'header.php';
         </div>
             <div class="row align-items-center">
                   <div class="col-lg-2">
-                      <div><img src="assets/images/about/team-1.png" alt=""></div>
+                      <div id="fatherimage"><img src="assets/images/about/team-1.png" alt=""></div>
                   </div>
                 <div class="col-lg-5 sm-text-center">
                     <h4 class="text-dark"><strong>Mr. Bharat Raichand</strong></h4>
@@ -600,10 +643,11 @@ include 'header.php';
                 <div class="inner-box" >
                     <div class="image" style="border:0px">
                         <img src="assets/Sushma Raichand.jpg"  alt=""></div>
-                    <div class="lower-content">
+                    <div class="lower-content lower-content1">
                         <center>
                         <div class="designation">Chair Person</div>
-                        <h4>Sushma Raichand</h4>
+                        <h4 id="t22" style="background-color:black;color:white">Chair Person</h4>
+                        <h4 id="t1">Sushma Raichand</h4>
                         </center>
                     </div>
                 </div>
@@ -611,10 +655,11 @@ include 'header.php';
             <div class="team-block-one col-lg-4 col-md-4 col-sm-3 col-xs-4">
                 <div class="inner-box" >
                     <div class="image"style="border:0px" ><img src="assets/Samrat Raichand.jpg" alt=""></div>
-                    <div class="lower-content">
+                    <div class="lower-content lower-content1">
                         <center>
                         <div class="designation">Founder  &amp; Group CEO</div>
-                        <h4>Samrat Raichand</h4>
+                        <h4 id="t22" style="background-color:black;color:white">Founder  &amp; Group CEO</h4>
+                        <h4 id="t1">Samrat Raichand</h4>
                         </center>
                     </div>
                 </div>
@@ -622,10 +667,11 @@ include 'header.php';
             <div class="team-block-one col-lg-4 col-md-4 col-sm-3 col-xs-4">
                 <div class="inner-box">
                     <div class="image" style="border:0px"><img src="assets/Ayush Raichand .jpg" alt=""></div>
-                    <div class="lower-content">
+                    <div class="lower-content lower-content1">
                         <center>
                         <div class="designation">Group COO</div>
-                        <h4>Aayush Raichand</h4>
+                        <h4 id="t22" style="background-color:black;color:white">Group COO</h4>
+                        <h4 id="t1">Aayush Raichand</h4>
                         </center>
                     </div>
                 </div>
