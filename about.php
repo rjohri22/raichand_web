@@ -10,7 +10,7 @@ include 'header.php';
 .accordion:after {
     display: none;
 }
-@media screen and (max-width:950px) {
+@media screen and (max-width:900px) {
     #view
     {
         width:160px;
@@ -85,7 +85,38 @@ include 'header.php';
     {
         height:300px;
     }
+   .designation1
+   {
+        width:80px!important;
+        background-color:black!important;
+        color:white;
+        height:30px!important;
+        
+   }
+   .designation1 p 
+   {
+    font-size:7px;
+   }
+   /* .team-section-two 
+   {
+    height:400px;
+   } */
 }
+.designation1
+   {
+        width:300px;
+        background-color:black;
+        margin-top:-40px;
+        color:white;
+        margin-left:-15px;
+        padding-top:6px;
+        height:40px;
+   }
+   #t1 
+   {
+    font-size:14px;
+    margin-top:5px;
+   }
 @media screen and (min-width:1000px){
     #t22
     {
@@ -672,7 +703,7 @@ include 'header.php';
                         <img src="assets/Sushma Raichand.jpg"  alt=""></div>
                     <div class="lower-content lower-content1">
                         <center>
-                        <div class="designation">Chair Person</div>
+                        <div class="designation1"><p>Chair Person</p></div>
                         <h4 id="t1">Sushma Raichand</h4>
                         </center>
                     </div>
@@ -683,7 +714,7 @@ include 'header.php';
                     <div class="image"style="border:0px" ><img src="assets/Samrat Raichand.jpg" alt=""></div>
                     <div class="lower-content lower-content1">
                         <center>
-                        <div class="designation">Founder  &amp; Group CEO</div>
+                        <div class="designation1"><p>Founder  &amp; Group CEO</p></div>
                      
                         <h4 id="t1">Samrat Raichand</h4>
                         </center>
@@ -695,7 +726,7 @@ include 'header.php';
                     <div class="image" style="border:0px"><img src="assets/Ayush Raichand .jpg" alt=""></div>
                     <div class="lower-content lower-content1">
                         <center>
-                        <div class="designation">Group COO</div>
+                        <div class="designation1"><p>Group COO</p></div>
                     
                         <h4 id="t1">Aayush Raichand</h4>
                         </center>
