@@ -25,13 +25,18 @@ include 'header.php';
         width:130px;
         height:150px;
     }
-    .designation 
+
+    designation 
+    {
+        font-size:6px!important;
+    }
+    /* .designation 
     {
      display:none;
-    }
+    } */
     #t1 
     {
-        font-size:10px!important;
+        font-size:7px!important;
     }
     #t22
     {
@@ -40,8 +45,8 @@ include 'header.php';
     }
     .lower-content1
     {
-        width:145px!important;
-        height:60px!important;
+        width:125px!important;
+        /* height:60px!important; */
 
     }
     #fatherimage
@@ -53,6 +58,8 @@ include 'header.php';
     .feature-block-four
     {
         width:110px!important;
+        
+      
     }
     .te4
     {
@@ -72,7 +79,11 @@ include 'header.php';
     }
     .vtext 
     {
-        font-size:12px!important;
+        font-size:10px!important;
+    }
+    .inner-box1 
+    {
+        /* height:300px; */
     }
 }
 @media screen and (min-width:1000px){
@@ -456,23 +467,23 @@ include 'header.php';
                                     <h3><strong>What are beliefs and values that are important to us as a company?</strong></h3>
                                 </div>
                             <div class="feature-block-four col-lg-4 col-md-6" id="view">
-                                <div class="inner-box">
+                                <div class="inner-box inner-box1">
                                     <div class="icon"><img src="assets/images/icons/icon-16.png" alt=""></div>
-                                    <h4 id="viewtext " class="vtext">Leadership</h4>
+                                    <h4 id="viewtext " class="vtext"><center>Leadership</center></h4>
                                     <div class="text te4"><p class="te4">The courage to shape a better future.</p></div>
                                 </div>
                             </div>
                             <div class="feature-block-four col-lg-4 col-md-6" id="view">
-                                <div class="inner-box">
+                                <div class="inner-box inner-box1">
                                     <div class="icon"><img src="assets/images/icons/icon-14.png" alt=""></div>
-                                    <h4 id="viewtext " class="vtext">Collaboration </h4>
+                                    <h4 id="viewtext " class="vtext"><center>Collaboration</center></h4>
                                     <div class="text te4"><p class="te4">Leverage collective genius.</p></div>
                                 </div>
                             </div>
                             <div class="feature-block-four col-lg-4 col-md-6" id="view">
-                                <div class="inner-box">
+                                <div class="inner-box inner-box1">
                                     <div class="icon"><img src="assets/images/icons/icon-15.png" alt=""></div>
-                                    <h4 id="viewtext " class="vtext">Diversity</h4>
+                                    <h4 id="viewtext " class="vtext"><center>Diversity</center></h4>
                                     <div class="text te4"><p class="te4">As inclusive as our brand.</p></div>
                                 </div>
                             </div>
@@ -662,7 +673,6 @@ include 'header.php';
                     <div class="lower-content lower-content1">
                         <center>
                         <div class="designation">Chair Person</div>
-                        <h4 id="t22" style="background-color:black;color:white">Chair Person</h4>
                         <h4 id="t1">Sushma Raichand</h4>
                         </center>
                     </div>
@@ -674,7 +684,7 @@ include 'header.php';
                     <div class="lower-content lower-content1">
                         <center>
                         <div class="designation">Founder  &amp; Group CEO</div>
-                        <h4 id="t22" style="background-color:black;color:white">Founder  &amp; Group CEO</h4>
+                     
                         <h4 id="t1">Samrat Raichand</h4>
                         </center>
                     </div>
@@ -686,7 +696,7 @@ include 'header.php';
                     <div class="lower-content lower-content1">
                         <center>
                         <div class="designation">Group COO</div>
-                        <h4 id="t22" style="background-color:black;color:white">Group COO</h4>
+                    
                         <h4 id="t1">Aayush Raichand</h4>
                         </center>
                     </div>
