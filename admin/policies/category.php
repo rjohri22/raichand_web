@@ -23,7 +23,7 @@ if (isset($_POST["submit"])) {
     $folder = "image/" . $categories . '.png';
     $filenamedb = $categories . '.png';
 
-    $sql = "INSERT INTO cat(categories, filename,bname_order) VALUES	('$categories','$filenamedb','$order')";
+    $sql = "INSERT INTO cat(categories, filename,bname_order,parent_id) VALUES	('$categories','$filenamedb','$order',0)";
 
     $row = $con->query($sql); 
 
@@ -31,9 +31,9 @@ if (isset($_POST["submit"])) {
  
     if ($row) {
 
-        // echo "<script>$(document).ready(function(){
-        //     setSuccessAlert('" . SITE_URL . "admin/policies/cindex.php','Good job!','Data submitted successfully'); 
-        // });</script>";
+        echo "<script>$(document).ready(function(){
+            setSuccessAlert('" . SITE_URL . "admin/policies/cindex.php','Good job!','Data submitted successfully'); 
+        });</script>";
         // Swal.fire('Success.', response, 'success');
         // echo '<script type="text/javascript">',
         // 'jsfunction();',
@@ -49,9 +49,9 @@ if (isset($_POST["submit"])) {
 
         // header("location: /admin/policies/cindex.php");
     } else {
-        // echo "<script>$(document).ready(function(){
-        //     setSuccessAlert('" . SITE_URL . "admin/policies/cindex.php','Good job!','Sorry Data Not submitted'); 
-        // });</script>";
+        echo "<script>$(document).ready(function(){
+            setSuccessAlert('" . SITE_URL . "admin/policies/cindex.php','Error!','".  $error."'); 
+        });</script>";
     }
 
     if (move_uploaded_file($tempname, $folder)) {
