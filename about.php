@@ -64,7 +64,11 @@ include 'header.php';
     }
     .holderCircle 
     {
-        margin-top:70px!important;
+        margin-top:120px!important;
+    }
+    #raichandr 
+    {
+        margin-top:50px;
     }
 }
 @media screen and (min-width:1000px){
@@ -284,7 +288,7 @@ include 'header.php';
 
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-6" id="raichandr">
                 <div class="sec-title style-four">
                     <h2>The Raichand Group</h2>
                     <span class="text-decoration-three"></span>
