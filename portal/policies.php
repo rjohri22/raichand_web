@@ -94,7 +94,7 @@ $h = "";
 
                                                         <h4><?php echo $row_policies['title']; ?></h4>
                                                         <div class="link-btn">
-                                                            <a class="theme-btn btn-style-one" href="/portal/policies/<?php echo $row_policies['slug']; ?>"><span class="btn-title">View More</span></a>
+                                                            <a class="theme-btn btn-style-one" href="<?php echo SITE_URL;?>portal/policies/<?php echo $row_policies['slug']; ?>"><span class="btn-title">View More</span></a>
                                                             <!-- <a class="theme-btn btn-style-one" href="detailpage.php?id=<?php //echo $row_policies['id']; ?>"><span class="btn-title">View More</span></a> -->
 
                                                         </div>

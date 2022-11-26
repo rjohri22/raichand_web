@@ -9,7 +9,7 @@ RewriteEngine On
 # RewriteCond %{REQUEST_FILENAME}.php -f
 # RewriteRule ^(.+)$1.php [L,QSA]
 
-ErrorDocument 404   /raichand_final/404.php
+ErrorDocument 404   /404.php
 
 
 # Rewrite Rule ^([A-Za-z0-9-]+)/?$ categoies.php?name=$1 [L]
