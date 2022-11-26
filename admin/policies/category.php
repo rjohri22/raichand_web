@@ -24,6 +24,10 @@ if (isset($_POST["submit"])) {
     $sql = "INSERT INTO cat(categories, filename,bname_order) VALUES	('$categories','$filenamedb','$order')";
 
     $row = $con->query($sql);
+
+    echo $con->error;
+
+    exit();
     if ($row) {
 
         // echo "<script>$(document).ready(function(){
