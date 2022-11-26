@@ -30,7 +30,7 @@ function getDocRootPath(){
 
     if($_SERVER['HTTP_HOST']=="raichandgroup.com"){
 
-        $docroot= $_SERVER['DOCUMENT_ROOT'];
+        $docroot= $_SERVER['DOCUMENT_ROOT'].'/';
         
     }
     else{
