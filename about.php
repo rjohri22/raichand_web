@@ -108,7 +108,7 @@ include 'header.php';
         background-color:black;
         margin-top:-40px;
         color:white;
-        margin-left:-15px;
+        margin-left:-2px;
         padding-top:6px;
         height:40px;
    }
