@@ -46,7 +46,7 @@ include 'header.php';
     .lower-content1
     {
         width:125px!important;
-        /* height:60px!important; */
+        height:10px!important;
 
     }
     #fatherimage
@@ -91,6 +91,7 @@ include 'header.php';
         background-color:black!important;
         color:white;
         height:30px!important;
+        margin-left:-7px!important;
         
    }
    .designation1 p 
