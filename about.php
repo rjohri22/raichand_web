@@ -10,7 +10,7 @@ include 'header.php';
 .accordion:after {
     display: none;
 }
-@media screen and (max-width:900px) {
+@media screen and (max-width:700px) {
     #view
     {
         width:160px;
@@ -102,7 +102,20 @@ include 'header.php';
    {
     height:400px;
    } */
+   #core-team 
+   {
+    height:auto;
+   }
 }
+/* @media screen and (max-width:851px)
+{
+    #core-team 
+    {
+        height:400px!important;
+    }
+} */
+
+
 .designation1
    {
         width:300px;
@@ -118,11 +131,15 @@ include 'header.php';
     font-size:14px;
     margin-top:5px;
    }
+ 
+
+
 @media screen and (min-width:1000px){
     #t22
     {
         display:none;
     }
+   
 }
 </style>
 <div id="home">
