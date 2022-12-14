@@ -52,8 +52,11 @@ if (isset($_POST["submit"])) {
                 <h4 class="page-title">Change Password</h4>
             </div>
             <div class="col-lg-9 col-sm-8 col-md-8 col-xs-12">
-                <div class="d-md-flex">
-            
+            <div class="d-md-flex">
+                    <ol class="breadcrumb ms-auto">
+                        <li><a href="<?php echo SITE_URL;?>admin/" class="fw-normal">Dashboard &nbsp;/&nbsp;</a></li>
+                        <li><a href="#" class="fw-normal">Change Password</a></li>
+                    </ol>
                 </div>
             </div>
         </div>
@@ -74,7 +77,7 @@ if (isset($_POST["submit"])) {
                  
                         <input type="submit" class="btn btn-warning text-white" name="submit" value="Submit">
                         <!-- Modify 24/8/2022 start -->
-                        <a href="changepassword.php"><button type="button" class="btn btn-warning text-white">Cancel</button></a>
+                        <a href="<?php echo SITE_URL;?>admin/"><button type="button" class="btn btn-warning text-white">Cancel</button></a>
                         <!-- Modify 24/8/2022 end -->
                     </div>
                 </div>

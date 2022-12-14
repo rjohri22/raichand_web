@@ -392,6 +392,20 @@ if (!isset($_SESSION['verify'])) { ?>
                                 </a>
                             </div>
                         </div>
+                        <div class="col-lg-3 col-md-12">
+                            <div class="white-box analytics-info">
+                                <a href="policies/changepassword.php">
+                                    <div class="card">
+                                        <div class="card-body bg-warning">
+                                        <center>
+                                            <h3>Change Password </h3>
+                                            <img src="https://cdn-icons-png.flaticon.com/512/6146/6146587.png" />
+                                            </center>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
                         <!-- <div class="col-lg-3 col-md-12" id="changeSize">
                             <div class="white-box analytics-info">
                                 <-- Modify 24/8/2022 start--
