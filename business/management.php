@@ -144,17 +144,24 @@ include 'dbcon.php';
                     //  }  
                     //       }  
                     ?>
+                    <style>
+                        @media screen and (max-width:915px) {
+                               .fontSize
+                               {
+                                font-size:12px!important;
+                               }
+                    </style>
                    <li class="nav-item" >
-                        <a class="nav-link active" style="" data-toggle="tab" href="#one" role="tab" aria-controls="one" aria-selected="true">Transformation & Excellence</a>
+                        <a class="nav-link active fontSize" style="" data-toggle="tab" href="#one" role="tab" aria-controls="one" aria-selected="true">Transformation & Excellence</a>
                     </li>
                     <li class="nav-item" >
-                        <a class="nav-link" style="" data-toggle="tab" href="#two" role="tab" aria-controls="two" aria-selected="false"> Strategy & Growth</a>
+                        <a class="nav-link fontSize" style="" data-toggle="tab" href="#two" role="tab" aria-controls="two" aria-selected="false"> Strategy & Growth</a>
                     </li>
-                    <li class="nav-item" >
-                        <a class="nav-link" style="" data-toggle="tab" href="#three" role="tab" aria-controls="three" aria-selected="false"> Customer Experience</a>
+                    <li class="nav-item " >
+                        <a class="nav-link fontSize" style="" data-toggle="tab" href="#three" role="tab" aria-controls="three" aria-selected="false"> Customer Experience</a>
                     </li>
-                    <li class="nav-item" >
-                        <a class="nav-link" style="" data-toggle="tab" href="#four" role="tab" aria-controls="four" aria-selected="false"> Business Restructuring </a>
+                    <li class="nav-item fontSize" >
+                        <a class="nav-link fontSize" style="" data-toggle="tab" href="#four" role="tab" aria-controls="four" aria-selected="false"> Business Restructuring </a>
                     </li>
                 </ul>
                 <div class="tab-content mt-3" style="" style="margin-top:-100px">
@@ -1288,7 +1295,9 @@ include 'dbcon.php';
             <div class="process-wrapper" style="margin-top: 30px;">
                 <div class="row">
                     <div class="col-lg-4 col-md-6 process-block-three">
+                    
                         <div class="inner-box">
+                       
                             <div class="icon"><img src="../assets/images/icons/icon-23.png" alt="">
                             </div>
                             <h4>Vision</h4>

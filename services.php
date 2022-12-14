@@ -1,3 +1,22 @@
+<style>
+    @media screen and (max-width:915px) {
+        .landscape
+        {
+            width:300px;
+            height:400px;
+            /* margin-left:100px; */
+        } 
+    }
+    @media screen and (max-width:700px) {
+        .landscape
+        {
+            width:400px;
+            height:500px;
+        } 
+    }
+   
+</style>
+
 <?php include 'header.php'; 
 ?>
 <?php
@@ -333,9 +352,11 @@ $selected = "";
 
                 while ($row = mysqli_fetch_assoc($result)) {
             ?>
-                    <div class="col-lg-4 service-block-six">
-                        <div class="inner-box" style="height:500px;width:380px">
-                            <div class="image-box" >
+                    <div class="col-md-4 service-block-six">
+                        
+                        <div class="inner-box landscape" >
+                            <div class="image-box " >
+                              
                                 <img class="lazy-image owl-lazy loaded" src="uploadimg/<?php echo $row['images']; ?>" data-src="assets/images/services/Enter.jpg" alt="" data-was-processed="true">
                                 <div class="overlay">
                                     <a href="services/<?php echo $row['slug'].".php"; ?>">

@@ -10,6 +10,30 @@ include 'header.php';
 .accordion:after {
     display: none;
 }
+@media screen and (max-width:915px) {
+    #fatherimage
+    {
+        height:200px;
+        width:200px;
+        margin-left:340px;
+    }
+    .designation1
+   {
+        width:200px!important;
+        background-color:black!important;
+        color:white;
+        height:30px!important;
+        margin-left:-7px!important;
+        
+   }
+   .designation1 p 
+   {
+    font-size:14px;
+    padding-top:-13px;
+   }
+}
+
+
 @media screen and (max-width:700px) {
     #view
     {

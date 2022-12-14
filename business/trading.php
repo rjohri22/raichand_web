@@ -374,31 +374,39 @@
             </div>
         </div>
     </section>
+    <style>
+            @media screen and (max-width:915px) {
+                .feature-block-six1
+                {
+                    height:300px;
+                }
+            }
+    </style>
     <section class="feature-section-six">
         <div class="auto-container">
             <div class="wrapper-box">
                 <div class="row">
-                    <div class="col-lg-4 feature-block-six">
-                        <div class="inner-box">
-                            <div class="icon"><img src="https://www.pngall.com/wp-content/uploads/2016/05/Vision-Free-Download-PNG.png" alt="" style="height:80px;width:100px;margin-left:-10px"></div>
+                    <div class="col-md-4 feature-block-six ">
+                        <div class="inner-box ">
+                            <div class="icon"><img src="https://www.freeiconspng.com/uploads/tips-png-24.png" alt="" style="height:80px;width:120px;margin-left:-10px"></div>
                             <h4>Vision</h4>
-                            <div class="text">To focus on the selected items which are strength of
+                            <div class="text" style="font-size:13px">To focus on the selected items which are strength of
                                 each country.</div>
                         </div>
                     </div>
-                    <div class="col-lg-4 feature-block-six">
+                    <div class="col-md-4 feature-block-six">
                         <div class="inner-box">
-                            <div class="icon"><img src="https://icon-library.com/images/objectives-icon/objectives-icon-29.jpg" alt="" style="height:80px;width:80px;margin-left:-10px"></div>
+                            <div class="icon"><img src="https://sp-ao.shortpixel.ai/client/q_glossy,ret_img/https://www.nimblesbiotech.in/wp-content/uploads/2019/07/our-mission.png" alt="" style="height:80px;width:120px;margin-left:-10px"></div>
                             <h4>Mission</h4>
-                            <div class="text">To be company that put quality, service, and value as
+                            <div class="text" style="font-size:13px">To be company that put quality, service, and value as
                                 priority to satisfy the needs of our customers.</div>
                         </div>
                     </div>
-                    <div class="col-lg-4 feature-block-six">
+                    <div class="col-md-4 feature-block-six">
                         <div class="inner-box">
-                            <div class="icon"><img src="https://static.thenounproject.com/png/2714597-200.png" style="height:80px;width:80px;margin-left:-10px" alt=""></div>
+                            <div class="icon"><img src="https://www.pngall.com/wp-content/uploads/2018/04/Goal-PNG-File.png" style="height:80px;width:120px;margin-left:-10px" alt=""></div>
                             <h4>Goal</h4>
-                            <div class="text">Becoming a reliable and professional company
+                            <div class="text" style="font-size:13px">Becoming a reliable and professional company
                                 worldwide. </div>
                         </div>
                     </div>

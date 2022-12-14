@@ -2321,10 +2321,31 @@ include("dbcon.php");
 </section>
 
 <!-- News Section -->
+<style>
+     @media screen and (max-width:700px) {
+        
+            #landscape 
+        {
+            height:200px;
+            width:200px;
+            margin-left:120px!important;
+        }
+        }
+    @media screen and (max-width:915px) {
+        #landscape 
+        {
+            height:200px;
+            width:300px;
+            margin-left:300px;
+            margin-top:-20px!important;
+        }
+    }
+   
+</style>
 <section class="news-section" id="livestream">
     <div class="row">
         <div class="col-lg-3 mt-5">
-            <img src="assets/images/background/Live+Stream.gif" style="margin-top:60px"/>
+            <img id="landscape" src="assets/images/background/Live+Stream.gif" style="margin-top:60px"/>
         </div>
         <div class="col-lg-9">
             <div class="outer-box">
