@@ -4,6 +4,24 @@
         display: inline-block;
         margin-bottom: 0px !important;
     }
+    #accordion .mb-0>button:after {
+        content: "\f067";
+        font-family: "Font Awesome 5 Free";
+        position: absolute;
+        right: 0;
+        color: #efe8e3;
+        font-size: 18px;
+        font-weight: 600;
+        margin-right: 2%;
+
+    }
+    #accordion .mb-0>button[aria-expanded="true"]:after {
+        content: "\f068";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 600;
+        color: #efe8e3;
+        font-size: 18px;
+    }
 </style>
 <section class="page-title" style="background-image: url(../assets/images/breadcrum/knowledge-base.png);">
     <div class="auto-container">
@@ -40,7 +58,7 @@
                     </li>
                 </ul>
                 <div class="tab-content mt-3">
-                    <div class="tab-pane active" id="vendor" role="tabpanel" aria-labelledby="supplier-tab">
+                    <div class="tab-pane active" id="vendor" role="tabpanel" aria-labelledby="supplier-tab" data-parent="#accordion">
                         <div class="col-lg-12 col-md-12">
                             <div class="accordion">
                                 <?php
@@ -52,7 +70,7 @@
                                         // print_r();
                                         echo '<div class="options" >
                                                 <input type="checkbox" id="togglesup'.$row['id'].'" class="toggle" />
-                                                <label class="titles" for="togglesup'.$row['id'].'">
+                                                <label class="titles" style="colore:red" for="togglesup'.$row['id'].'">
                                                     '.$row['question'].'
                                                 </label>
                                                 <div class="contents">

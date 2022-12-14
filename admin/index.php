@@ -79,18 +79,20 @@ if (!isset($_SESSION['verify'])) { ?>
                        {
                          
                            color:white;
-                           margin-left:370px;
+                           margin-left:300px;
                        }
                        .card 
                        {
                         margin-top:-70px;
-
+                        
+                       
                        }
                        #firstCard
                        {
                         margin-top:30px;
                        }
                    }
+                 
                    @media screen and (min-width:801px) and (max-width:2000px)
                    {
                        #logoutbutton

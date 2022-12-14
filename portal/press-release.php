@@ -38,7 +38,7 @@
         font-family: "Font Awesome 5 Free";
         position: absolute;
         right: 0;
-        color: red;
+        color: #efe8e3;
         font-size: 18px;
         font-weight: 600;
         margin-right: 2%;
@@ -49,7 +49,7 @@
         content: "\f068";
         font-family: "Font Awesome 5 Free";
         font-weight: 600;
-        color: red;
+        color: #efe8e3;
         font-size: 18px;
     }
 
