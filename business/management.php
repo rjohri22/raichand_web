@@ -6,6 +6,17 @@ include 'dbcon.php';
     position: relative;
     padding: 29px 0 0px;
 }
+
+
+@media screen and (max-width:915px) {
+        .process-block-three
+        {
+            max-width:260px!important;
+            max-height:360px!important;
+            /* margin-left:100px; */
+        } 
+    }
+
 </style>
 <div id="home">
     <nav id="navbar-float" class="floating-menu">
@@ -148,7 +159,7 @@ include 'dbcon.php';
                         @media screen and (max-width:915px) {
                                .fontSize
                                {
-                                font-size:12px!important;
+                                font-size:10px!important;
                                }
                     </style>
                    <li class="nav-item" >

@@ -2,8 +2,8 @@
     @media screen and (max-width:915px) {
         .landscape
         {
-            width:300px;
-            height:400px;
+            max-width:400px;
+            height:350px;
             /* margin-left:100px; */
         } 
     }

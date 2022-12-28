@@ -15,7 +15,7 @@ include 'header.php';
     {
         height:200px;
         width:200px;
-        margin-left:340px;
+        margin-left:300px;
     }
     .designation1
    {
@@ -26,6 +26,16 @@ include 'header.php';
         margin-left:-7px!important;
         
    }
+   .feature-block-four
+   {
+    max-width:250px!important;
+    height:300px!important;
+   }
+   /* #view
+    {
+        width:50px!important;
+       
+    } */
    .designation1 p 
    {
     font-size:14px;
